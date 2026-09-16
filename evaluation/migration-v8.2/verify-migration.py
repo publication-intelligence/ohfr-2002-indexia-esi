@@ -55,6 +55,10 @@ def verify():
                 for key in ('policy_sha256', 'benchmark_sha256'):
                     before.pop(key); after.pop(key)
                 assert before == after, 'Benchmark content or review provenance changed'
+            elif a['artifact_type'] == 'structure_audit':
+                scopes = after.pop('uncertainty_gate_scopes')
+                assert before == after, 'Original structure judgments or uncertainties changed'
+                assert scopes == read(HERE / 'uncertainty-scopes.json')['uncertainty_gate_scopes']
             else:
                 assert a['stage'] in ('define_policy', 'scoring', 'web_report'), a['path']
         old_policy = json.loads(z.read('source/evaluation-policy.v4.json'))
@@ -86,6 +90,15 @@ def verify():
                 for ref in entry if isinstance(entry, list) else [entry]:
                     path = posixpath.normpath(str(base / ref['path']))
                     assert sha(loader(path)) == ref['sha256'], path
+    checkpoint = read(HERE / 'adeb691-preservation.json')
+    with zipfile.ZipFile(HERE / checkpoint['archive_path']) as z:
+        assert sha((HERE / checkpoint['archive_path']).read_bytes()) == checkpoint['archive_sha256']
+        old = json.loads(z.read('scoring/dimension-calculations.v6.json'))
+        for a, b in zip(old['dimensions'], calc['dimensions'], strict=True):
+            assert {k:v for k,v in a.items() if k != 'input_artifacts'} == {k:v for k,v in b.items() if k != 'input_artifacts'}
+        old_items = json.loads(z.read('scoring/item-assessments.v7.json'))
+        for key in ('locator_assessments','path_assessments','heading_node_assessments','cross_reference_assessments','source_subject_assessments','assessment_completeness'):
+            assert old_items[key] == items[key], key
     structure = read(ROOT / 'structure/structure-audit.v6.json')
     locators = [read(ROOT / a['path']) for a in state['artifacts'] if a['artifact_type'] == 'locator_audit']
     missing = [read(ROOT / a['path']) for a in state['artifacts'] if a['artifact_type'] == 'missing_access_audit']

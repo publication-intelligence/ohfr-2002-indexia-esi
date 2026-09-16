@@ -1,9 +1,9 @@
 {
   "migration_id": "ohfr-2002-indexia-v8.1-to-v8.2",
   "authorization": "Direct user “Do it.” after the coordinator dispatch in this task; policy-build-input.json records the native retrospective authorization.",
-  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
   "provenance_commit": "1e513806e58028b53c3e5d64dbe54b060e9aab56",
-  "installation_receipt_sha256": "77f27d2142de8be509faf94a6f8159a3913bad14f6fa96afc1a06bb11dbfd987",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
   "baseline_commit": "3b10f8520087bbc0ccc64e9e1ab72114cd35e858",
   "baseline_archive_reference": "../migration-v8.1/revised-v8.1-preservation.json",
   "original_archive_reference": "../migration-v8.1/original-v8-preservation.json",
@@ -25410,7 +25410,7 @@
     "Direct wrong-locator gate uses 631 finalized unsupported/no_fit delivered records, independent of severity/rate; no fit or severity changes.",
     "Exclude direct-owned destination IDs from residual legacy gates. Grounding retains independent severe-mismatch evidence; stance and critical omissions persist.",
     "No delivered cross-references exist, so broken-reference gate is untriggered and no resolution objects are invented.",
-    "Reopen only scoring and web-report stages and complete them through registered commands. Preserve original V8 and 71.30 V8.1 archives."
+    "Reopen structure registration, scoring and web-report for the evidence-bound uncertainty-scope supplement; complete through registered commands. Preserve V8, V8.1 and adeb691 V8.2 archives."
   ],
   "public_readiness": "not_publication_ready",
   "handoff_strategy": "Preserve saved-project merged V8.1 main until user approves the evaluation PR. Stage verified V8.2 private archive and provenance support files in its ignored private migration directory; no website deployment.",
@@ -25846,35 +25846,35 @@
       "path": "scoring/dimension-calculation-input.v2.json",
       "artifact_type": "dimension_calculation_input",
       "original_sha256": "34e5af1185f254bad62860ea360f9ba5f0efdf42111517070217a6680cc31dfa",
-      "revised_sha256": "394350fcde17e82cfe30ed43e69b79778b1b8b5865b5d7c8186434b2b18f2039",
+      "revised_sha256": "25ed3da516475a9f59ba22f61c077ee3ff1d766e29a99ffa698e2d0eb04bc663",
       "changed": true
     },
     {
       "path": "scoring/dimension-calculations.v6.json",
       "artifact_type": "dimension_calculations",
       "original_sha256": "dd3ed90047a6cbd67a7bb19ed47e70c85d736fa4419058570d703054d5e63c79",
-      "revised_sha256": "aa4dbb076bf8f5959faf3ef65100c6af330f564cfcfe8fc664be4539ec678910",
+      "revised_sha256": "7726f8725aa39d87081f698de2dd97fb050a9e4c388c5c5a2e099fdca6775ad7",
       "changed": true
     },
     {
       "path": "scoring/evaluation-result.v12.json",
       "artifact_type": "evaluation_result",
       "original_sha256": "94a3922f56d5bab47b2dfea4b0cb7f683ee637776da8844bd1e835e46fb75f4d",
-      "revised_sha256": "a0ed8b0a42905b4b4e65901690b5060909da21a41448765d921d16acb812e9f5",
+      "revised_sha256": "d43fc6111d82301bb6f9ce235eb798a7ecb15b8bcb7fc3ee938130707f440e0d",
       "changed": true
     },
     {
       "path": "scoring/item-assessments.v7.json",
       "artifact_type": "item_assessments",
       "original_sha256": "46bde44332d1bd9b6a466a4c5af6a11ba99ec895bc23c548962a1fa94c27289a",
-      "revised_sha256": "48701794af3ca11e93ccb9faf8eeeeab7270462b93bec8d0c72d7f67ef1910ad",
+      "revised_sha256": "9af11a6888859837bf1d5d4141c51881657063f35c6d9324e06ed2bacab7039b",
       "changed": true
     },
     {
       "path": "scoring/projection-metadata.v2.json",
       "artifact_type": "projection_metadata",
       "original_sha256": "59e684b95b28b41374c805f19d47d2f35fc5e6e4dfe9aabf88644253bb21fc17",
-      "revised_sha256": "4988dcd8704401c9c29f468ff1b85aef958fad6fe01ee22f3b28f83b3d68e184",
+      "revised_sha256": "fafce14f7e89c92cabfa5da2e6c55132797a4639673f60f9aee2d89fbebb5e6d",
       "changed": true
     },
     {
@@ -25902,14 +25902,14 @@
       "path": "scoring/v8-canonical-projection/projection.v1.json",
       "artifact_type": "web_projection",
       "original_sha256": "6c3a8c03e48b9d8d9f5bf9f8e5d9512e00065095d0f64d19fec9826e94a1fa60",
-      "revised_sha256": "245b809d077bcc092a1e8ed4138e4a07c629b06bb15014bb0832c27ddf122676",
+      "revised_sha256": "502ffe8d9ab41d54ccaed65ee16d7b3600fbd5f400d2408485db3a402874e842",
       "changed": true
     },
     {
       "path": "scoring/web-report.v10.json",
       "artifact_type": "web_report",
       "original_sha256": "6c1488db8786a7b69e882c777fc11c1457380e361032e0b6f08fe5d33f234141",
-      "revised_sha256": "5857fbcef879f0dc6cc586f3c0ed2f3622f4551dca2a5cdf49f00ac8d93d0713",
+      "revised_sha256": "82f00442b89b0ea6af2338f506b056c29bae574d207e61303f477fe756a2ceb0",
       "changed": true
     },
     {
@@ -26189,8 +26189,8 @@
       "path": "structure/structure-audit.v6.json",
       "artifact_type": "structure_audit",
       "original_sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
-      "revised_sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
-      "changed": false
+      "revised_sha256": "f3fb4ee5bdd546f7518fa3e4f6877cca386e116527c779ab25058bd5639e505a",
+      "changed": true
     },
     {
       "path": "validation/benchmark-compatibility-import-provenance.v1.json",
@@ -26207,13 +26207,72 @@
       "changed": false
     }
   ],
-  "canonical_state_sha256": "ca18eeaa5f7dd099d2af00d7fd17b81e1b4447b006a341a732679f89fa13aad6",
+  "canonical_state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
   "validation": {
-    "regression_tests_passed": 170,
+    "regression_tests_passed": 180,
     "locator_batches_validated": 17,
     "missing_access_batches_validated": 17,
     "registered_score_and_build_report": "passed",
     "preflight": "passed",
     "independent_verification": "verification.json"
+  },
+  "pre_patch_methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "uncertainty_scope_supplement": {
+    "status": "applied through registered structure command; original uncertainty records unchanged",
+    "frozen_structure_path": "evaluation/structure/structure-audit.v6.json",
+    "frozen_structure_sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+    "original_uncertainties": [
+      {
+        "uncertainty_id": "LIMITATION-COMMON-SOURCE-SCOPE",
+        "affected_item_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "summary": "This evaluation covers the user-authorized derivative restricted to printed pages 1–425. The delivered index references beyond that common source scope were not evaluated."
+      },
+      {
+        "uncertainty_id": "LIMITATION-UPLOADED-SOURCE-IDENTITY",
+        "affected_item_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "summary": "The supplied source text matches the corresponding pages of the 2002 second edition. The exact file uploaded to the index producer was unavailable for byte-for-byte identity verification."
+      },
+      {
+        "uncertainty_id": "LIMITATION-FROZEN-WORD-COUNT-METHODS",
+        "affected_item_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "summary": "Density uses 194,718 indexable words from the exact imported source-discovery release. Historical chapter extraction methods vary; a separately authored evaluation uses a different word denominator and is not directly interchangeable."
+      }
+    ],
+    "uncertainty_gate_scopes": [
+      {
+        "uncertainty_id": "LIMITATION-COMMON-SOURCE-SCOPE",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "evidence_ids": [],
+        "rationale": "The frozen record limits evaluation to the user-authorized derivative covering printed pages 1–425 and explicitly excludes delivered references beyond that extent. It does not question support at evaluated destinations within that independently bound source and candidate scope. The limitation remains in force; no excluded destination is newly assessed."
+      },
+      {
+        "uncertainty_id": "LIMITATION-UPLOADED-SOURCE-IDENTITY",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "evidence_ids": [],
+        "rationale": "The frozen record affirms that the supplied source text matches the corresponding pages of the 2002 second edition. Its unresolved question is byte-for-byte identity of the producer upload, not identity or inspectability of the independently bound supplied source and evaluated candidate used by the frozen audits. This clarification does not establish producer-upload identity or waive any destination-support finding."
+      },
+      {
+        "uncertainty_id": "LIMITATION-FROZEN-WORD-COUNT-METHODS",
+        "scope": "measurement_provenance",
+        "target_ids": [
+          "GLOBAL-STRUCTURE"
+        ],
+        "evidence_ids": [],
+        "rationale": "The frozen record concerns density measurement: 194,718 indexable words imported from the exact source-discovery release, varied historical chapter extraction methods, and non-interchangeability with another evaluation denominator. It does not question the independently bound evaluated source or candidate, or source-linked support at evaluated destinations. The frozen denominator and its limitation remain unchanged."
+      }
+    ],
+    "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78"
   }
 }

@@ -19,8 +19,8 @@
   "dimension_calculations": {
     "schema_version": "subject-index-dimension-calculations-v6",
     "artifact_path": "scoring/dimension-calculations.v6.json",
-    "sha256": "aa4dbb076bf8f5959faf3ef65100c6af330f564cfcfe8fc664be4539ec678910",
-    "calculation_sha256": "976268cbff6fd7600e9d330d207fe1dabbb3df10ac9f1e62026ce463b239e0f6",
+    "sha256": "7726f8725aa39d87081f698de2dd97fb050a9e4c388c5c5a2e099fdca6775ad7",
+    "calculation_sha256": "bb3a1e6f0347ef4db838942a10ade73033b9807c17fe09a0ba557ab89ab03770",
     "rubric_version": "subject-index-rubric-v8.2",
     "calculation_profile": "subject-index-dimension-calculation-v7"
   },
@@ -82,7 +82,7 @@
   "item_assessments": {
     "schema_version": "subject-index-item-assessments-v7",
     "artifact_path": "scoring/item-assessments.v7.json",
-    "sha256": "48701794af3ca11e93ccb9faf8eeeeab7270462b93bec8d0c72d7f67ef1910ad",
+    "sha256": "9af11a6888859837bf1d5d4141c51881657063f35c6d9324e06ed2bacab7039b",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -18547,13 +18547,13 @@
   "structure_audit": {
     "schema_version": "structure-audit-v6",
     "artifact_path": "structure/structure-audit.v6.json",
-    "sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0"
+    "sha256": "f3fb4ee5bdd546f7518fa3e4f6877cca386e116527c779ab25058bd5639e505a"
   },
   "projection_metadata": {
     "schema_version": "subject-index-v8-projection-metadata-v2",
     "artifact_path": "scoring/projection-metadata.v2.json",
-    "sha256": "4988dcd8704401c9c29f468ff1b85aef958fad6fe01ee22f3b28f83b3d68e184",
-    "projection_metadata_sha256": "4510df30fb067df4e629c03f3429279fe4e0590f40c33d733f56706bc0f26fe2"
+    "sha256": "fafce14f7e89c92cabfa5da2e6c55132797a4639673f60f9aee2d89fbebb5e6d",
+    "projection_metadata_sha256": "4b62863dfd51681c52774586c2c6c29e624bb710321b3417e4b5ca12c93a86b4"
   },
   "critical_gates": [
     {

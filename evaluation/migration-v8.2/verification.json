@@ -27,7 +27,8 @@
     "scoring/v8-canonical-projection/projection.v1.json",
     "scoring/web-report.v10.json",
     "source/evaluation-policy.v4.json",
-    "source/source-benchmark.v8-import.json"
+    "source/source-benchmark.v8-import.json",
+    "structure/structure-audit.v6.json"
   ],
   "original_input_hashes_verified": 37,
   "revised_input_hashes_verified": 37,

@@ -10,4 +10,4 @@ The evaluation reuses the exact independently reviewed, candidate-blind legacy b
 
 Website integration is a separate follow-up. No website deployment or PR merge is authorized by this evaluation.
 
-The V8.2 update is a review checkpoint pending the coordinated uncertainty-scope patch; no merge or website cutover is authorized yet.
+The final V8.2 migration includes the reviewed uncertainty-scope patch. Evaluation PR merge and website cutover remain separate.
