@@ -17,3 +17,4 @@ evaluation/validation/*.log
 evaluation/validation/typed-import-dry-run.result.json
 evaluation/candidate-scoped/
 evaluation/proposals/
+evaluation/validation/parser-worker-handoff.md
