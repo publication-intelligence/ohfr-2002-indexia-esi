@@ -1301,204 +1301,221 @@
         "title": "Indexia W4 locator audit — CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-001",
         "responsibility": "Exclusive locator audit CHUNK-001; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-001/locator-audit.CHUNK-001.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-001/locator-audit.CHUNK-001.json",
         "review_note": "Full handoff/explicit ledger and two rounds source samples checked; p2 military role and malformed province qualifier revisions preserve uncertainty. Accepted for complete batch validation. Cross-chunk province typo vs locator fit calibration pending. Root inspected handoff and material source samples, read independent QA where assigned; narrow revisions resolved where applicable; selected for complete batch validation. Final calibration inspected and accepted.",
         "reviewed_output_sha256": "fccdd43a7d497aac5bb209ff457cd49afb1a4f1a0e546e5ff3aa5870b2bc5152",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-001.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-001.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d3-d955-7a91-a590-983f72c3bb68",
         "title": "Indexia W4 locator audit — CHUNK-002",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-002",
         "responsibility": "Exclusive locator audit CHUNK-002; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-002/locator-audit.CHUNK-002.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-002/locator-audit.CHUNK-002.json",
         "review_note": "Full handoff/builder plus source samples and rare weak cases reviewed; p53/p61 narrow revision verifies concise true relationships. Accepted for full-batch validation.",
         "reviewed_output_sha256": "3f0cf45e0a718166653363a08518f75294de54a7cb58f00e0c6853224c1de404",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-002.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-002.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d3-f458-7ba2-9302-f4e51bacc201",
         "title": "Indexia W4 locator audit — CHUNK-003",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-003",
         "responsibility": "Exclusive locator audit CHUNK-003; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-003/locator-audit.CHUNK-003.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-003/locator-audit.CHUNK-003.json",
         "review_note": "Fail-closed builder and p69/p78 source checks pass; narrow complete qualifier / malformed Dauphine identity and depth-vs-fit recheck requested. Final narrow revision source-checked; accepted for full-batch validation.",
         "reviewed_output_sha256": "86f0fa08bde7190436ab1c3a69df86a02c83d14b0ed2e71123c9317371f66d8b",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-003.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-003.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-09d7-7021-9a5d-b597afa734d8",
         "title": "Indexia W4 locator audit — CHUNK-004",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-004",
         "responsibility": "Exclusive locator audit CHUNK-004; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-004/locator-audit.CHUNK-004.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-004/locator-audit.CHUNK-004.json",
         "review_note": "QA-A confirmed court-sense rationale errors, root readp105/106; narrow6rowrecheck requested. Final source-specific revisions independently inspected and accepted for complete-batch validation.",
         "reviewed_output_sha256": "34da4bc2ba8cfda641528f27199328043cfe8106eaca0214857293431fcc8ab8",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-004.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-004.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-1b22-7613-a9ec-db9704cb0362",
         "title": "Indexia W4 locator audit — CHUNK-005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-005",
         "responsibility": "Exclusive locator audit CHUNK-005; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-005/locator-audit.CHUNK-005.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-005/locator-audit.CHUNK-005.json",
         "review_note": "Revised axes and p126/p132/p133 corrections verified; narrow p121 Principles of1789 decree/rights content check requested after second source sample. Final narrow revision source-checked; accepted for full-batch validation.",
         "reviewed_output_sha256": "0a1249d52fbdfb58f2202d9e3d73d0e13593077f155798dc377abef297493157",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-005.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-005.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-2b2e-7f11-b80d-0e5f11ac733e",
         "title": "Indexia W4 locator audit — CHUNK-006",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-006",
         "responsibility": "Exclusive locator audit CHUNK-006; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-006/locator-audit.CHUNK-006.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-006/locator-audit.CHUNK-006.json",
         "review_note": "Read revised handoff and19 individual National dispositions; sourcep137/138/149 verified; people evidence corrected. Accepted final explicit ledger for batch validation.",
         "reviewed_output_sha256": "6083d985de309ba770a962c73a3d2fab67c054dfe5d18efab32b3f0848479911",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-006.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-006.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-3a60-7361-8e1c-31124d63556e",
         "title": "Indexia W4 locator audit — CHUNK-007",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-007",
         "responsibility": "Exclusive locator audit CHUNK-007; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-007/locator-audit.CHUNK-007.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-007/locator-audit.CHUNK-007.json",
         "review_note": "Full handoff plus source samples verified; p161 compound-path revision now explicitly distinguishes decline from abolition/restoration. Accepted for full-batch validation.",
         "reviewed_output_sha256": "a6d67dce2838a2729c63ee40e9a45c37e6d07f10d740deb9700b6913aa73cb86",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-007.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-007.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-4da2-7be3-a716-3eab929ae533",
         "title": "Indexia W4 locator audit — CHUNK-008",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-008",
         "responsibility": "Exclusive locator audit CHUNK-008; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-008/locator-audit.CHUNK-008.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-008/locator-audit.CHUNK-008.json",
         "review_note": "Explicit builder and p185/p192 samples pass; p175 defined-group requirement appears invented; narrow broad-class qualifier calibration requested. Root inspected handoff and material source samples, read independent QA where assigned; narrow revisions resolved where applicable; selected for complete batch validation. Final calibration inspected and accepted.",
         "reviewed_output_sha256": "bfa3f0650277e107d263b3fc6ec28d7df196b4452971c284aef18506b84d21f7",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-008.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-008.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-5c70-7471-82fc-356192c98111",
         "title": "Indexia W4 locator audit — CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-009",
         "responsibility": "Exclusive locator audit CHUNK-009; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-009/locator-audit.CHUNK-009.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-009/locator-audit.CHUNK-009.json",
         "review_note": "Full handoff/explicit fail-closed builder plus source samples reviewed; quantitative comparison calibrated, biography-only weak rows justified. Accepted for full-batch validation.",
         "reviewed_output_sha256": "607fcd9285c2083b7f96e05b62b911fddb27240ea54b97039cde3028995973a4",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-009.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-009.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-6cd5-76a0-8ba9-e192fbda72ee",
         "title": "Indexia W4 locator audit — CHUNK-010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-010",
         "responsibility": "Exclusive locator audit CHUNK-010; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-010/locator-audit.CHUNK-010.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-010/locator-audit.CHUNK-010.json",
         "review_note": " Root inspected handoff and material source samples, read independent QA where assigned; narrow revisions resolved where applicable; selected for complete batch validation.",
         "reviewed_output_sha256": "eeb3fa815480d710da66a46da595d47aea4301c8717bff19bd62b1d6423d1190",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-010.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-010.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-7efe-7522-a5ac-eb3cfeb915be",
         "title": "Indexia W4 locator audit — CHUNK-011",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-011",
         "responsibility": "Exclusive locator audit CHUNK-011; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-011/locator-audit.CHUNK-011.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-011/locator-audit.CHUNK-011.json",
         "review_note": "Revised serializer/independent axes and p248 source pass; narrow Catholic-vs-Catholicism reading p256 and p262 relationship clarification requested. Final narrow revision source-checked; accepted for full-batch validation.",
         "reviewed_output_sha256": "3f516f9cf1ab8099f9797d1167e096661b5bdbda9c1208f19c7b27edb5f322a2",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-011.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-011.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-92ce-7703-8497-a2fa63ac5b59",
         "title": "Indexia W4 locator audit — CHUNK-012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-012",
         "responsibility": "Exclusive locator audit CHUNK-012; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-012/locator-audit.CHUNK-012.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-012/locator-audit.CHUNK-012.json",
         "review_note": " Root inspected handoff and material source samples, read independent QA where assigned; narrow revisions resolved where applicable; selected for complete batch validation.",
         "reviewed_output_sha256": "771c1a8f42d2cf66d31857fbf98e1d7d21d0337e31859de3321b59a2e06afd61",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-012.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-012.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-a231-7041-ab7f-4b2c7896c1ad",
         "title": "Indexia W4 locator audit — CHUNK-013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-013",
         "responsibility": "Exclusive locator audit CHUNK-013; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-013/locator-audit.CHUNK-013.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-013/locator-audit.CHUNK-013.json",
         "review_note": "Full handoff/builder plus source samples reviewed; page298 context leakage removed and all shared rationales rechecked; page300 evidence corrected. Accepted for full-batch validation.",
         "reviewed_output_sha256": "2d72c3b731dc96611b0192070080f2e4e553e9cd13023bbd01aed50ef75315a4",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-013.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-013.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-b2a9-7522-b53f-8b400224c807",
         "title": "Indexia W4 locator audit — CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-014",
         "responsibility": "Exclusive locator audit CHUNK-014; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-014/locator-audit.CHUNK-014.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-014/locator-audit.CHUNK-014.json",
         "review_note": " Root inspected handoff and material source samples, read independent QA where assigned; narrow revisions resolved where applicable; selected for complete batch validation.",
         "reviewed_output_sha256": "96f40217df65b2f758fd130455d6b568cc0519a64aab1683bc2ada0949334981",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-014.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-014.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-c5e1-75c1-97e7-49997e73b142",
         "title": "Indexia W4 locator audit — CHUNK-015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-015",
         "responsibility": "Exclusive locator audit CHUNK-015; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-015/locator-audit.CHUNK-015.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-015/locator-audit.CHUNK-015.json",
         "review_note": "Root read full handoff, QA-B, source p363/p367; one-row Frenchcounterforce revision verified and accepted.",
         "reviewed_output_sha256": "d0638925c10702c924888917966918a182eeacf4ef014dfef6fda36fafa89680",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-015.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-015.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-e3b5-7702-9435-57b87aa2cd53",
         "title": "Indexia W4 locator audit — CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-016",
         "responsibility": "Exclusive locator audit CHUNK-016; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-016/locator-audit.CHUNK-016.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-016/locator-audit.CHUNK-016.json",
         "review_note": "QA followup questions Rhine frontier vsmilitarytheater p378/p384; rootread384, narrow independentclarification requested. Final source-specific revisions independently inspected and accepted for complete-batch validation.",
         "reviewed_output_sha256": "5e2d7143f2ecfabd13474690402dbae17a23bce6bb24690b999f99db9b43a414",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-016.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-016.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8d4-f495-75f1-98df-a61406823e54",
         "title": "Indexia W4 locator audit — CHUNK-017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-017",
         "responsibility": "Exclusive locator audit CHUNK-017; current frozen packet only",
-        "status": "completed_registered",
+        "status": "archived",
         "persisted_output": "validation/restricted/locator-worker-outputs/CHUNK-017/locator-audit.CHUNK-017.json",
         "expected_output": "/tmp/indexia-locator-audits/CHUNK-017/locator-audit.CHUNK-017.json",
         "review_note": "Full handoff, two QA reports, explicit final calibration code and revised row prose reviewed; source391/393/410/420 verified. Final exact-path concise-fact calibration accepted.",
         "reviewed_output_sha256": "aedfd51415416908dd938be9dbed8b01640c207de671993fea0c1d0ee88f753e",
-        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-017.v2.json"
+        "canonical_output": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-017.v2.json",
+        "archive_reason": "Completed full audit and revisions preserved in private project evidence; exact reviewed bytes registered and independently validated. Explicit decision/build material copied; temporary PDF renders are reproducible and intentionally not copied."
       },
       {
         "thread_id": "01a0a8f0-9797-7683-88f9-c20a1e2edf88",
@@ -1520,6 +1537,176 @@
         "expected_output": "/tmp/indexia-locator-qa-b.md",
         "review_note": "Full initial report and followup diff read; root sourcechecks confirmed material findings; originals resumed.",
         "archive_reason": "Complete QA report and followup preserved; coordinator read both and independently verified material source findings. Original audit owners received bounded corrections; no useful result remains only in this task."
+      },
+      {
+        "thread_id": "01a0a906-6263-7ec3-951c-fa6e7c4ba5fd",
+        "title": "Indexia W4 missing access — CHUNK-001",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-001",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-001 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-001/missing-access-audit.CHUNK-001.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json"
+      },
+      {
+        "thread_id": "01a0a906-702b-7c53-8958-91b94894b4fd",
+        "title": "Indexia W4 missing access — CHUNK-002",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-002",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-002 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-002/missing-access-audit.CHUNK-002.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-002.json"
+      },
+      {
+        "thread_id": "01a0a906-806e-7dd2-a2ad-6619da688661",
+        "title": "Indexia W4 missing access — CHUNK-003",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-003",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-003 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-003/missing-access-audit.CHUNK-003.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-003.json"
+      },
+      {
+        "thread_id": "01a0a906-91f1-72e3-8281-b3ad859d4dc5",
+        "title": "Indexia W4 missing access — CHUNK-004",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-004",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-004 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-004/missing-access-audit.CHUNK-004.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-004.json"
+      },
+      {
+        "thread_id": "01a0a906-a245-7cc3-afc6-f155fe36b964",
+        "title": "Indexia W4 missing access — CHUNK-005",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-005",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-005 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-005/missing-access-audit.CHUNK-005.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-005.json"
+      },
+      {
+        "thread_id": "01a0a906-b7c5-7950-8ef2-2748833d6445",
+        "title": "Indexia W4 missing access — CHUNK-006",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-006",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-006 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-006/missing-access-audit.CHUNK-006.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-006.json"
+      },
+      {
+        "thread_id": "01a0a906-e845-7c51-a9f1-962fc0da2926",
+        "title": "Indexia W4 missing access — CHUNK-007",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-007",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-007 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-007/missing-access-audit.CHUNK-007.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-007.json"
+      },
+      {
+        "thread_id": "01a0a906-fa9b-7611-8735-6da8f7a64a29",
+        "title": "Indexia W4 missing access — CHUNK-008",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-008",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-008 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-008/missing-access-audit.CHUNK-008.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-008.json"
+      },
+      {
+        "thread_id": "01a0a907-093a-7c93-91c0-4d9abce1aa3f",
+        "title": "Indexia W4 missing access — CHUNK-009",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-009",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-009 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-009/missing-access-audit.CHUNK-009.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-009.json"
+      },
+      {
+        "thread_id": "01a0a907-1ea2-7042-9540-35a27221b1f8",
+        "title": "Indexia W4 missing access — CHUNK-010",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-010",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-010 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-010/missing-access-audit.CHUNK-010.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-010.json"
+      },
+      {
+        "thread_id": "01a0a907-2e00-7030-887d-a166e6ef19b1",
+        "title": "Indexia W4 missing access — CHUNK-011",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-011",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-011 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-011/missing-access-audit.CHUNK-011.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-011.json"
+      },
+      {
+        "thread_id": "01a0a907-3cf1-7be0-95d9-b618652ede1b",
+        "title": "Indexia W4 missing access — CHUNK-012",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-012",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-012 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-012/missing-access-audit.CHUNK-012.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-012.json"
+      },
+      {
+        "thread_id": "01a0a907-7e7b-7c31-adce-5a6a8fac69f7",
+        "title": "Indexia W4 missing access — CHUNK-013",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-013",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-013 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-013/missing-access-audit.CHUNK-013.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-013.json"
+      },
+      {
+        "thread_id": "01a0a907-8f0f-70a2-8475-6f7e556af65a",
+        "title": "Indexia W4 missing access — CHUNK-014",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-014",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-014 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-014/missing-access-audit.CHUNK-014.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-014.json"
+      },
+      {
+        "thread_id": "01a0a907-a0ef-7292-a9eb-18da86d7c29a",
+        "title": "Indexia W4 missing access — CHUNK-015",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-015",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-015 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-015/missing-access-audit.CHUNK-015.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-015.json"
+      },
+      {
+        "thread_id": "01a0a907-b039-77e1-90af-0bfbff2d098a",
+        "title": "Indexia W4 missing access — CHUNK-016",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-016",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-016 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-016/missing-access-audit.CHUNK-016.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-016.json"
+      },
+      {
+        "thread_id": "01a0a907-c2f3-78b0-be11-7b9205c7ecb0",
+        "title": "Indexia W4 missing access — CHUNK-017",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-017",
+        "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-017 workset; all owned subjects, reader tasks and treatments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-audits/CHUNK-017/missing-access-audit.CHUNK-017.json",
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-017.json"
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
@@ -1530,6 +1717,13 @@
       "Evidence summaries must identify the particular source fact for each path/page; adverse rationales must state the actual claimed-versus-source mismatch, not generic role/scope/chronology templates.",
       "Broadness or nonselectivity alone does not imply locator-fit failure. Architecture remains separate.",
       "Complete reviewed locator batch registered through typed command; canonical files exactly equal selected reviewed bytes. Missing-access inputs use only this registered set."
-    ]
+    ],
+    "missing_access_denominators": {
+      "subjects": 1366,
+      "reader_tasks": 1026,
+      "expected_treatments": 3210,
+      "source_evidence_records": 3246,
+      "ownership_rule": "Current evaluator build_missing_worksets; unique subject/document_page/locator_class treatments; exact non-overlapping subject and task ownership."
+    }
   }
 }
