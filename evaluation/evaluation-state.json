@@ -1072,6 +1072,159 @@
         "status": "archived",
         "persisted_output": "validation/parser-fix-review.md",
         "archive_reason": "Both focused commits persisted in PR45; complete handoff copied, diff and129 tests independently verified, exact skill synchronized. No useful output remains only in the task."
+      },
+      {
+        "thread_id": "01a0a8d3-604a-76e1-a86b-cbebbc12dc39",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-001",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-001",
+        "responsibility": "Exclusive locator audit CHUNK-001; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-001/locator-audit.CHUNK-001.json"
+      },
+      {
+        "thread_id": "01a0a8d3-d955-7a91-a590-983f72c3bb68",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-002",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-002",
+        "responsibility": "Exclusive locator audit CHUNK-002; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-002/locator-audit.CHUNK-002.json"
+      },
+      {
+        "thread_id": "01a0a8d3-f458-7ba2-9302-f4e51bacc201",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-003",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-003",
+        "responsibility": "Exclusive locator audit CHUNK-003; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-003/locator-audit.CHUNK-003.json"
+      },
+      {
+        "thread_id": "01a0a8d4-09d7-7021-9a5d-b597afa734d8",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-004",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-004",
+        "responsibility": "Exclusive locator audit CHUNK-004; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-004/locator-audit.CHUNK-004.json"
+      },
+      {
+        "thread_id": "01a0a8d4-1b22-7613-a9ec-db9704cb0362",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-005",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-005",
+        "responsibility": "Exclusive locator audit CHUNK-005; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-005/locator-audit.CHUNK-005.json"
+      },
+      {
+        "thread_id": "01a0a8d4-2b2e-7f11-b80d-0e5f11ac733e",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-006",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-006",
+        "responsibility": "Exclusive locator audit CHUNK-006; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-006/locator-audit.CHUNK-006.json"
+      },
+      {
+        "thread_id": "01a0a8d4-3a60-7361-8e1c-31124d63556e",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-007",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-007",
+        "responsibility": "Exclusive locator audit CHUNK-007; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-007/locator-audit.CHUNK-007.json"
+      },
+      {
+        "thread_id": "01a0a8d4-4da2-7be3-a716-3eab929ae533",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-008",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-008",
+        "responsibility": "Exclusive locator audit CHUNK-008; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-008/locator-audit.CHUNK-008.json"
+      },
+      {
+        "thread_id": "01a0a8d4-5c70-7471-82fc-356192c98111",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-009",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-009",
+        "responsibility": "Exclusive locator audit CHUNK-009; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-009/locator-audit.CHUNK-009.json"
+      },
+      {
+        "thread_id": "01a0a8d4-6cd5-76a0-8ba9-e192fbda72ee",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-010",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-010",
+        "responsibility": "Exclusive locator audit CHUNK-010; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-010/locator-audit.CHUNK-010.json"
+      },
+      {
+        "thread_id": "01a0a8d4-7efe-7522-a5ac-eb3cfeb915be",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-011",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-011",
+        "responsibility": "Exclusive locator audit CHUNK-011; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-011/locator-audit.CHUNK-011.json"
+      },
+      {
+        "thread_id": "01a0a8d4-92ce-7703-8497-a2fa63ac5b59",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-012",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-012",
+        "responsibility": "Exclusive locator audit CHUNK-012; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-012/locator-audit.CHUNK-012.json"
+      },
+      {
+        "thread_id": "01a0a8d4-a231-7041-ab7f-4b2c7896c1ad",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-013",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-013",
+        "responsibility": "Exclusive locator audit CHUNK-013; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-013/locator-audit.CHUNK-013.json"
+      },
+      {
+        "thread_id": "01a0a8d4-b2a9-7522-b53f-8b400224c807",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-014",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-014",
+        "responsibility": "Exclusive locator audit CHUNK-014; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-014/locator-audit.CHUNK-014.json"
+      },
+      {
+        "thread_id": "01a0a8d4-c5e1-75c1-97e7-49997e73b142",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-015",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-015",
+        "responsibility": "Exclusive locator audit CHUNK-015; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-015/locator-audit.CHUNK-015.json"
+      },
+      {
+        "thread_id": "01a0a8d4-e3b5-7702-9435-57b87aa2cd53",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-016",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-016",
+        "responsibility": "Exclusive locator audit CHUNK-016; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-016/locator-audit.CHUNK-016.json"
+      },
+      {
+        "thread_id": "01a0a8d4-f495-75f1-98df-a61406823e54",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-017",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-017",
+        "responsibility": "Exclusive locator audit CHUNK-017; current frozen packet only",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-locator-audits/CHUNK-017/locator-audit.CHUNK-017.json"
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
