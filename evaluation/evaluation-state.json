@@ -1551,7 +1551,7 @@
         "title": "Indexia W4 missing access — CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-001",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-001 workset; all owned subjects, reader tasks and treatments",
-        "status": "active_revision_requested",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-001/missing-access-audit.CHUNK-001.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json",
@@ -1583,10 +1583,11 @@
         "title": "Indexia W4 missing access — CHUNK-004",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-004",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-004 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-004/missing-access-audit.CHUNK-004.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-004.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-004.json",
+        "review_note": "Root confirmed automatic stance=yes whenever direct access; explicit subject stance review requested after independent QA."
       },
       {
         "thread_id": "01a0a906-a245-7cc3-afc6-f155fe36b964",
@@ -1603,17 +1604,18 @@
         "title": "Indexia W4 missing access — CHUNK-006",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-006",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-006 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-006/missing-access-audit.CHUNK-006.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-006.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-006.json",
+        "review_note": "Rejected hardcoded16 task successes and coverage/severity-derived stance. Explicit question-specific review and separate stance requested; QA continues."
       },
       {
         "thread_id": "01a0a906-e845-7c51-a9f1-962fc0da2926",
         "title": "Indexia W4 missing access — CHUNK-007",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-007",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-007 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-007/missing-access-audit.CHUNK-007.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-007.json"
@@ -1623,7 +1625,7 @@
         "title": "Indexia W4 missing access — CHUNK-008",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-008",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-008 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-008/missing-access-audit.CHUNK-008.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-008.json"
@@ -1633,7 +1635,7 @@
         "title": "Indexia W4 missing access — CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-009",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-009 workset; all owned subjects, reader tasks and treatments",
-        "status": "active_revision_requested",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-009/missing-access-audit.CHUNK-009.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-009.json",
@@ -1644,7 +1646,7 @@
         "title": "Indexia W4 missing access — CHUNK-010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-010",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-010 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-010/missing-access-audit.CHUNK-010.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-010.json"
@@ -1664,7 +1666,7 @@
         "title": "Indexia W4 missing access — CHUNK-012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-012",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-012 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-012/missing-access-audit.CHUNK-012.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-012.json"
@@ -1684,11 +1686,11 @@
         "title": "Indexia W4 missing access — CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-014",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-014 workset; all owned subjects, reader tasks and treatments",
-        "status": "active_revision_requested",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-014/missing-access-audit.CHUNK-014.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-014.json",
-        "review_note": "Builder inspected; rejected automatic >6 atomic locator lookup penalty and coverage-derived stance, requested explicit separate axes and substantive prose."
+        "review_note": "Builder inspected; rejected automatic >6 atomic locator lookup penalty and coverage-derived stance, requested explicit separate axes and substantive prose. Revision rejected: build_task_worksheet copied coverage-derived proposals for140tasks; materialization only inserted questions/labels into templates. Full144 actual question review and127 substantive route/axis rationales requested."
       },
       {
         "thread_id": "01a0a907-a0ef-7292-a9eb-18da86d7c29a",
@@ -1705,7 +1707,7 @@
         "title": "Indexia W4 missing access — CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-016",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-016 workset; all owned subjects, reader tasks and treatments",
-        "status": "active_revision_requested",
+        "status": "active_resume_correction",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-016/missing-access-audit.CHUNK-016.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-016.json",
@@ -1716,17 +1718,18 @@
         "title": "Indexia W4 missing access — CHUNK-017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-017",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-017 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-017/missing-access-audit.CHUNK-017.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-017.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-017.json",
+        "review_note": "Builder and explicit maps read; exact per-route locator joins and separate stance/concept coverage review requested."
       },
       {
         "thread_id": "01a0a915-8c19-77c0-8500-2486b8d6bd12",
         "title": "Indexia W4 missing-access QA A — 007 and 010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-a",
         "responsibility": "Independent bounded review of completed missing-access audits007 and010; no ownership or edits",
-        "status": "active",
+        "status": "active_final_review",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-qa-a.md"
       },
@@ -1735,7 +1738,7 @@
         "title": "Indexia W4 missing-access QA B — 006, 008, 015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-b",
         "responsibility": "Independent bounded review of completed missing-access006,008,015; no ownership or edits",
-        "status": "active",
+        "status": "active_final_review",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-qa-b.md"
       },
@@ -1744,7 +1747,7 @@
         "title": "Indexia W4 missing-access QA C — 003, 004, 005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-c",
         "responsibility": "Independent bounded review of completed missing-access 003, 004, 005; no ownership or edits",
-        "status": "active",
+        "status": "active_final_review",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-qa-c.md"
       },
@@ -1753,9 +1756,18 @@
         "title": "Indexia W4 missing-access QA D — 011, 012, 013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-d",
         "responsibility": "Independent bounded review of completed missing-access 011, 012, 013; no ownership or edits",
-        "status": "active",
+        "status": "active_final_review",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-qa-d.md"
+      },
+      {
+        "thread_id": "01a0aa3f-2f1e-7b81-9863-88557d86a755",
+        "title": "Indexia density denominator verification",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-density-verification",
+        "responsibility": "Independent source-word discrepancy and Indexia chapter numerator verification; read-only, no structure judgments",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-density-verification.md"
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
@@ -1783,6 +1795,14 @@
         "revised_sha256": "0aee1dc67d8c7d1c3201a947aeb11972dc4e86f59db0f2784166c01b7f4eee1c",
         "validation_path": "validation/restricted/locator-explanation-correction-register-audits.json"
       }
-    ]
+    ],
+    "resume_note": "Resumed at missing-access acceptance review on 2026-09-16. Original locator audit and all frozen inputs preserved. Existing QA threads resumed with non-overlapping final review ownership; stage advancement remains typed.",
+    "resume_working_evidence_path": "validation/restricted/missing-access-resume",
+    "resume_checks": {
+      "state_validation": "passed_no_warnings",
+      "runtime_alignment": "104 installed skill files exactly match reviewed 3a7fc0e1bb3e388b489642e9750619ef78ae4d5a",
+      "missing_batch_validation": "17 chunks, 1366 subjects, 1026 reader tasks, 3210 treatments; passed before semantic corrections",
+      "remaining_semantic_review": "Independent concept/direct-access review for 001,006,007,008,009,010,014,016; exact-treatment correction review for012; four existing QA tasks reviewing disjoint groups."
+    }
   }
 }
