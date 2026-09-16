@@ -1,0 +1,364 @@
+{
+  "ok": true,
+  "operation": "validate-audits",
+  "audit_kind": "missing_access",
+  "audits": [
+    {
+      "chunk_id": "CHUNK-001",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 120,
+          "judged": 120,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 124,
+          "judged": 124,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 217,
+          "judged": 217,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 92,
+          "judged": 92,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 92,
+          "judged": 92,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 115,
+          "judged": 115,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 84,
+          "judged": 84,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 81,
+          "judged": 81,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 276,
+          "judged": 276,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 102,
+          "judged": 102,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 18,
+          "judged": 18,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 349,
+          "judged": 349,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 87,
+          "judged": 87,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 63,
+          "judged": 63,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 202,
+          "judged": 202,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 73,
+          "judged": 73,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 16,
+          "judged": 16,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 199,
+          "judged": 199,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-007",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 49,
+          "judged": 49,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 14,
+          "judged": 14,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 85,
+          "judged": 85,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-008",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 77,
+          "judged": 77,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 16,
+          "judged": 16,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 233,
+          "judged": 233,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-009",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 116,
+          "judged": 116,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 133,
+          "judged": 133,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 255,
+          "judged": 255,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-010",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 63,
+          "judged": 63,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 47,
+          "judged": 47,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 203,
+          "judged": 203,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 71,
+          "judged": 71,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 12,
+          "judged": 12,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 170,
+          "judged": 170,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 59,
+          "judged": 59,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 123,
+          "judged": 123,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 133,
+          "judged": 133,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-013",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 43,
+          "judged": 43,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 29,
+          "judged": 29,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 168,
+          "judged": 168,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-014",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 127,
+          "judged": 127,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 144,
+          "judged": 144,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 202,
+          "judged": 202,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-015",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 45,
+          "judged": 45,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 14,
+          "judged": 14,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 106,
+          "judged": 106,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-016",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 70,
+          "judged": 70,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 48,
+          "judged": 48,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 153,
+          "judged": 153,
+          "complete": true
+        }
+      }
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+      "completion": {
+        "subjects": {
+          "expected": 88,
+          "judged": 88,
+          "complete": true
+        },
+        "reader_tasks": {
+          "expected": 52,
+          "judged": 52,
+          "complete": true
+        },
+        "treatments": {
+          "expected": 144,
+          "judged": 144,
+          "complete": true
+        }
+      }
+    }
+  ]
+}

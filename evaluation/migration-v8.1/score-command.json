@@ -1,0 +1,36 @@
+{
+  "command": "score-index",
+  "ok": true,
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "overall_percentage": 71.3,
+  "artifacts_registered": [
+    "scoring/dimension-calculation-input.v2.json",
+    "scoring/dimension-calculations.v6.json",
+    "scoring/item-assessments.v7.json",
+    "scoring/projection-metadata.v2.json",
+    "scoring/evaluation-result.v12.json"
+  ],
+  "artifacts_written": [
+    "scoring/dimension-calculation-input.v2.json",
+    "scoring/dimension-calculations.v6.json",
+    "scoring/item-assessments.v7.json",
+    "scoring/projection-metadata.v2.json",
+    "scoring/evaluation-result.v12.json",
+    "evaluation-state.json"
+  ],
+  "next_actions": [
+    {
+      "stage": "web_report",
+      "command": "dimension_score_v8_cli.py build-report",
+      "status": "not_started",
+      "available": true,
+      "unmet_dependencies": [],
+      "required_inputs": [
+        "validated V8 result",
+        "V8 item assessments"
+      ],
+      "completion_test": "A current V8 web report artifact is registered."
+    }
+  ],
+  "warnings": []
+}

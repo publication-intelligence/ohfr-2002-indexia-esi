@@ -1,6 +1,6 @@
 {
   "schema_version": "subject-index-policy-build-input-v1",
-  "policy_id": "ohfr-2002-indexia-standard-v8",
+  "policy_id": "ohfr-2002-indexia-standard-v8.1",
   "source_scope": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
     "document_page_span": [
