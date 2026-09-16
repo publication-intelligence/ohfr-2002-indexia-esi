@@ -1,0 +1,7 @@
+{
+  "archive_path": "private/revised-v8.1-registered-artifacts.zip",
+  "archive_sha256": "bb71d8420fe0689f48b0eb408dfb1130f7fd5be0c6a0d741729caf5daef4f522",
+  "state_sha256": "930973e63a9df924871b56a52351b0d682cfbaac5ba470d67dd66e28d2384be3",
+  "registered_artifact_count": 113,
+  "methodology_commit": "25fa3983f4980ad6a168610e08b128def11258b2"
+}

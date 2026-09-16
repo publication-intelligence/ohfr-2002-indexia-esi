@@ -1,0 +1,14 @@
+test_duplicate_chunk_identity_or_overlapping_ownership_is_rejected (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_duplicate_chunk_identity_or_overlapping_ownership_is_rejected) ... /home/john/.codex/skills/evaluate-subject-index/scripts/schema_validation.py:41: DeprecationWarning: jsonschema.RefResolver is deprecated as of v4.18.0, in favor of the https://github.com/python-jsonschema/referencing library, which provides more compliant referencing behavior as well as more flexible APIs for customization. A future release will remove RefResolver. Please file a feature request (on referencing) if you are missing an API for the kind of customization you need.
+  resolver = jsonschema.RefResolver(
+ok
+test_identity_mismatches_are_rejected_without_state_mutation (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_identity_mismatches_are_rejected_without_state_mutation) ... ok
+test_local_registration_prepares_complete_17_packet_batch_and_advances (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_local_registration_prepares_complete_17_packet_batch_and_advances) ... ok
+test_rejects_before_benchmark_freeze_or_candidate_registration (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_rejects_before_benchmark_freeze_or_candidate_registration) ... ok
+test_state_validates_canonical_candidate_path_and_hash (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_state_validates_canonical_candidate_path_and_hash) ... ok
+test_unresolved_or_ownerless_assignments_write_only_a_diagnostic (test_locator_chunk_preparation.LocatorChunkPreparationTests.test_unresolved_or_ownerless_assignments_write_only_a_diagnostic) ... ok
+test_split_pdf_returns_chunk_files_without_writing_an_inventory (test_locator_chunk_preparation.SourceChunkPreparationTests.test_split_pdf_returns_chunk_files_without_writing_an_inventory) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.750s
+
+OK
