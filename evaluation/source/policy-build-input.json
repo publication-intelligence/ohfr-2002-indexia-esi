@@ -1,0 +1,36 @@
+{
+  "schema_version": "subject-index-policy-build-input-v1",
+  "policy_id": "ohfr-2002-indexia-standard-v8",
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "availability": {
+      "main_text": "available",
+      "front_matter": "unavailable",
+      "endnotes": "unavailable"
+    },
+    "source_specific_included": [
+      "Supplied main text, source labels 1\u2013425"
+    ],
+    "source_specific_excluded": [
+      "Unavailable front matter",
+      "Unavailable endnotes"
+    ]
+  },
+  "audience": {
+    "label": "Scholars, students, and informed general readers of the French Revolution",
+    "basis": "inferred",
+    "confidence": "high",
+    "rationale": "The source is a scholarly synthetic history intended for study and reference."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required"
+  },
+  "deviations": []
+}

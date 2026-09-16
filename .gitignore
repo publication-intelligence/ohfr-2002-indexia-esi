@@ -7,3 +7,9 @@
 **/.evaluation.lock
 **/__pycache__/
 *.pyc
+evaluation/validation/*preflight*
+evaluation/checkpoints/
+evaluation/candidate/
+evaluation/import/
+evaluation/source/source-benchmark*
+evaluation/validation/*review*
