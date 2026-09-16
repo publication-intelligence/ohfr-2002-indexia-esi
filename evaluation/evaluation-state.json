@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-16T05:17:16Z",
+  "updated_at": "2026-09-16T05:23:53Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -68,24 +68,32 @@
       "notes": []
     },
     "source_subject_discovery": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T05:23:53Z",
+      "notes": [
+        "Imported exact candidate-blind legacy discovery release evidence; discovery was not rerun."
+      ]
     },
     "benchmark_synthesis": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T05:23:53Z",
+      "notes": [
+        "Imported the exact independently reviewed legacy frozen benchmark as synthesis evidence; synthesis was not rerun."
+      ]
     },
     "benchmark_review": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T05:23:53Z",
+      "notes": [
+        "Validated the legacy full review and a separate candidate-blind V8 compatibility approval; editorial review was not rerun."
+      ]
     },
     "benchmark_freeze": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T05:23:53Z",
+      "notes": [
+        "Mechanically normalized and rebound the reviewed legacy benchmark to the registered V8 policy; the full freeze workflow was not rerun."
+      ]
     },
     "candidate_normalization": {
       "status": "not_started",
@@ -124,6 +132,97 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-AD2EFC080990",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_discovery_release_evidence",
+      "path": "import/legacy-benchmark-v3/evaluation-state.json",
+      "sha256": "bcab27262401b75c2aa6d64e6a0cc3793f8646557ada7b8859f68b292077194f",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-state-v4",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-95563585FA74",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_chunk_manifest_evidence",
+      "path": "import/legacy-benchmark-v3/source/chunk-manifest.json",
+      "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+      "media_type": "application/json",
+      "schema_version": "chunk-manifest-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-5D119FF69568",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_policy_evidence",
+      "path": "import/legacy-benchmark-v3/source/evaluation-policy.v2.json",
+      "sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-policy-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-DB09D2E01AFC",
+      "stage": "source_subject_discovery",
+      "artifact_type": "reviewed_legacy_page_map_evidence",
+      "path": "import/legacy-benchmark-v3/source/page-map.json",
+      "sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+      "media_type": "application/json",
+      "schema_version": "page-map-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-DA61A46B4105",
+      "stage": "benchmark_synthesis",
+      "artifact_type": "imported_reviewed_legacy_benchmark",
+      "path": "import/legacy-benchmark-v3/source/source-benchmark.v3.json",
+      "sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-56EB61895A68",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_inventory_evidence",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review-inventory.json",
+      "sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-inventory-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-0AD205D27D39",
+      "stage": "benchmark_review",
+      "artifact_type": "legacy_full_review_evidence",
+      "path": "import/legacy-benchmark-v3/validation/source-benchmark-review.v1.json",
+      "sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-review-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
     {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
@@ -599,6 +698,45 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-09-16T05:15:04Z"
+    },
+    {
+      "artifact_id": "ART-9FF914230A74",
+      "stage": "benchmark_freeze",
+      "artifact_type": "source_benchmark",
+      "path": "source/source-benchmark.v8-import.json",
+      "sha256": "935719a250cdbbb69494aba2857ba22998848bf0829f209f68eefcd3884884b8",
+      "media_type": "application/json",
+      "schema_version": "source-subject-benchmark-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-CDD44B23D6DD",
+      "stage": "benchmark_freeze",
+      "artifact_type": "benchmark_compatibility_import_provenance",
+      "path": "validation/benchmark-compatibility-import-provenance.v1.json",
+      "sha256": "f0c7a51251c36b9b4cf47b2afe1665df3e287f53ad78ef92829ce71dbf2639c4",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-import-provenance-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
+    },
+    {
+      "artifact_id": "ART-FA4F15C1D8B5",
+      "stage": "benchmark_review",
+      "artifact_type": "benchmark_compatibility_approval",
+      "path": "validation/source-benchmark-compatibility-approval.v1.json",
+      "sha256": "50c9c3577102e30d831aa85edf09d4cc3722b4143b1d47a2b0db9fc34dbafeb2",
+      "media_type": "application/json",
+      "schema_version": "source-benchmark-compatibility-approval-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T05:23:53Z"
     }
   ],
   "blockers": [],
@@ -620,8 +758,9 @@
         "title": "Indexia W1 — candidate-blind source release verification",
         "worktree": "/home/john/Documents/Codex/2026-09-16/ohfr-indexia-source-preflight",
         "responsibility": "Candidate-blind source and prior benchmark verification; later compatibility approval",
-        "status": "active",
-        "persisted_output": null
+        "status": "completed_validated",
+        "persisted_output": "validation/source-benchmark-compatibility-approval.v1.json",
+        "archive_reason": "Findings, approval, and validation copied; coordinator imported and independently checked semantic preservation. Temporary verifier code and dry-run duplicates intentionally not canonical."
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47"
