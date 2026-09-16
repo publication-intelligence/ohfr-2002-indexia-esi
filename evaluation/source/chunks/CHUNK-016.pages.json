@@ -1,0 +1,165 @@
+{
+  "schema_version": "source-chunk-sidecar-v1",
+  "chunk_id": "CHUNK-016",
+  "source_filename": "source.pdf",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "pages": [
+    {
+      "chunk_pdf_page": 1,
+      "document_page": 367,
+      "source_page_label": "367",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 2,
+      "document_page": 368,
+      "source_page_label": "368",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 3,
+      "document_page": 369,
+      "source_page_label": "369",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 4,
+      "document_page": 370,
+      "source_page_label": "370",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 5,
+      "document_page": 371,
+      "source_page_label": "371",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 6,
+      "document_page": 372,
+      "source_page_label": "372",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 7,
+      "document_page": 373,
+      "source_page_label": "373",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 8,
+      "document_page": 374,
+      "source_page_label": "374",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 9,
+      "document_page": 375,
+      "source_page_label": "375",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 10,
+      "document_page": 376,
+      "source_page_label": "376",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 11,
+      "document_page": 377,
+      "source_page_label": "377",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 12,
+      "document_page": 378,
+      "source_page_label": "378",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 13,
+      "document_page": 379,
+      "source_page_label": "379",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 14,
+      "document_page": 380,
+      "source_page_label": "380",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 15,
+      "document_page": 381,
+      "source_page_label": "381",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 16,
+      "document_page": 382,
+      "source_page_label": "382",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 17,
+      "document_page": 383,
+      "source_page_label": "383",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 18,
+      "document_page": 384,
+      "source_page_label": "384",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 19,
+      "document_page": 385,
+      "source_page_label": "385",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 20,
+      "document_page": 386,
+      "source_page_label": "386",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 21,
+      "document_page": 387,
+      "source_page_label": "387",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 22,
+      "document_page": 388,
+      "source_page_label": "388",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 23,
+      "document_page": 389,
+      "source_page_label": "389",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 24,
+      "document_page": 390,
+      "source_page_label": "390",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 25,
+      "document_page": 391,
+      "source_page_label": "391",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 26,
+      "document_page": 392,
+      "source_page_label": "392",
+      "ownership": "context"
+    }
+  ]
+}

@@ -7,3 +7,22 @@
 **/.evaluation.lock
 **/__pycache__/
 *.pyc
+evaluation/validation/*preflight*
+evaluation/checkpoints/
+evaluation/candidate/
+evaluation/import/
+evaluation/source/source-benchmark*
+evaluation/validation/*review*
+evaluation/validation/*.log
+evaluation/validation/typed-import-dry-run.result.json
+evaluation/candidate-scoped/
+evaluation/proposals/
+evaluation/structure/
+evaluation/scoring/dimension-calculation-input.v2.json
+evaluation/scoring/dimension-calculations.v6.json
+evaluation/scoring/item-assessments.v7.json
+evaluation/scoring/projection-metadata.v2.json
+evaluation/validation/parser-worker-handoff.md
+
+# Generated canonical JSON exceeds GitHub's per-file limit; tracked gzip is lossless.
+evaluation/scoring/v8-canonical-projection/data/index-records.v1.json

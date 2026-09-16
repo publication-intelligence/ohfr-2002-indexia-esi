@@ -1,0 +1,55 @@
+{
+  "schema_version": "source-benchmark-compatibility-approval-v1",
+  "approval_id": "ohfr-2002-indexia-v8-reviewed-legacy-compatibility-20260916T051753Z",
+  "approved_at": "2026-09-16T05:17:53Z",
+  "reviewer_attestation": {
+    "reviewer_id": "codex-candidate-blind-compatibility-reviewer",
+    "candidate_unseen": true,
+    "legacy_full_review_verified": true,
+    "normalization_semantics_preserving": true,
+    "policy_rebinding_compatible": true,
+    "no_new_editorial_review_claimed": true
+  },
+  "legacy": {
+    "evaluation_id": "oxford-history-french-revolution-2002-indexerlabs-truncated",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_id": "oxford-history-french-revolution-2002-source-benchmark",
+    "version": 3,
+    "benchmark_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+    "benchmark_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+    "policy_file_sha256": "bfb5ec9ab45b6719b8a36fa09f50dfb8d8c18b3f209bd153501173182695ac62",
+    "policy_sha256": "914a7d7042d3f2d2e6cb40686faca331e6a5b029060027bfa769cc8b512c2e9a",
+    "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "review_file_sha256": "a672c98704853d3ccab4da57fbddc6d2ea2cb32f52f1e5810099389294807b9f",
+    "review_inventory_file_sha256": "3c3edf5a3dfa6dc28c69ea7f51cab386228273d199c764adb3d9eef1c014cef9",
+    "state_file_sha256": "bcab27262401b75c2aa6d64e6a0cc3793f8646557ada7b8859f68b292077194f",
+    "artifact_freeze_commit": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab"
+  },
+  "current": {
+    "evaluation_id": "ohfr-2002-indexia-v8",
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "benchmark_id": "ohfr-2002-indexia-v8-source-benchmark",
+    "version": 1,
+    "policy_file_sha256": "795022fe57a0daae9e978778e4b817cc6f8439028722e6b72d0ac7e4aae01fa1",
+    "policy_sha256": "c25eb7c2e2799b9ee49c099c765447f030af9fa73fdba3178035b506c0950070",
+    "page_map_file_sha256": "dbc3ac1a4a7ea04403639dd9f41cdf79eebf1b8486d4ff65f799d05730fc8b0d",
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_file_sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "frozen_at": "2026-09-16T05:17:53Z",
+    "benchmark_sha256": "1c2cb2be2a1ced77440da11dff032634f66cb40abc137d87c3211d4fa5de149a"
+  },
+  "allowed_changes": [
+    "relationships[*].type->relationship_type",
+    "benchmark_id",
+    "version",
+    "evaluation_id",
+    "policy_sha256",
+    "freeze",
+    "compatibility_import",
+    "benchmark_sha256"
+  ]
+}

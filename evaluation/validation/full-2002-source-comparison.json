@@ -1,0 +1,46 @@
+{
+  "source_full_sha256": "dfb41611dfed73f5ea811fe4b3916732c069f72a750865ec05e25f279d748eee",
+  "source_truncated_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "full_document_page_count": 496,
+  "edition": "Second Edition; copyright2002;ISBN0-19-925298-X",
+  "main_text_mapping": {
+    "full_document_pages": [
+      16,
+      440
+    ],
+    "source_labels": [
+      "1",
+      "425"
+    ],
+    "exact_nfkc_whitespace_normalized_page_text_matches": 425,
+    "nonexact_pages": []
+  },
+  "additional_sections": {
+    "notes": [
+      "426",
+      "435"
+    ],
+    "appendix_1": [
+      "436",
+      "443"
+    ],
+    "appendix_2": [
+      "444",
+      "445"
+    ],
+    "appendix_3": [
+      "446",
+      "460"
+    ],
+    "index_starts_at": "461"
+  },
+  "candidate_declared_document_range": [
+    16,
+    475
+  ],
+  "candidate_declared_range_corresponds_to_source_labels": [
+    "1",
+    "460"
+  ],
+  "candidate_source_identity_status": "consistent_with_full_2002_pdf;exact_original_Indexia_upload_hash_unavailable"
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": "source-chunk-sidecar-v1",
+  "chunk_id": "CHUNK-005",
+  "source_filename": "source.pdf",
+  "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+  "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+  "pages": [
+    {
+      "chunk_pdf_page": 1,
+      "document_page": 110,
+      "source_page_label": "110",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 2,
+      "document_page": 111,
+      "source_page_label": "111",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 3,
+      "document_page": 112,
+      "source_page_label": "112",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 4,
+      "document_page": 113,
+      "source_page_label": "113",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 5,
+      "document_page": 114,
+      "source_page_label": "114",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 6,
+      "document_page": 115,
+      "source_page_label": "115",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 7,
+      "document_page": 116,
+      "source_page_label": "116",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 8,
+      "document_page": 117,
+      "source_page_label": "117",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 9,
+      "document_page": 118,
+      "source_page_label": "118",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 10,
+      "document_page": 119,
+      "source_page_label": "119",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 11,
+      "document_page": 120,
+      "source_page_label": "120",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 12,
+      "document_page": 121,
+      "source_page_label": "121",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 13,
+      "document_page": 122,
+      "source_page_label": "122",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 14,
+      "document_page": 123,
+      "source_page_label": "123",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 15,
+      "document_page": 124,
+      "source_page_label": "124",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 16,
+      "document_page": 125,
+      "source_page_label": "125",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 17,
+      "document_page": 126,
+      "source_page_label": "126",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 18,
+      "document_page": 127,
+      "source_page_label": "127",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 19,
+      "document_page": 128,
+      "source_page_label": "128",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 20,
+      "document_page": 129,
+      "source_page_label": "129",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 21,
+      "document_page": 130,
+      "source_page_label": "130",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 22,
+      "document_page": 131,
+      "source_page_label": "131",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 23,
+      "document_page": 132,
+      "source_page_label": "132",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 24,
+      "document_page": 133,
+      "source_page_label": "133",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 25,
+      "document_page": 134,
+      "source_page_label": "134",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 26,
+      "document_page": 135,
+      "source_page_label": "135",
+      "ownership": "owned"
+    },
+    {
+      "chunk_pdf_page": 27,
+      "document_page": 136,
+      "source_page_label": "136",
+      "ownership": "context"
+    },
+    {
+      "chunk_pdf_page": 28,
+      "document_page": 137,
+      "source_page_label": "137",
+      "ownership": "context"
+    }
+  ]
+}

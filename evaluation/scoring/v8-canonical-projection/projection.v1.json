@@ -1,0 +1,776 @@
+{
+  "collections": [
+    {
+      "artifact_path": "data/index-records.v1.json",
+      "collection_id": "index_records",
+      "content_sha256": "3364ba14662d5f5fa939316b25e4e78af79b538fea0c02aa2ce0bc23efdbf07f",
+      "count": 2544,
+      "file_sha256": "49803eb3966c5c60b2d145df782df48fd0b7919a18f5135694ebf3fce78aadbd"
+    },
+    {
+      "artifact_path": "data/source-subjects.v1.json",
+      "collection_id": "source_subjects",
+      "content_sha256": "ac1b166d79dfe5ef56bcd7134cb6d10903cb9a2dff1a0bcce1f0f46d302a1089",
+      "count": 1366,
+      "file_sha256": "7ea4859c6a814e361566c7d1f4f3bdf761586a3c578ef4a9230c2443a30f530f"
+    },
+    {
+      "artifact_path": "data/density.v1.json",
+      "collection_id": "density",
+      "content_sha256": "e60ca3117c8912d6e6c080dfeb41e086ed3025fe9de5ce4cd674041dae4f97cc",
+      "count": 17,
+      "file_sha256": "2f8025996cfdf4651071f3718c5415c63144c176c615e41dc774883ed14ca2cf"
+    }
+  ],
+  "correction_outcomes": {
+    "affected_headings": 0,
+    "applicable": false,
+    "character_replacements": 0,
+    "overlay_included": false,
+    "reason": "No confirmed registered correction overlay applies."
+  },
+  "density_denominator": {
+    "indexable_source_words": 194718,
+    "unit": "words"
+  },
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "item_summaries": {
+    "observed": {
+      "cross_references": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 0,
+        "total": 0
+      },
+      "heading_nodes": {
+        "bands": {
+          "excellent": 2516,
+          "mixed": 10,
+          "not_measured": 0,
+          "poor": 9,
+          "strong": 8,
+          "weak": 0
+        },
+        "graded": 2543,
+        "not_measured": 0,
+        "total": 2543
+      },
+      "locator_utility_tiers": {
+        "diagnostic_credit": {
+          "0": 631,
+          "0.15": 474,
+          "0.25": 157,
+          "0.35": 680,
+          "0.7": 1565,
+          "1": 9636
+        },
+        "fit": {
+          "exact_fit": 11140,
+          "material_mismatch": 694,
+          "material_partial_fit": 204,
+          "no_fit": 631,
+          "severe_mismatch": 474
+        },
+        "rating_credit": {
+          "0": 2145,
+          "1": 10998
+        },
+        "treatment": {
+          "absent": 542,
+          "mixed": 2006,
+          "substantive": 10306,
+          "weak_presence": 289
+        }
+      },
+      "locators": {
+        "bands": {
+          "excellent": 9636,
+          "mixed": 1565,
+          "not_measured": 0,
+          "poor": 1942,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 13143,
+        "not_measured": 0,
+        "total": 13143
+      },
+      "paths": {
+        "bands": {
+          "excellent": 0,
+          "mixed": 0,
+          "not_measured": 2544,
+          "poor": 0,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 0,
+        "not_measured": 2544,
+        "total": 2544
+      },
+      "source_subjects": {
+        "bands": {
+          "excellent": 1074,
+          "mixed": 0,
+          "not_measured": 0,
+          "poor": 292,
+          "strong": 0,
+          "weak": 0
+        },
+        "graded": 1366,
+        "not_measured": 0,
+        "total": 1366
+      }
+    }
+  },
+  "limitations": [
+    "This evaluation covers the user-authorized derivative restricted to printed pages 1–425. The delivered index references beyond that common source scope were not evaluated.",
+    "The supplied source text matches the corresponding pages of the 2002 second edition. The exact file uploaded to the index producer was unavailable for byte-for-byte identity verification.",
+    "Density uses 194,718 indexable words from the exact imported source-discovery release. Historical chapter extraction methods vary; a separately authored evaluation uses a different word denominator and is not directly interchangeable.",
+    "Aggregate scores come from the authoritative V8 calculation, not reconstructed item grades.",
+    "Source excerpts and private layout evidence are excluded.",
+    "Exact percentage and weighted-contribution strings are authoritative; numeric rating and points aliases exist only for the established generic website adapter."
+  ],
+  "projection_id": "OHFR-V8-WEB-31C0608C494E",
+  "projection_role": "deterministic_public_safe_display_projection",
+  "projection_sha256": "00bec86c8bc7adecc9c95e0b6465cc3b3c57f3f844f9759ab72021fda332ed04",
+  "provenance": {
+    "benchmark_sha256": "1c2cb2be2a1ced77440da11dff032634f66cb40abc137d87c3211d4fa5de149a",
+    "calculation_sha256": "3fe497e60674ff1b0af4f3f3b9aaa57b8df2d3363f137947712290930f2eb8a1",
+    "correction_overlay_sha256": null,
+    "dimension_calculation_profile": "subject-index-dimension-calculation-v5",
+    "judgment_policy_sha256": "c25eb7c2e2799b9ee49c099c765447f030af9fa73fdba3178035b506c0950070",
+    "missing_access_audit_set_sha256": "14019b0cc184f5db7cc9f191b98021d0e3deb81f2d0af08e5f8724ab35c79862",
+    "projection_metadata_sha256": "763251852aacc9fa6f8010bfe3a4ccda804270a9f07c7d011e905d47d53578ab",
+    "rubric_version": "subject-index-rubric-v8",
+    "source_artifacts": [
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/candidate-index.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "candidate-index-v2",
+        "sha256": "c3c43837b93a65618b90c5434fde71f2981d48934b4a96c5cd5e5774527535cb"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/item-inventory.v2.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-inventory-v2",
+        "sha256": "e1af56ee7ccf31b92bbcdc6901da9d5ba7cd4c3b7534ce92a05ef6febc1020c3"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "b532e32b680e1a2b46a0f2d984d43a96ec52cde4f13d988f09b581b480316fb3"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "f62b24ee6d7dd084568e756880c13d6b25e456eab342c1e643f5bdb46b547651"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "5cf1698142863280509fabe0fdc9968678aeec3cb67118485f50f6844f7d5eb0"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "b34ec94aea16ad340a47accf1529b4d0a2095d8b3334d2253a81937514804aa0"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "094ed3357f3fc8669b3d0c178c2ec6b3ab6cee0406d5fb0c63acfa415d4812e4"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "908199f32ad18bfaf467200ab63b4b4cf6e60c35b9d455d9d1e93906ce8685ca"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "439a3c6eeb4eebf24ddcfcb84b06f29f895d194cdc422f9e45a2ef504da8cbb8"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "8b551eddda2b3ec660bf291e6b27fc7d1ffebd173b30588199bf0ad41be3451d"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "15e00d6b6bc0d0df90a7643e60290e703121ca5a9df2d8d007778fb754187bf8"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "731ec0912ccd9c7472c844226d836999dc15a5bfad19c8848f3469d47af216df"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "f1ee9d1e6956e96aa35b0119b47944e98cb1d410f55ec6d7f98ef5fd4b8e53aa"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "79d49bdeea48a5a74b069b0979a08fed01827f2805eb166c32414f5198da462a"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "bf5e1ca19d0aabcdb6e12b692b6090cc30904fb2c4a6ff0197d4e11109331d50"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "ab33e7ab6146e4dd77475b77c1326f8014397bbad1f517cb056e71654cb0b633"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "6d62379042b15c325c90b6d6e5550daf41c5b36f641df912c6f7e802ec5a28e0"
+      },
+      {
+        "artifact_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "missing-access-audit-v1",
+        "sha256": "ea976704173467bda7ef38097050023f585abeed8f695df3e08441e29e539860"
+      },
+      {
+        "artifact_path": "scoring/dimension-calculations.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-dimension-calculations-v6",
+        "sha256": "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+      },
+      {
+        "artifact_path": "scoring/evaluation-result.v12.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-evaluation-result-v12",
+        "sha256": "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+      },
+      {
+        "artifact_path": "scoring/item-assessments.v7.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-item-assessments-v7",
+        "sha256": "29f3ab8c5bba23ec9f6e73540444c2f5c5b67e39c02ec5ada0e17936d4c1f67b"
+      },
+      {
+        "artifact_path": "scoring/web-report.v10.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "subject-index-web-report-v10",
+        "sha256": "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9"
+      },
+      {
+        "artifact_path": "source/chunk-manifest.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "chunk-manifest-v1",
+        "sha256": "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396"
+      },
+      {
+        "artifact_path": "source/source-benchmark.v8-import.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "source-subject-benchmark-v2",
+        "sha256": "935719a250cdbbb69494aba2857ba22998848bf0829f209f68eefcd3884884b8"
+      },
+      {
+        "artifact_path": "structure/structure-audit.v6.json",
+        "availability": "canonical_registered_input",
+        "schema_version": "structure-audit-v6",
+        "sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0"
+      }
+    ],
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047"
+  },
+  "public_safety": {
+    "absolute_paths_included": false,
+    "private_layout_evidence_included": false,
+    "restricted_files_included": false,
+    "source_excerpts_included": false,
+    "source_subject_summaries_are_synthesized_not_quoted": true
+  },
+  "schema_version": "ohfr-v8-canonical-web-projection-v1",
+  "score_views": {
+    "canonical_source_adjustment_status": "none",
+    "projection_adjustment_status": "not_applicable",
+    "total_delta": 0,
+    "views": [
+      {
+        "critical_gates": [
+          {
+            "defect_ids": [],
+            "description": "fabricated, nonexistent, or out-of-scope locator",
+            "gate_id": "GATE-SCOPE-LOCATOR",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "systematic incidental or unsupported locator pattern",
+            "gate_id": "GATE-SYSTEMIC-UNSUPPORTED",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [
+              "DEFECT-CENTRAL-OMISSION-2B5A894F09C5",
+              "DEFECT-CENTRAL-OMISSION-30DAA1787938",
+              "DEFECT-CENTRAL-OMISSION-77B87F55CDDF",
+              "DEFECT-CENTRAL-OMISSION-BE2B454984A0"
+            ],
+            "description": "central subject or conclusion materially omitted",
+            "gate_id": "GATE-CENTRAL-OMISSION",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [
+              "DEFECT-STA-WS03-001"
+            ],
+            "description": "heading reverses or seriously misrepresents source stance",
+            "gate_id": "GATE-STANCE",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [],
+            "description": "compound heading locators support only separate components",
+            "gate_id": "GATE-COMPOUND",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "see source replaces a warranted substantive entry",
+            "gate_id": "GATE-SEE-SUBSTITUTION",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "unresolved, self-referential, circular, or chained cross-reference",
+            "gate_id": "GATE-CROSS-REFERENCE",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "third-level heading",
+            "gate_id": "GATE-DEPTH",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [
+              "DEFECT-04-ARCH-1793",
+              "DEFECT-04-ARCH-1794",
+              "DEFECT-04-ARCH-1795",
+              "DEFECT-04-ARCH-BRITTANY",
+              "DEFECT-04-ARCH-FRANCE",
+              "DEFECT-04-ARCH-LOCAL-AUTHORITIES",
+              "DEFECT-04-ARCH-MAGISTRATES",
+              "DEFECT-04-ARCH-VERSAILLES",
+              "DEFECT-HED-WS03-002",
+              "DEFECT-S01-SUB-14F0DB4C6B38",
+              "DEFECT-S01-SUB-240E4FAAA46E",
+              "DEFECT-S01-SUB-47CC1A480CDE",
+              "DEFECT-S01-SUB-49DDDC8E0E75",
+              "DEFECT-S01-SUB-50676A1DBD42",
+              "DEFECT-S01-SUB-5AD0E44DB12B",
+              "DEFECT-S01-SUB-6B2691B1DC4E",
+              "DEFECT-S01-SUB-71274CEB7EF8",
+              "DEFECT-S01-SUB-7241E6ECAA37",
+              "DEFECT-S01-SUB-7BC303AEC170",
+              "DEFECT-S01-SUB-7E649C7150DC",
+              "DEFECT-S01-SUB-7F9D8B6C8454",
+              "DEFECT-S01-SUB-8BA4AA57FEAC",
+              "DEFECT-S01-SUB-AC00E0CC5A7E",
+              "DEFECT-S01-SUB-B0FC407BBB0B",
+              "DEFECT-S01-SUB-C0B4385CBF99",
+              "DEFECT-S01-SUB-CFD2FB4E844F",
+              "DEFECT-S01-SUB-D0E1EB257907",
+              "DEFECT-S01-SUB-D823BA8C683F",
+              "DEFECT-S01-SUB-DC6A1E963135",
+              "DEFECT-S01-SUB-E12A75212ABA",
+              "DEFECT-S01-SUB-FD3943D62731",
+              "DEFECT-S01-SUB-FD60437CE316",
+              "DEFECT-S01-SUB-FEEBB86F4F36",
+              "DEFECT-STRUCT02-273E758304FF",
+              "DEFECT-STRUCT02-27C31AC62C5F",
+              "DEFECT-STRUCT02-6C4FAF231575",
+              "DEFECT-STRUCT02-81458A9419CD",
+              "DEFECT-STRUCT02-D857781B2325",
+              "DEFECT-SUB-WS03-001",
+              "DEFECT-SUB-WS03-002",
+              "DEFECT-SUB-WS03-003",
+              "DEFECT-SUB-WS03-004"
+            ],
+            "description": "systematic named-entity, example, or citation clutter",
+            "gate_id": "GATE-CLUTTER",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [
+              "DEFECT-STA-WS03-001"
+            ],
+            "description": "critical or major unresolved grounding",
+            "gate_id": "GATE-GROUNDING",
+            "standard": true,
+            "triggered": true
+          },
+          {
+            "defect_ids": [],
+            "description": "more than 1% of in-scope locator assignments uninspectable without a frozen alternative tolerance",
+            "gate_id": "GATE-UNINSPECTABLE",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "wrong source span",
+            "gate_id": "GATE-SOURCE-SPAN",
+            "standard": true,
+            "triggered": false
+          },
+          {
+            "defect_ids": [],
+            "description": "structurally invalid or incomplete output",
+            "gate_id": "GATE-STRUCTURE",
+            "standard": true,
+            "triggered": false
+          }
+        ],
+        "dimension_denominators": [
+          {
+            "components": [
+              {
+                "applicable": 1280,
+                "component_id": "priority_weighted_subject_access",
+                "defined_zero_rule": null,
+                "excluded": 86,
+                "exclusion_reasons": {
+                  "optional_not_frozen_as_scored": 86
+                },
+                "genuinely_inapplicable": false,
+                "measured": 1280,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1366,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "meaningful_coverage"
+          },
+          {
+            "components": [
+              {
+                "applicable": 12601,
+                "component_id": "substantive_selectivity",
+                "defined_zero_rule": null,
+                "excluded": 542,
+                "exclusion_reasons": {
+                  "absent_owned_by_reliability": 542
+                },
+                "genuinely_inapplicable": false,
+                "measured": 12601,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 13143,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1,
+                "component_id": "density_fit",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "editorial_selectivity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 2543,
+                "component_id": "conceptual_stance_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2543,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2543,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "conceptual_stance_fidelity"
+          },
+          {
+            "components": [
+              {
+                "applicable": 13143,
+                "component_id": "keep_precision",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 13143,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 13143,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 3210,
+                "component_id": "expected_treatment_recall",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 3210,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 3210,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "page_reference_reliability"
+          },
+          {
+            "components": [
+              {
+                "applicable": 888,
+                "component_id": "coverage_conditioned_reader_tasks",
+                "defined_zero_rule": null,
+                "excluded": 138,
+                "exclusion_reasons": {
+                  "excluded_due_to_missing_access": 138
+                },
+                "genuinely_inapplicable": false,
+                "measured": 888,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1026,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 2543,
+                "component_id": "heading_access_architecture",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2543,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2543,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              },
+              {
+                "applicable": 1,
+                "component_id": "cross_reference_validity",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 1,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 1,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "findability_navigation"
+          },
+          {
+            "components": [
+              {
+                "applicable": 2543,
+                "component_id": "mechanics_nodes",
+                "defined_zero_rule": null,
+                "excluded": 0,
+                "exclusion_reasons": {},
+                "genuinely_inapplicable": false,
+                "measured": 2543,
+                "measurement_coverage": "1",
+                "not_measured": 0,
+                "original": 2543,
+                "provisionally_scoreable": true,
+                "small_denominator_exception": false,
+                "uninspectable": 0,
+                "zero_due_to_non_attempt": false
+              }
+            ],
+            "dimension_id": "mechanics_consistency"
+          }
+        ],
+        "label": "Canonical as delivered",
+        "maximum": 100,
+        "provenance_artifacts": [
+          {
+            "artifact_path": "scoring/evaluation-result.v12.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-evaluation-result-v12",
+            "sha256": "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+          },
+          {
+            "artifact_path": "scoring/web-report.v10.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-web-report-v10",
+            "sha256": "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9"
+          },
+          {
+            "artifact_path": "scoring/dimension-calculations.v6.json",
+            "availability": "canonical_registered_input",
+            "schema_version": "subject-index-dimension-calculations-v6",
+            "sha256": "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+          }
+        ],
+        "readiness": {
+          "status": "not_publication_ready",
+          "triggered_gate_ids": [
+            "GATE-CENTRAL-OMISSION",
+            "GATE-STANCE",
+            "GATE-CLUTTER",
+            "GATE-GROUNDING"
+          ]
+        },
+        "role": "authoritative_primary_observation",
+        "score": 68.8,
+        "scorecard": [
+          {
+            "awarded_points": 8.0,
+            "dimension_id": "meaningful_coverage",
+            "dimension_percentage": "40",
+            "formula_id": "subject-index-dimension-calculation-v5:meaningful_coverage",
+            "maximum_points": 20,
+            "rating": 2.0,
+            "weight": 20,
+            "weighted_contribution": "8"
+          },
+          {
+            "awarded_points": 9.179257315615736,
+            "dimension_id": "editorial_selectivity",
+            "dimension_percentage": "61.19504877077157446436721079",
+            "formula_id": "subject-index-dimension-calculation-v5:editorial_selectivity",
+            "maximum_points": 15,
+            "rating": 3.059752438538579,
+            "weight": 15,
+            "weighted_contribution": "9.179257315615736169655081618"
+          },
+          {
+            "awarded_points": 12.0,
+            "dimension_id": "conceptual_stance_fidelity",
+            "dimension_percentage": "80",
+            "formula_id": "subject-index-dimension-calculation-v5:conceptual_stance_fidelity",
+            "maximum_points": 15,
+            "rating": 4.0,
+            "weight": 15,
+            "weighted_contribution": "12"
+          },
+          {
+            "awarded_points": 17.5,
+            "dimension_id": "page_reference_reliability",
+            "dimension_percentage": "70",
+            "formula_id": "subject-index-dimension-calculation-v5:page_reference_reliability",
+            "maximum_points": 25,
+            "rating": 3.5,
+            "weight": 25,
+            "weighted_contribution": "17.5"
+          },
+          {
+            "awarded_points": 17.132477601470917,
+            "dimension_id": "findability_navigation",
+            "dimension_percentage": "85.66238800735458226610409072",
+            "formula_id": "subject-index-dimension-calculation-v5:findability_navigation",
+            "maximum_points": 20,
+            "rating": 4.283119400367729,
+            "weight": 20,
+            "weighted_contribution": "17.13247760147091645322081814"
+          },
+          {
+            "awarded_points": 4.992036964215494,
+            "dimension_id": "mechanics_consistency",
+            "dimension_percentage": "99.84073928430987023200943767",
+            "formula_id": "subject-index-dimension-calculation-v5:mechanics_consistency",
+            "maximum_points": 5,
+            "rating": 4.992036964215494,
+            "weight": 5,
+            "weighted_contribution": "4.992036964215493511600471884"
+          }
+        ],
+        "view_id": "canonical_as_delivered",
+        "view_kind": "observed"
+      }
+    ]
+  },
+  "view_selection": {
+    "authoritative_view_id": "canonical_as_delivered",
+    "default_display_view_id": "canonical_as_delivered",
+    "display_view_rationale": "The canonical as-delivered result is authoritative.",
+    "primary_view_id": "canonical_as_delivered"
+  }
+}

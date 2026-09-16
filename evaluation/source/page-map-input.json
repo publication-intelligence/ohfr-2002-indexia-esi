@@ -1,0 +1,21 @@
+{
+  "schema_version": "page-map-input-v1",
+  "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+  "document_page_count": 425,
+  "segments": [
+    {
+      "mapping_id": "main-text",
+      "mode": "sequence",
+      "document_page_range": [
+        1,
+        425
+      ],
+      "label_style": "arabic",
+      "label_start": "1",
+      "prefix": "",
+      "suffix": "",
+      "in_evaluation_scope": true,
+      "accepts_index_locators": true
+    }
+  ]
+}
