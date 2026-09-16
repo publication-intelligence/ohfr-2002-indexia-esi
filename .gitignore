@@ -1,0 +1,9 @@
+**/*.pdf
+/indexia-public-page.html
+/candidate-layout-extraction.v1.json
+**/restricted/
+**/private/
+**/extracted-text/
+**/.evaluation.lock
+**/__pycache__/
+*.pyc
