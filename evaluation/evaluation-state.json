@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-16T13:02:02Z",
+  "updated_at": "2026-09-16T14:15:38Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -153,24 +153,24 @@
       ]
     },
     "structure_audit": {
-      "status": "not_started",
-      "updated_at": "2026-09-16T07:12:03Z",
+      "status": "completed",
+      "updated_at": "2026-09-16T13:37:44Z",
       "notes": [
-        "Invalidated by complete locator_audit batch replacement."
+        "Validated and registered the native V8 structure audit atomically."
       ]
     },
     "scoring": {
-      "status": "not_started",
-      "updated_at": "2026-09-16T07:12:03Z",
+      "status": "completed",
+      "updated_at": "2026-09-16T13:38:21Z",
       "notes": [
-        "Invalidated by complete locator_audit batch replacement."
+        "Assembled registered inputs, calculated V8 dimensions, and registered the validated V12 result atomically."
       ]
     },
     "web_report": {
-      "status": "not_started",
-      "updated_at": "2026-09-16T07:12:03Z",
+      "status": "completed",
+      "updated_at": "2026-09-16T14:15:38Z",
       "notes": [
-        "Invalidated by complete locator_audit batch replacement."
+        "Rebuilt and replaced the complete canonical public web projection bundle atomically."
       ]
     }
   },
@@ -969,6 +969,252 @@
       "recorded_at": "2026-09-16T05:23:53Z"
     },
     {
+      "artifact_id": "ART-B9C48FD4F994",
+      "stage": "scoring",
+      "artifact_type": "dimension_calculation_input",
+      "path": "scoring/dimension-calculation-input.v2.json",
+      "sha256": "8aeeccbdd48bade3ee6e30fbbc52ce66f6376096a14339343a1c0edaa9cb43d8",
+      "media_type": "application/json",
+      "schema_version": "subject-index-dimension-calculation-input-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:38:21Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "094ed3357f3fc8669b3d0c178c2ec6b3ab6cee0406d5fb0c63acfa415d4812e4",
+        "0a1249d52fbdfb58f2202d9e3d73d0e13593077f155798dc377abef297493157",
+        "0aee1dc67d8c7d1c3201a947aeb11972dc4e86f59db0f2784166c01b7f4eee1c",
+        "15e00d6b6bc0d0df90a7643e60290e703121ca5a9df2d8d007778fb754187bf8",
+        "2d72c3b731dc96611b0192070080f2e4e553e9cd13023bbd01aed50ef75315a4",
+        "34da4bc2ba8cfda641528f27199328043cfe8106eaca0214857293431fcc8ab8",
+        "3f0cf45e0a718166653363a08518f75294de54a7cb58f00e0c6853224c1de404",
+        "439a3c6eeb4eebf24ddcfcb84b06f29f895d194cdc422f9e45a2ef504da8cbb8",
+        "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af",
+        "5cf1698142863280509fabe0fdc9968678aeec3cb67118485f50f6844f7d5eb0",
+        "5e2d7143f2ecfabd13474690402dbae17a23bce6bb24690b999f99db9b43a414",
+        "607fcd9285c2083b7f96e05b62b911fddb27240ea54b97039cde3028995973a4",
+        "6083d985de309ba770a962c73a3d2fab67c054dfe5d18efab32b3f0848479911",
+        "6d62379042b15c325c90b6d6e5550daf41c5b36f641df912c6f7e802ec5a28e0",
+        "731ec0912ccd9c7472c844226d836999dc15a5bfad19c8848f3469d47af216df",
+        "771c1a8f42d2cf66d31857fbf98e1d7d21d0337e31859de3321b59a2e06afd61",
+        "795022fe57a0daae9e978778e4b817cc6f8439028722e6b72d0ac7e4aae01fa1",
+        "79d49bdeea48a5a74b069b0979a08fed01827f2805eb166c32414f5198da462a",
+        "86f0fa08bde7190436ab1c3a69df86a02c83d14b0ed2e71123c9317371f66d8b",
+        "8b551eddda2b3ec660bf291e6b27fc7d1ffebd173b30588199bf0ad41be3451d",
+        "908199f32ad18bfaf467200ab63b4b4cf6e60c35b9d455d9d1e93906ce8685ca",
+        "96f40217df65b2f758fd130455d6b568cc0519a64aab1683bc2ada0949334981",
+        "a6d67dce2838a2729c63ee40e9a45c37e6d07f10d740deb9700b6913aa73cb86",
+        "ab33e7ab6146e4dd77475b77c1326f8014397bbad1f517cb056e71654cb0b633",
+        "aedfd51415416908dd938be9dbed8b01640c207de671993fea0c1d0ee88f753e",
+        "b34ec94aea16ad340a47accf1529b4d0a2095d8b3334d2253a81937514804aa0",
+        "b532e32b680e1a2b46a0f2d984d43a96ec52cde4f13d988f09b581b480316fb3",
+        "bf5e1ca19d0aabcdb6e12b692b6090cc30904fb2c4a6ff0197d4e11109331d50",
+        "bfa3f0650277e107d263b3fc6ec28d7df196b4452971c284aef18506b84d21f7",
+        "d0638925c10702c924888917966918a182eeacf4ef014dfef6fda36fafa89680",
+        "ea976704173467bda7ef38097050023f585abeed8f695df3e08441e29e539860",
+        "eeb3fa815480d710da66a46da595d47aea4301c8717bff19bd62b1d6423d1190",
+        "f1ee9d1e6956e96aa35b0119b47944e98cb1d410f55ec6d7f98ef5fd4b8e53aa",
+        "f62b24ee6d7dd084568e756880c13d6b25e456eab342c1e643f5bdb46b547651",
+        "fccdd43a7d497aac5bb209ff457cd49afb1a4f1a0e546e5ff3aa5870b2bc5152"
+      ]
+    },
+    {
+      "artifact_id": "ART-EDB8FC4A1AD0",
+      "stage": "scoring",
+      "artifact_type": "dimension_calculations",
+      "path": "scoring/dimension-calculations.v6.json",
+      "sha256": "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577",
+      "media_type": "application/json",
+      "schema_version": "subject-index-dimension-calculations-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:38:21Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "094ed3357f3fc8669b3d0c178c2ec6b3ab6cee0406d5fb0c63acfa415d4812e4",
+        "0a1249d52fbdfb58f2202d9e3d73d0e13593077f155798dc377abef297493157",
+        "0aee1dc67d8c7d1c3201a947aeb11972dc4e86f59db0f2784166c01b7f4eee1c",
+        "15e00d6b6bc0d0df90a7643e60290e703121ca5a9df2d8d007778fb754187bf8",
+        "2d72c3b731dc96611b0192070080f2e4e553e9cd13023bbd01aed50ef75315a4",
+        "34da4bc2ba8cfda641528f27199328043cfe8106eaca0214857293431fcc8ab8",
+        "3f0cf45e0a718166653363a08518f75294de54a7cb58f00e0c6853224c1de404",
+        "439a3c6eeb4eebf24ddcfcb84b06f29f895d194cdc422f9e45a2ef504da8cbb8",
+        "5287f421e1e7be03444c2681beb1e1d63d5d103a96ab770565e32411956ce396",
+        "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af",
+        "5cf1698142863280509fabe0fdc9968678aeec3cb67118485f50f6844f7d5eb0",
+        "5e2d7143f2ecfabd13474690402dbae17a23bce6bb24690b999f99db9b43a414",
+        "607fcd9285c2083b7f96e05b62b911fddb27240ea54b97039cde3028995973a4",
+        "6083d985de309ba770a962c73a3d2fab67c054dfe5d18efab32b3f0848479911",
+        "6d62379042b15c325c90b6d6e5550daf41c5b36f641df912c6f7e802ec5a28e0",
+        "731ec0912ccd9c7472c844226d836999dc15a5bfad19c8848f3469d47af216df",
+        "771c1a8f42d2cf66d31857fbf98e1d7d21d0337e31859de3321b59a2e06afd61",
+        "795022fe57a0daae9e978778e4b817cc6f8439028722e6b72d0ac7e4aae01fa1",
+        "79d49bdeea48a5a74b069b0979a08fed01827f2805eb166c32414f5198da462a",
+        "86f0fa08bde7190436ab1c3a69df86a02c83d14b0ed2e71123c9317371f66d8b",
+        "8b551eddda2b3ec660bf291e6b27fc7d1ffebd173b30588199bf0ad41be3451d",
+        "908199f32ad18bfaf467200ab63b4b4cf6e60c35b9d455d9d1e93906ce8685ca",
+        "96f40217df65b2f758fd130455d6b568cc0519a64aab1683bc2ada0949334981",
+        "a6d67dce2838a2729c63ee40e9a45c37e6d07f10d740deb9700b6913aa73cb86",
+        "ab33e7ab6146e4dd77475b77c1326f8014397bbad1f517cb056e71654cb0b633",
+        "aedfd51415416908dd938be9dbed8b01640c207de671993fea0c1d0ee88f753e",
+        "b34ec94aea16ad340a47accf1529b4d0a2095d8b3334d2253a81937514804aa0",
+        "b532e32b680e1a2b46a0f2d984d43a96ec52cde4f13d988f09b581b480316fb3",
+        "bf5e1ca19d0aabcdb6e12b692b6090cc30904fb2c4a6ff0197d4e11109331d50",
+        "bfa3f0650277e107d263b3fc6ec28d7df196b4452971c284aef18506b84d21f7",
+        "d0638925c10702c924888917966918a182eeacf4ef014dfef6fda36fafa89680",
+        "ea976704173467bda7ef38097050023f585abeed8f695df3e08441e29e539860",
+        "eeb3fa815480d710da66a46da595d47aea4301c8717bff19bd62b1d6423d1190",
+        "f1ee9d1e6956e96aa35b0119b47944e98cb1d410f55ec6d7f98ef5fd4b8e53aa",
+        "f62b24ee6d7dd084568e756880c13d6b25e456eab342c1e643f5bdb46b547651",
+        "fccdd43a7d497aac5bb209ff457cd49afb1a4f1a0e546e5ff3aa5870b2bc5152"
+      ]
+    },
+    {
+      "artifact_id": "ART-CDD00A21D7EE",
+      "stage": "scoring",
+      "artifact_type": "evaluation_result",
+      "path": "scoring/evaluation-result.v12.json",
+      "sha256": "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171",
+      "media_type": "application/json",
+      "schema_version": "subject-index-evaluation-result-v12",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:38:21Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "29f3ab8c5bba23ec9f6e73540444c2f5c5b67e39c02ec5ada0e17936d4c1f67b",
+        "9feb4215d8b523ae95258dec34c7e30908e8b1944ad15efe03e128147bc97904",
+        "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+      ]
+    },
+    {
+      "artifact_id": "ART-40D4E5361176",
+      "stage": "scoring",
+      "artifact_type": "item_assessments",
+      "path": "scoring/item-assessments.v7.json",
+      "sha256": "29f3ab8c5bba23ec9f6e73540444c2f5c5b67e39c02ec5ada0e17936d4c1f67b",
+      "media_type": "application/json",
+      "schema_version": "subject-index-item-assessments-v7",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:38:21Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "e1af56ee7ccf31b92bbcdc6901da9d5ba7cd4c3b7534ce92a05ef6febc1020c3",
+        "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+      ]
+    },
+    {
+      "artifact_id": "ART-1FEBE644CEC9",
+      "stage": "scoring",
+      "artifact_type": "projection_metadata",
+      "path": "scoring/projection-metadata.v2.json",
+      "sha256": "9feb4215d8b523ae95258dec34c7e30908e8b1944ad15efe03e128147bc97904",
+      "media_type": "application/json",
+      "schema_version": "subject-index-v8-projection-metadata-v2",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:38:21Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+      ]
+    },
+    {
+      "artifact_id": "ART-0F898401017C",
+      "stage": "web_report",
+      "artifact_type": "web_density",
+      "path": "scoring/v8-canonical-projection/data/density.v1.json",
+      "sha256": "2f8025996cfdf4651071f3718c5415c63144c176c615e41dc774883ed14ca2cf",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T14:15:38Z",
+      "input_sha256": [
+        "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9",
+        "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+      ]
+    },
+    {
+      "artifact_id": "ART-06D585B26A9D",
+      "stage": "web_report",
+      "artifact_type": "web_index_records",
+      "path": "scoring/v8-canonical-projection/data/index-records.v1.json",
+      "sha256": "49803eb3966c5c60b2d145df782df48fd0b7919a18f5135694ebf3fce78aadbd",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T14:15:38Z",
+      "input_sha256": [
+        "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9",
+        "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+      ]
+    },
+    {
+      "artifact_id": "ART-224FB4D56B24",
+      "stage": "web_report",
+      "artifact_type": "web_source_subjects",
+      "path": "scoring/v8-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "7ea4859c6a814e361566c7d1f4f3bdf761586a3c578ef4a9230c2443a30f530f",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-web-collection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T14:15:38Z",
+      "input_sha256": [
+        "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9",
+        "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+      ]
+    },
+    {
+      "artifact_id": "ART-BB4A5C27ED78",
+      "stage": "web_report",
+      "artifact_type": "web_projection",
+      "path": "scoring/v8-canonical-projection/projection.v1.json",
+      "sha256": "1f2f867d3f2ce5ad4da959d6b160d5a9cc8e7e0cee04f5ebaa4935ea73e1b983",
+      "media_type": "application/json",
+      "schema_version": "ohfr-v8-canonical-web-projection-v1",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T14:15:38Z",
+      "input_sha256": [
+        "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9",
+        "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171"
+      ]
+    },
+    {
+      "artifact_id": "ART-36B2D1F84F3A",
+      "stage": "web_report",
+      "artifact_type": "web_report",
+      "path": "scoring/web-report.v10.json",
+      "sha256": "6f1299278b69f49ac26a7f49ea057b521d279ad475ff44b59f8f7b645cf119f9",
+      "media_type": "application/json",
+      "schema_version": "subject-index-web-report-v10",
+      "visibility": "public",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T14:15:38Z",
+      "input_sha256": [
+        "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+        "29f3ab8c5bba23ec9f6e73540444c2f5c5b67e39c02ec5ada0e17936d4c1f67b",
+        "9feb4215d8b523ae95258dec34c7e30908e8b1944ad15efe03e128147bc97904",
+        "c165e2981f3cb0ab725d83d363510d94c5f8d9aef56ba17340f149422318b171",
+        "e3e9b2c1286f2e169078eb744e0cc036a9c4cc70e041d2ce509df5082c21e577"
+      ]
+    },
+    {
       "artifact_id": "ART-493F1BBD1F10",
       "stage": "chunk_definition",
       "artifact_type": "chunk_manifest",
@@ -1458,6 +1704,23 @@
       "recorded_at": "2026-09-16T05:23:53Z"
     },
     {
+      "artifact_id": "ART-B7452CA56D24",
+      "stage": "structure_audit",
+      "artifact_type": "structure_audit",
+      "path": "structure/structure-audit.v6.json",
+      "sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+      "media_type": "application/json",
+      "schema_version": "structure-audit-v6",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T13:37:44Z",
+      "input_sha256": [
+        "c3c43837b93a65618b90c5434fde71f2981d48934b4a96c5cd5e5774527535cb",
+        "e1af56ee7ccf31b92bbcdc6901da9d5ba7cd4c3b7534ce92a05ef6febc1020c3"
+      ]
+    },
+    {
       "artifact_id": "ART-CDD44B23D6DD",
       "stage": "benchmark_freeze",
       "artifact_type": "benchmark_compatibility_import_provenance",
@@ -1487,7 +1750,7 @@
   "blockers": [],
   "coordination": {
     "coordinator_thread_id": "01a0a8a0-2c20-7913-9eed-cd7021d65316",
-    "evaluator_commit": "3a7fc0e1bb3e388b489642e9750619ef78ae4d5a",
+    "evaluator_commit": "765adc3e1ca7fbb03471072c1c37345f5151d5c3",
     "delegated_tasks": [
       {
         "thread_id": "01a0a8a1-4c8f-7b33-aec7-6c05cbb36601",
@@ -1772,228 +2035,244 @@
         "title": "Indexia W4 missing access — CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-001",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-001 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-001/missing-access-audit.CHUNK-001.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-001/missing-access-audit.CHUNK-001.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json",
         "review_note": "Dauphiné qualifier resolved as usable treatment with impaired lookup; root read sourcep8. Full explicit task rationales and stance separation requested after reviewing subject map.",
-        "reviewed_sha256": "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af"
+        "reviewed_sha256": "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-702b-7c53-8958-91b94894b4fd",
         "title": "Indexia W4 missing access — CHUNK-002",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-002",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-002 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-002/missing-access-audit.CHUNK-002.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-002/missing-access-audit.CHUNK-002.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-002.json",
         "review_note": "Subject decision map inspected; requested explicit task-question map and stance/first-lookup review instead of defaults.",
-        "reviewed_sha256": "b532e32b680e1a2b46a0f2d984d43a96ec52cde4f13d988f09b581b480316fb3"
+        "reviewed_sha256": "b532e32b680e1a2b46a0f2d984d43a96ec52cde4f13d988f09b581b480316fb3",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-806e-7dd2-a2ad-6619da688661",
         "title": "Indexia W4 missing access — CHUNK-003",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-003",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-003 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-003/missing-access-audit.CHUNK-003.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-003/missing-access-audit.CHUNK-003.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-003.json",
         "reviewed_sha256": "f62b24ee6d7dd084568e756880c13d6b25e456eab342c1e643f5bdb46b547651",
         "review_note": "Substantive acceptance preserved; reopened only to label wholly absent route stance not_applicable, remove unsupported STA codes, validate exact metadata delta.",
-        "archive_reason": "Completed accepted work, full private authored/build evidence and QA copied; coordinator verified current hashes and material findings. No useful output remains only in chat."
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-91f1-72e3-8281-b3ad859d4dc5",
         "title": "Indexia W4 missing access — CHUNK-004",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-004",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-004 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-004/missing-access-audit.CHUNK-004.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-004/missing-access-audit.CHUNK-004.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-004.json",
         "review_note": "Final QA-C accepted exact hash; coordinator read complete QA and independently checked material corrected subject semantics. Full current batch registration remains pending.",
         "reviewed_sha256": "5cf1698142863280509fabe0fdc9968678aeec3cb67118485f50f6844f7d5eb0",
-        "archive_reason": "Completed accepted work, full private authored/build evidence and QA copied; coordinator verified current hashes and material findings. No useful output remains only in chat."
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-a245-7cc3-afc6-f155fe36b964",
         "title": "Indexia W4 missing access — CHUNK-005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-005",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-005 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-005/missing-access-audit.CHUNK-005.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-005/missing-access-audit.CHUNK-005.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-005.json",
         "reviewed_sha256": "b34ec94aea16ad340a47accf1529b4d0a2095d8b3334d2253a81937514804aa0",
         "review_note": "Substantive acceptance preserved; reopened only to label wholly absent route stance not_applicable, remove unsupported STA codes, validate exact metadata delta.",
-        "archive_reason": "Completed accepted work, full private authored/build evidence and QA copied; coordinator verified current hashes and material findings. No useful output remains only in chat."
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-b7c5-7950-8ef2-2748833d6445",
         "title": "Indexia W4 missing access — CHUNK-006",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-006",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-006 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-006/missing-access-audit.CHUNK-006.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-006/missing-access-audit.CHUNK-006.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-006.json",
         "review_note": "Rejected hardcoded16 task successes and coverage/severity-derived stance. Explicit question-specific review and separate stance requested; QA continues.",
-        "reviewed_sha256": "094ed3357f3fc8669b3d0c178c2ec6b3ab6cee0406d5fb0c63acfa415d4812e4"
+        "reviewed_sha256": "094ed3357f3fc8669b3d0c178c2ec6b3ab6cee0406d5fb0c63acfa415d4812e4",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-e845-7c51-a9f1-962fc0da2926",
         "title": "Indexia W4 missing access — CHUNK-007",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-007",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-007 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-007/missing-access-audit.CHUNK-007.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-007/missing-access-audit.CHUNK-007.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-007.json",
-        "reviewed_sha256": "908199f32ad18bfaf467200ab63b4b4cf6e60c35b9d455d9d1e93906ce8685ca"
+        "reviewed_sha256": "908199f32ad18bfaf467200ab63b4b4cf6e60c35b9d455d9d1e93906ce8685ca",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-fa9b-7611-8735-6da8f7a64a29",
         "title": "Indexia W4 missing access — CHUNK-008",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-008",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-008 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-008/missing-access-audit.CHUNK-008.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-008/missing-access-audit.CHUNK-008.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-008.json",
-        "reviewed_sha256": "439a3c6eeb4eebf24ddcfcb84b06f29f895d194cdc422f9e45a2ef504da8cbb8"
+        "reviewed_sha256": "439a3c6eeb4eebf24ddcfcb84b06f29f895d194cdc422f9e45a2ef504da8cbb8",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-093a-7c93-91c0-4d9abce1aa3f",
         "title": "Indexia W4 missing access — CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-009",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-009 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-009/missing-access-audit.CHUNK-009.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-009/missing-access-audit.CHUNK-009.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-009.json",
         "review_note": "Rejected threshold-generated path selections and task results; complete explicit semantic re-audit requested. Handoff claimed authored decisions but implementation did not support claim. Second revision rejected: task-history inspection proves authored-review map was generated from rejected draft outcomes with generic prose. Original owner resumed for actual full semantic review; deleted generation script preserved as rejected evidence.",
-        "reviewed_sha256": "8b551eddda2b3ec660bf291e6b27fc7d1ffebd173b30588199bf0ad41be3451d"
+        "reviewed_sha256": "8b551eddda2b3ec660bf291e6b27fc7d1ffebd173b30588199bf0ad41be3451d",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-1ea2-7042-9540-35a27221b1f8",
         "title": "Indexia W4 missing access — CHUNK-010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-010",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-010 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-010/missing-access-audit.CHUNK-010.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-010/missing-access-audit.CHUNK-010.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-010.json",
-        "reviewed_sha256": "15e00d6b6bc0d0df90a7643e60290e703121ca5a9df2d8d007778fb754187bf8"
+        "reviewed_sha256": "15e00d6b6bc0d0df90a7643e60290e703121ca5a9df2d8d007778fb754187bf8",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-2e00-7030-887d-a166e6ef19b1",
         "title": "Indexia W4 missing access — CHUNK-011",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-011",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-011 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-011/missing-access-audit.CHUNK-011.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-011/missing-access-audit.CHUNK-011.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-011.json",
-        "reviewed_sha256": "731ec0912ccd9c7472c844226d836999dc15a5bfad19c8848f3469d47af216df"
+        "reviewed_sha256": "731ec0912ccd9c7472c844226d836999dc15a5bfad19c8848f3469d47af216df",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-3cf1-7be0-95d9-b618652ede1b",
         "title": "Indexia W4 missing access — CHUNK-012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-012",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-012 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-012/missing-access-audit.CHUNK-012.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-012/missing-access-audit.CHUNK-012.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-012.json",
-        "reviewed_sha256": "f1ee9d1e6956e96aa35b0119b47944e98cb1d410f55ec6d7f98ef5fd4b8e53aa"
+        "reviewed_sha256": "f1ee9d1e6956e96aa35b0119b47944e98cb1d410f55ec6d7f98ef5fd4b8e53aa",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-7e7b-7c31-adce-5a6a8fac69f7",
         "title": "Indexia W4 missing access — CHUNK-013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-013",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-013 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-013/missing-access-audit.CHUNK-013.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-013/missing-access-audit.CHUNK-013.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-013.json",
-        "reviewed_sha256": "79d49bdeea48a5a74b069b0979a08fed01827f2805eb166c32414f5198da462a"
+        "reviewed_sha256": "79d49bdeea48a5a74b069b0979a08fed01827f2805eb166c32414f5198da462a",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-8f0f-70a2-8475-6f7e556af65a",
         "title": "Indexia W4 missing access — CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-014",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-014 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-014/missing-access-audit.CHUNK-014.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-014/missing-access-audit.CHUNK-014.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-014.json",
         "review_note": "Builder inspected; rejected automatic >6 atomic locator lookup penalty and coverage-derived stance, requested explicit separate axes and substantive prose. Revision rejected: build_task_worksheet copied coverage-derived proposals for140tasks; materialization only inserted questions/labels into templates. Full144 actual question review and127 substantive route/axis rationales requested.",
-        "reviewed_sha256": "bf5e1ca19d0aabcdb6e12b692b6090cc30904fb2c4a6ff0197d4e11109331d50"
+        "reviewed_sha256": "bf5e1ca19d0aabcdb6e12b692b6090cc30904fb2c4a6ff0197d4e11109331d50",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-a0ef-7292-a9eb-18da86d7c29a",
         "title": "Indexia W4 missing access — CHUNK-015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-015",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-015 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-015/missing-access-audit.CHUNK-015.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-015/missing-access-audit.CHUNK-015.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-015.json",
-        "reviewed_sha256": "ab33e7ab6146e4dd77475b77c1326f8014397bbad1f517cb056e71654cb0b633"
+        "reviewed_sha256": "ab33e7ab6146e4dd77475b77c1326f8014397bbad1f517cb056e71654cb0b633",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-b039-77e1-90af-0bfbff2d098a",
         "title": "Indexia W4 missing access — CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-016",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-016 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-016/missing-access-audit.CHUNK-016.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-016/missing-access-audit.CHUNK-016.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-016.json",
         "review_note": "Builder inspected; requested exact-page filtered matched_path_ids and matched_locator_ids, explicit confidence review.",
-        "reviewed_sha256": "6d62379042b15c325c90b6d6e5550daf41c5b36f641df912c6f7e802ec5a28e0"
+        "reviewed_sha256": "6d62379042b15c325c90b6d6e5550daf41c5b36f641df912c6f7e802ec5a28e0",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a907-c2f3-78b0-be11-7b9205c7ecb0",
         "title": "Indexia W4 missing access — CHUNK-017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-017",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-017 workset; all owned subjects, reader tasks and treatments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-017/missing-access-audit.CHUNK-017.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-017/missing-access-audit.CHUNK-017.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-017.json",
         "review_note": "Builder and explicit maps read; exact per-route locator joins and separate stance/concept coverage review requested.",
-        "reviewed_sha256": "ea976704173467bda7ef38097050023f585abeed8f695df3e08441e29e539860"
+        "reviewed_sha256": "ea976704173467bda7ef38097050023f585abeed8f695df3e08441e29e539860",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a915-8c19-77c0-8500-2486b8d6bd12",
         "title": "Indexia W4 missing-access QA A — 007 and 010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-a",
         "responsibility": "Independent bounded review of completed missing-access audits007 and010; no ownership or edits",
-        "status": "active_final_review",
+        "status": "archived",
         "persisted_output": null,
-        "expected_output": "/tmp/indexia-missing-qa-a.md"
+        "expected_output": "/tmp/indexia-missing-qa-a.md",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a917-88f4-7cb3-b312-173c17e84256",
         "title": "Indexia W4 missing-access QA B — 006, 008, 015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-b",
         "responsibility": "Independent bounded review of completed missing-access006,008,015; no ownership or edits",
-        "status": "active_final_review",
+        "status": "archived",
         "persisted_output": null,
-        "expected_output": "/tmp/indexia-missing-qa-b.md"
+        "expected_output": "/tmp/indexia-missing-qa-b.md",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a918-8b3c-7631-a544-a137260d759b",
         "title": "Indexia W4 missing-access QA C — 003, 004, 005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-c",
         "responsibility": "Independent bounded review of completed missing-access 003, 004, 005; no ownership or edits",
-        "status": "active_bounded_stance_annotation_correction",
+        "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/indexia-resume-qa-c.md",
         "expected_output": "/tmp/indexia-missing-qa-c.md",
-        "archive_reason": "Completed accepted work, full private authored/build evidence and QA copied; coordinator verified current hashes and material findings. No useful output remains only in chat.",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat.",
         "review_note": "Substantive acceptance preserved; reopened only to label wholly absent route stance not_applicable, remove unsupported STA codes, validate exact metadata delta."
       },
       {
@@ -2001,69 +2280,106 @@
         "title": "Indexia W4 missing-access QA D — 011, 012, 013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-d",
         "responsibility": "Independent bounded review of completed missing-access 011, 012, 013; no ownership or edits",
-        "status": "active_final_review",
+        "status": "archived",
         "persisted_output": null,
-        "expected_output": "/tmp/indexia-missing-qa-d.md"
+        "expected_output": "/tmp/indexia-missing-qa-d.md",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa3f-2f1e-7b81-9863-88557d86a755",
         "title": "Indexia density denominator verification",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-density-verification",
         "responsibility": "Independent source-word discrepancy and Indexia chapter numerator verification; read-only, no structure judgments",
-        "status": "accepted_pending_archive",
+        "status": "archived",
         "persisted_output": "validation/density-denominator-verification.md",
         "expected_output": "/tmp/indexia-density-verification.md",
         "data_output": "validation/restricted/density-measurements.json",
-        "review_note": "Coordinator read full report, independently verified all17 frozen source chunk hashes/word totals and all17 locator numerator counts."
+        "review_note": "Coordinator read full report, independently verified all17 frozen source chunk hashes/word totals and all17 locator numerator counts.",
+        "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa50-d19f-73e2-a889-16d47e73bd83",
         "title": "Indexia W5 structure review 01",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-structure-01",
         "responsibility": "Exclusive full node and triggered-path structure workset01; native components, no canonical mutation",
-        "status": "active",
-        "persisted_output": null,
+        "status": "archived",
+        "persisted_output": "validation/restricted/structure-review/01/structure-components.json",
         "expected_output": "/tmp/indexia-structure-01/structure-components.json",
-        "workset_path": "validation/restricted/structure-worksets/structure-workset.01.json"
+        "workset_path": "validation/restricted/structure-worksets/structure-workset.01.json",
+        "review_note": "Complete output, authored decisions, serializer, and handoff preserved. Root reviewed every adverse node and inspected path-specific authored trigger decisions; exact native whole-ledger validation pending final integration.",
+        "output_sha256": "74fd4ecae84317f3d5b0cf3037fc9940279f1254ff8ede4e39deadced96c318a",
+        "archive_reason": "Complete authored decisions, native components, serializers and handoffs preserved privately; root accepted calibrated judgments and validated the whole ledger before typed registration. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa50-e11f-7323-a62b-9c673afb9e53",
         "title": "Indexia W5 structure review 02",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-structure-02",
         "responsibility": "Exclusive full node and triggered-path structure workset02; native components, no canonical mutation",
-        "status": "active",
-        "persisted_output": null,
+        "status": "archived",
+        "persisted_output": "validation/restricted/structure-review/02/structure-components.json",
         "expected_output": "/tmp/indexia-structure-02/structure-components.json",
-        "workset_path": "validation/restricted/structure-worksets/structure-workset.02.json"
+        "workset_path": "validation/restricted/structure-worksets/structure-workset.02.json",
+        "review_note": "Root inspected all636 heading names, every revised adverse node, and authored trigger decisions. Owner fixed shifted boolean/prose serialization, separated misassigned locators from valid-path subdivision, and added evidenced name-filing exceptions. Complete evidence, builder, and validators preserved privately.",
+        "output_sha256": "3107516f74a7e4628469b0f82e48397f71db0100d618cf8281c038ebd82ff13e",
+        "archive_reason": "Complete authored decisions, native components, serializers and handoffs preserved privately; root accepted calibrated judgments and validated the whole ledger before typed registration. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa50-f3da-7613-b8ff-ccf43f6c8536",
         "title": "Indexia W5 structure review 03",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-structure-03",
         "responsibility": "Exclusive full node and triggered-path structure workset03; native components, no canonical mutation",
-        "status": "active",
-        "persisted_output": null,
+        "status": "archived",
+        "persisted_output": "validation/restricted/structure-review/03/structure-components.json",
         "expected_output": "/tmp/indexia-structure-03/structure-components.json",
-        "workset_path": "validation/restricted/structure-worksets/structure-workset.03.json"
+        "workset_path": "validation/restricted/structure-worksets/structure-workset.03.json",
+        "review_note": "Complete output, authored decisions, serializer, validators and handoff preserved. Root inspected node exceptions and path-specific trigger decisions; owner preserved specific public causal reasoning and fixed native range endpoints after root QA. Whole-ledger schema, semantics, inventory and provenance preflight passed. Root challenged critical centrality; reviewer confirmed no frozen central-argument basis and revised Russia stance defect to major, preserving failed node statuses and specific evidence.",
+        "output_sha256": "b12c392c410fbd305e2619f89cfaf8476419346f132b8a96afafde96f23cf654",
+        "archive_reason": "Complete authored decisions, native components, serializers and handoffs preserved privately; root accepted calibrated judgments and validated the whole ledger before typed registration. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa51-0696-7ce1-a0bb-17ba91e6ad8e",
         "title": "Indexia W5 structure review 04",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-structure-04",
         "responsibility": "Exclusive full node and triggered-path structure workset04; native components, no canonical mutation",
-        "status": "active",
-        "persisted_output": null,
+        "status": "archived",
+        "persisted_output": "validation/restricted/structure-review/04/structure-components.json",
         "expected_output": "/tmp/indexia-structure-04/structure-components.json",
-        "workset_path": "validation/restricted/structure-worksets/structure-workset.04.json"
+        "workset_path": "validation/restricted/structure-worksets/structure-workset.04.json",
+        "review_note": "Complete output, authored decisions, serializer, and handoff preserved. Root reviewed every adverse node, all confirmed trigger rationales, and year-route decisions; owner corrected1793–1795 after root calibration. Exact native whole-ledger validation pending final integration.",
+        "output_sha256": "1e1032547b154b78e3f2cab58e721ce2cee72e173815182cb2eab4829c99043b",
+        "archive_reason": "Complete authored decisions, native components, serializers and handoffs preserved privately; root accepted calibrated judgments and validated the whole ledger before typed registration. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0aa53-1cf5-7402-9699-6ae80c23801f",
         "title": "Indexia W5 global scoring context review",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-structure-context",
         "responsibility": "Cross-reference obligations, optional scoring policy, global omissions and applicability; no node/trigger duplicate judgments",
-        "status": "active",
-        "persisted_output": null,
-        "expected_output": "/tmp/indexia-structure-context/context-proposal.json"
+        "status": "archived",
+        "persisted_output": "validation/restricted/structure-review/context/context-proposal.json",
+        "expected_output": "/tmp/indexia-structure-context/context-proposal.json",
+        "review_note": "Coordinator read complete independent report and final proposal, verified five underlying finalized subject judgments, accepted global applicability and four central-omission declarations pending integrated validation.",
+        "archive_reason": "Completed proposal and complete review preserved privately; coordinator independently verified the relevant finalized subject judgments. No useful result remains only in chat."
+      },
+      {
+        "thread_id": "01a0aa74-703a-74f1-9beb-066fccb155ed",
+        "title": "Indexia final report independent analysis",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-final-report-analysis",
+        "responsibility": "Independent read-only final arithmetic, report, projection, density and public-safety analysis; no judgment rewrites",
+        "status": "archived",
+        "expected_output": "/tmp/indexia-final-report-review.md",
+        "persisted_output": "validation/final-report-acceptance.md",
+        "private_checks": "validation/restricted/final-report-review/final-acceptance.json",
+        "archive_reason": "Original findings, revised compatibility interpretation, code reviews, and final hash-bound acceptance preserved. Root read full results, verified final report/projection hashes and unchanged scoring, and ran actual website parsers. No useful output remains only in chat."
+      },
+      {
+        "thread_id": "01a0aa7b-eea6-7882-b7a7-2ce6a246a2bf",
+        "title": "Indexia final percentage projection fix",
+        "worktree": "/tmp/indexia-v8-report-fix",
+        "responsibility": "Minimal isolated evaluator fix for percentage-preserving public projection; tested commit for root review, no audit changes",
+        "status": "archived",
+        "persisted_output": "validation/restricted/final-report-review/runtime-fix-handoff.md",
+        "expected_output": "/tmp/indexia-v8-report-fix/HANDOFF.md",
+        "archive_reason": "Reviewed code committed and pushed to evaluator PR46; complete handoff, final diff, and test outputs preserved privately. Root synchronized104 installed files, rebuilt the actual report, verified unchanged scoring/audits/collections, and checked existing website parsers. No useful output remains only in chat."
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
@@ -2096,9 +2412,11 @@
     "resume_working_evidence_path": "validation/restricted/missing-access-resume",
     "resume_checks": {
       "state_validation": "passed_no_warnings",
-      "runtime_alignment": "104 installed skill files exactly match reviewed 3a7fc0e1bb3e388b489642e9750619ef78ae4d5a",
+      "runtime_alignment": "104 installed skill files exactly match reviewed765adc3e1ca7fbb03471072c1c37345f5151d5c3;131 evaluator tests and20 utility tests pass",
       "missing_batch_validation": "17 chunks, 1366 subjects, 1026 reader tasks, 3210 treatments; passed before semantic corrections",
-      "remaining_semantic_review": "Independent concept/direct-access review for 001,006,007,008,009,010,014,016; exact-treatment correction review for012; four existing QA tasks reviewing disjoint groups."
+      "remaining_semantic_review": "None. All audits, structure, scoring, reporting, independent final acceptance and generic website contract checks are complete.",
+      "final_report_acceptance": "validation/final-report-acceptance.md: accepted with no material findings; all113 registered hashes verified; final score68.80 unchanged.",
+      "reporting_pr_checks": "Evaluator PR46 at765adc3: both validate checks passed."
     },
     "density_denominator": {
       "indexable_source_words": 194718,
@@ -2117,6 +2435,12 @@
       "nodes": 2543,
       "triggered_paths": 416,
       "all_nodes_and_triggered_paths_owned_exactly_once": true
-    }
+    },
+    "scoring_evaluator_commit": "3a7fc0e1bb3e388b489642e9750619ef78ae4d5a",
+    "reporting_evaluator_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/46",
+    "reporting_evaluator_commits": [
+      "d9f3ff16ecd78449deedc516b135f70e2c6ada67",
+      "765adc3e1ca7fbb03471072c1c37345f5151d5c3"
+    ]
   }
 }

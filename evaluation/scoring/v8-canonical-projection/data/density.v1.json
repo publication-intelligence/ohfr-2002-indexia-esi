@@ -1,0 +1,584 @@
+{
+  "collection_kind": "density",
+  "collection_sha256": "e60ca3117c8912d6e6c080dfeb41e086ed3025fe9de5ce4cd674041dae4f97cc",
+  "count": 17,
+  "fit_percentage": "4.091455335408128678396450251",
+  "fit_rating": 0.20457276677040642,
+  "items": [
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-001",
+      "indexable_source_words": 19778,
+      "locator_bearing_heading_paths": 578,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 1079,
+      "occurrence_rate_per_1000_words": 54.555566791384365,
+      "owned_document_page_ranges": [
+        [
+          1,
+          43
+        ]
+      ],
+      "path_rate_per_1000_words": 29.224390737182727,
+      "source_order": 0,
+      "source_units": [
+        "Chapter 1"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-001.v2.json",
+      "source_word_count_artifact_sha256": "8bc6f13b0caf691e342232b6a9544da36889fa1bff41570581c728bf75c35fab",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "1. France under Louis XVI"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-002",
+      "indexable_source_words": 10088,
+      "locator_bearing_heading_paths": 390,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 579,
+      "occurrence_rate_per_1000_words": 57.3949246629659,
+      "owned_document_page_ranges": [
+        [
+          44,
+          65
+        ]
+      ],
+      "path_rate_per_1000_words": 38.65979381443299,
+      "source_order": 1,
+      "source_units": [
+        "Chapter 2"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+      "source_word_count_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "2. Enlightened Opinion"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-003",
+      "indexable_source_words": 9090,
+      "locator_bearing_heading_paths": 322,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 676,
+      "occurrence_rate_per_1000_words": 74.36743674367436,
+      "owned_document_page_ranges": [
+        [
+          66,
+          85
+        ]
+      ],
+      "path_rate_per_1000_words": 35.42354235423542,
+      "source_order": 2,
+      "source_units": [
+        "Chapter 3"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-003.json",
+      "source_word_count_artifact_sha256": "d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "3. Crisis and Collapse, 1776-1788"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-004",
+      "indexable_source_words": 11987,
+      "locator_bearing_heading_paths": 405,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 839,
+      "occurrence_rate_per_1000_words": 69.99249186618837,
+      "owned_document_page_ranges": [
+        [
+          86,
+          111
+        ]
+      ],
+      "path_rate_per_1000_words": 33.786602152331696,
+      "source_order": 3,
+      "source_units": [
+        "Chapter 4"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-004.json",
+      "source_word_count_artifact_sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "4. The Estates-General, September 1788-July 1789"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-005",
+      "indexable_source_words": 10384,
+      "locator_bearing_heading_paths": 450,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 831,
+      "occurrence_rate_per_1000_words": 80.02696456086287,
+      "owned_document_page_ranges": [
+        [
+          112,
+          135
+        ]
+      ],
+      "path_rate_per_1000_words": 43.335901386748844,
+      "source_order": 4,
+      "source_units": [
+        "Chapter 5"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+      "source_word_count_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "5. The Principles of 1789 and the Reform of France"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-006",
+      "indexable_source_words": 10356,
+      "locator_bearing_heading_paths": 424,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 820,
+      "occurrence_rate_per_1000_words": 79.18115102356123,
+      "owned_document_page_ranges": [
+        [
+          136,
+          158
+        ]
+      ],
+      "path_rate_per_1000_words": 40.942448821938974,
+      "source_order": 5,
+      "source_units": [
+        "Chapter 6"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-006.json",
+      "source_word_count_artifact_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "6. The Breakdown of the Revolutionary Consensus, 1790-1791"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-007",
+      "indexable_source_words": 6561,
+      "locator_bearing_heading_paths": 315,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 523,
+      "occurrence_rate_per_1000_words": 79.71345831428135,
+      "owned_document_page_ranges": [
+        [
+          159,
+          173
+        ]
+      ],
+      "path_rate_per_1000_words": 48.010973936899866,
+      "source_order": 6,
+      "source_units": [
+        "Chapter 7"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-007.json",
+      "source_word_count_artifact_sha256": "4ebc488a36d366a557ae8730c6d384f11e9eea3ef8dcd361febb352ad62d0662",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "7. Europe and the Revolution, 1788-1791"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-008",
+      "indexable_source_words": 10909,
+      "locator_bearing_heading_paths": 411,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 863,
+      "occurrence_rate_per_1000_words": 79.10899257493813,
+      "owned_document_page_ranges": [
+        [
+          174,
+          196
+        ]
+      ],
+      "path_rate_per_1000_words": 37.67531396094967,
+      "source_order": 7,
+      "source_units": [
+        "Chapter 8"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+      "source_word_count_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "8. The Republican Revolution, October 1791-January 1793"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-009",
+      "indexable_source_words": 10537,
+      "locator_bearing_heading_paths": 414,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 804,
+      "occurrence_rate_per_1000_words": 76.30255290879757,
+      "owned_document_page_ranges": [
+        [
+          197,
+          219
+        ]
+      ],
+      "path_rate_per_1000_words": 39.29012052766442,
+      "source_order": 8,
+      "source_units": [
+        "Chapter 9"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-009.json",
+      "source_word_count_artifact_sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "9. War against Europe, 1792-1797"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-010",
+      "indexable_source_words": 12192,
+      "locator_bearing_heading_paths": 399,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 957,
+      "occurrence_rate_per_1000_words": 78.49409448818898,
+      "owned_document_page_ranges": [
+        [
+          220,
+          246
+        ]
+      ],
+      "path_rate_per_1000_words": 32.726377952755904,
+      "source_order": 9,
+      "source_units": [
+        "Chapter 10"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-010.json",
+      "source_word_count_artifact_sha256": "6eb423e3b3aa03d4fdf4042fececfd6c5b3400d4e5f0001273c8eba796eddcff",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "10. The Revolt of the Provinces"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-011",
+      "indexable_source_words": 11621,
+      "locator_bearing_heading_paths": 397,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 949,
+      "occurrence_rate_per_1000_words": 81.6625075294725,
+      "owned_document_page_ranges": [
+        [
+          247,
+          271
+        ]
+      ],
+      "path_rate_per_1000_words": 34.1622924016866,
+      "source_order": 10,
+      "source_units": [
+        "Chapter 11"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+      "source_word_count_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "11. Government by Terror, 1793-1794"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-012",
+      "indexable_source_words": 11603,
+      "locator_bearing_heading_paths": 357,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 831,
+      "occurrence_rate_per_1000_words": 71.61940877359304,
+      "owned_document_page_ranges": [
+        [
+          272,
+          296
+        ]
+      ],
+      "path_rate_per_1000_words": 30.7679048521934,
+      "source_order": 11,
+      "source_units": [
+        "Chapter 12"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-012.json",
+      "source_word_count_artifact_sha256": "074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "12. Thermidor, 1794-1795"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "0",
+        "occurrence_fit_percentage": "0",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "0"
+      },
+      "chunk_id": "CHUNK-013",
+      "indexable_source_words": 9810,
+      "locator_bearing_heading_paths": 314,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 679,
+      "occurrence_rate_per_1000_words": 69.2150866462793,
+      "owned_document_page_ranges": [
+        [
+          297,
+          317
+        ]
+      ],
+      "path_rate_per_1000_words": 32.00815494393476,
+      "source_order": 12,
+      "source_units": [
+        "Chapter 13"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-013.json",
+      "source_word_count_artifact_sha256": "b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "13. Counter-Revolution, 1789-1795"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-014",
+      "indexable_source_words": 10836,
+      "locator_bearing_heading_paths": 276,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 563,
+      "occurrence_rate_per_1000_words": 51.956441491325215,
+      "owned_document_page_ranges": [
+        [
+          318,
+          340
+        ]
+      ],
+      "path_rate_per_1000_words": 25.47065337763012,
+      "source_order": 13,
+      "source_units": [
+        "Chapter 14"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-014.json",
+      "source_word_count_artifact_sha256": "70071d89ccdf99471d504d21ada8accf03a1748fe43e25bce92ae51e0c3a6311",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "14. The Directory, 1795-1799"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-015",
+      "indexable_source_words": 12739,
+      "locator_bearing_heading_paths": 308,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 723,
+      "occurrence_rate_per_1000_words": 56.75484731925583,
+      "owned_document_page_ranges": [
+        [
+          341,
+          368
+        ]
+      ],
+      "path_rate_per_1000_words": 24.177721956197505,
+      "source_order": 14,
+      "source_units": [
+        "Chapter 15"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+      "source_word_count_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "15. Occupied Europe, 1794-1799"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-016",
+      "indexable_source_words": 10258,
+      "locator_bearing_heading_paths": 260,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 519,
+      "occurrence_rate_per_1000_words": 50.59465782803665,
+      "owned_document_page_ranges": [
+        [
+          369,
+          390
+        ]
+      ],
+      "path_rate_per_1000_words": 25.346071358939366,
+      "source_order": 15,
+      "source_units": [
+        "Chapter 16"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+      "source_word_count_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "16. An End to Revolution, 1799-1802"
+    },
+    {
+      "canonical_fit_judgment": {
+        "automatic_defect": false,
+        "basis": "canonical_finalized_density_calculation",
+        "combined": "10",
+        "occurrence_fit_percentage": "20",
+        "path_fit_percentage": "0",
+        "status": "measured",
+        "unit_fit_percentage": "10"
+      },
+      "chunk_id": "CHUNK-017",
+      "indexable_source_words": 15969,
+      "locator_bearing_heading_paths": 425,
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids",
+      "locator_occurrences": 908,
+      "occurrence_rate_per_1000_words": 56.86016657273467,
+      "owned_document_page_ranges": [
+        [
+          391,
+          425
+        ]
+      ],
+      "path_rate_per_1000_words": 26.614064750454006,
+      "source_order": 16,
+      "source_units": [
+        "Chapter 17"
+      ],
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+      "source_word_count_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac",
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "title": "17. The Revolution in Perspective"
+    }
+  ],
+  "maximum_score_contribution": 5,
+  "measurement_level": "chapter_or_approved_intellectual_unit",
+  "policy_status": "scored",
+  "schema_version": "ohfr-v8-web-collection-v1",
+  "source_order": "chunk manifest packet order",
+  "targets": [
+    {
+      "acceptable_max": 12.0,
+      "acceptable_min": 4.0,
+      "ideal_max": 10.0,
+      "ideal_min": 6.0,
+      "metric_id": "locator_bearing_heading_paths_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 8.0,
+      "unit": "locator-bearing complete heading paths per 1,000 indexable source words",
+      "weight": 0.5
+    },
+    {
+      "acceptable_max": 30.0,
+      "acceptable_min": 10.0,
+      "ideal_max": 25.0,
+      "ideal_min": 15.0,
+      "metric_id": "locator_occurrences_per_1000_source_words",
+      "provenance": "subject-index-standard-policy-v8",
+      "scored": true,
+      "target": 20.0,
+      "unit": "expanded locator occurrences per 1,000 indexable source words",
+      "weight": 0.5
+    }
+  ]
+}
