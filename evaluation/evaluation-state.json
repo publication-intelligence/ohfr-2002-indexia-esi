@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-16T05:23:53Z",
+  "updated_at": "2026-09-16T05:40:24Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -12,7 +12,12 @@
       1,
       425
     ],
-    "document_page_basis": "one_based_inclusive"
+    "document_page_basis": "one_based_inclusive",
+    "edition_identity": {
+      "label": "2002 second edition; supplied425-page main-text truncation",
+      "status": "verified",
+      "rationale": "Every truncated-source page matches the corresponding page in the copyright2002 second-edition fullPDF (ISBN0-19-925298-X), after NFKC and whitespace normalization. See validation/full-2002-source-comparison.json."
+    }
   },
   "candidate": null,
   "configuration": {
@@ -31,6 +36,21 @@
     "scoring_identity": {
       "rubric_version": "subject-index-rubric-v8",
       "dimension_calculation_profile": "subject-index-dimension-calculation-v5"
+    },
+    "candidate_scope": {
+      "mode": "user_authorized_common_source_filter",
+      "source_page_labels": [
+        "1",
+        "425"
+      ],
+      "original_candidate_page_extent": [
+        "1",
+        "460"
+      ],
+      "original_candidate_sha256": "bb2746d6db613d8efda116aa76081eb53aa2e1b3938e1929f01f75f13d365931",
+      "authorization": "User requested filtering Indexia to pages overlapping IndexerLabs and IndexPDF.",
+      "rule": "Filter only the delivered published view to page labels1–425; preserve order,hierarchy,spelling; trim crossingranges;prune empty access without resurrecting suppressedparentlocators.",
+      "claim_limit": "Evaluation of scoped derivative, not the full delivered1–460index."
     }
   },
   "stages": {
@@ -96,9 +116,12 @@
       ]
     },
     "candidate_normalization": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "in_progress",
+      "updated_at": "2026-09-16T05:40:24Z",
+      "notes": [
+        "Candidate/source edition mismatch requires user decision; see validation/candidate-source-scope-mismatch.md. Existing source-only benchmark reuse does not approve candidate source identity.",
+        "User approved explicit common-source derivative: filter delivered Indexia view to printed1–425, preserve fulloriginal separately. Prior edition concern resolved by exact425-page comparison with full2002PDF; scopeextension proposal not adopted."
+      ]
     },
     "locator_chunk_preparation": {
       "status": "not_started",
@@ -742,7 +765,7 @@
   "blockers": [],
   "coordination": {
     "coordinator_thread_id": "01a0a8a0-2c20-7913-9eed-cd7021d65316",
-    "evaluator_commit": "48de38b26eef479f076e10c3b79241341af9cba9",
+    "evaluator_commit": "7fa82ed5dc93f5edc667e9c1994e058d79ee16b9",
     "delegated_tasks": [
       {
         "thread_id": "01a0a8a1-4c8f-7b33-aec7-6c05cbb36601",
@@ -758,11 +781,29 @@
         "title": "Indexia W1 — candidate-blind source release verification",
         "worktree": "/home/john/Documents/Codex/2026-09-16/ohfr-indexia-source-preflight",
         "responsibility": "Candidate-blind source and prior benchmark verification; later compatibility approval",
-        "status": "completed_validated",
+        "status": "archived",
         "persisted_output": "validation/source-benchmark-compatibility-approval.v1.json",
         "archive_reason": "Findings, approval, and validation copied; coordinator imported and independently checked semantic preservation. Temporary verifier code and dry-run duplicates intentionally not canonical."
+      },
+      {
+        "thread_id": "01a0a879-1d38-7f00-b852-f0628ab13a5c",
+        "title": "Indexia W3 — candidate fidelity and normalization",
+        "worktree": ".",
+        "responsibility": "Reproduce supplied converter, verify delivered fidelity and normalize mechanically without benchmark subjects",
+        "status": "active",
+        "persisted_output": null
+      },
+      {
+        "thread_id": "01a0a825-df02-7953-8313-44a2fb45478d",
+        "title": "Indexia W3 — evaluator Holy See parser fix",
+        "worktree": "/home/john/.codex/worktrees/20ab/evaluate-subject-index",
+        "responsibility": "Fix demonstrated Holy See locator-boundary parser incompatibility, test and focused PR; no installed mutation before review",
+        "status": "archived",
+        "persisted_output": "validation/parser-fix-review.md",
+        "archive_reason": "Focused commit and PR45 persisted; coordinator independently reviewed diff and reran127tests, synchronized skill, preserved review evidence."
       }
     ],
-    "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47"
+    "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
+    "evaluator_pr": "https://github.com/publication-intelligence/evaluate-subject-index/pull/45"
   }
 }

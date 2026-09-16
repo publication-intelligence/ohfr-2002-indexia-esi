@@ -13,3 +13,7 @@ evaluation/candidate/
 evaluation/import/
 evaluation/source/source-benchmark*
 evaluation/validation/*review*
+evaluation/validation/*.log
+evaluation/validation/typed-import-dry-run.result.json
+evaluation/candidate-scoped/
+evaluation/proposals/
