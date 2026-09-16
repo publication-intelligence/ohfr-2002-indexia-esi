@@ -1,4 +1,4 @@
-"""Read-only study-lock preparation; does not migrate or alter registered artifacts."""
+"""Read-only incumbent-v3 identity comparison; does not migrate or alter registered artifacts."""
 import hashlib
 import json
 import zipfile
@@ -56,7 +56,9 @@ def main():
     result = {
         'ok': True,
         'status': 'preparation only; no registered artifact changed',
-        'study_lock': provenance['legacy']['artifact_freeze_commit'],
+        'incumbent_v3_freeze': provenance['legacy']['artifact_freeze_commit'],
+        'selected_study_authority': None,
+        'authority_selection_status': 'pending candidate-blind source comparison',
         'legacy_file_sha256': sha(legacy_path),
         'legacy_canonical_sha256': legacy['benchmark_sha256'],
         'normalization': 'relationships[*].type -> relationship_type',

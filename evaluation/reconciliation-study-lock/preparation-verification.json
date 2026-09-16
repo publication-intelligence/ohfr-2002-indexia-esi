@@ -1,7 +1,6 @@
 {
   "ok": true,
   "status": "preparation only; no registered artifact changed",
-  "study_lock": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
   "legacy_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
   "legacy_canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
   "normalization": "relationships[*].type -> relationship_type",
@@ -218,5 +217,8 @@
   ],
   "candidate_seen": true,
   "activation_authorized": false,
-  "new_review_claimed": false
+  "new_review_claimed": false,
+  "incumbent_v3_freeze": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+  "selected_study_authority": null,
+  "authority_selection_status": "pending candidate-blind source comparison"
 }
