@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-16T06:59:50Z",
+  "updated_at": "2026-09-16T07:12:03Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -140,30 +140,38 @@
     },
     "locator_audit": {
       "status": "completed",
-      "updated_at": "2026-09-16T06:59:50Z",
+      "updated_at": "2026-09-16T07:12:03Z",
       "notes": [
-        "Registered 17/17 current audit chunks."
+        "Replaced the complete locator audit batch for all 17 frozen chunks."
       ]
     },
     "missing_access_audit": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T07:12:03Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "structure_audit": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T07:12:03Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "scoring": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T07:12:03Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     },
     "web_report": {
       "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "updated_at": "2026-09-16T07:12:03Z",
+      "notes": [
+        "Invalidated by complete locator_audit batch replacement."
+      ]
     }
   },
   "artifacts": [
@@ -216,7 +224,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:47Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -229,7 +237,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:47Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -242,7 +250,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:47Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -255,7 +263,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:48Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -268,7 +276,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:48Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -281,7 +289,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:48Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -294,7 +302,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:48Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -307,7 +315,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:48Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -320,7 +328,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:49Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -333,20 +341,20 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:49Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
-      "artifact_id": "ART-A0D5A0917CC8",
+      "artifact_id": "ART-BF1189E86E49",
       "stage": "locator_audit",
       "artifact_type": "locator_audit",
       "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-011.v2.json",
-      "sha256": "3f516f9cf1ab8099f9797d1167e096661b5bdbda9c1208f19c7b27edb5f322a2",
+      "sha256": "0aee1dc67d8c7d1c3201a947aeb11972dc4e86f59db0f2784166c01b7f4eee1c",
       "media_type": "application/json",
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:49Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -359,7 +367,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:49Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -372,7 +380,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:49Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -385,7 +393,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:50Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -398,7 +406,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:50Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -411,7 +419,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:50Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -424,7 +432,7 @@
       "visibility": "private",
       "retention": "required",
       "frozen": true,
-      "recorded_at": "2026-09-16T06:59:50Z",
+      "recorded_at": "2026-09-16T07:12:03Z",
       "schema_version": "locator-audit-v2"
     },
     {
@@ -1543,20 +1551,22 @@
         "title": "Indexia W4 missing access — CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-001",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-001 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-001/missing-access-audit.CHUNK-001.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json",
+        "review_note": "Dauphiné qualifier resolved as usable treatment with impaired lookup; root read sourcep8. Full explicit task rationales and stance separation requested after reviewing subject map."
       },
       {
         "thread_id": "01a0a906-702b-7c53-8958-91b94894b4fd",
         "title": "Indexia W4 missing access — CHUNK-002",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-002",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-002 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-002/missing-access-audit.CHUNK-002.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-002.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-002.json",
+        "review_note": "Subject decision map inspected; requested explicit task-question map and stance/first-lookup review instead of defaults."
       },
       {
         "thread_id": "01a0a906-806e-7dd2-a2ad-6619da688661",
@@ -1623,10 +1633,11 @@
         "title": "Indexia W4 missing access — CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-009",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-009 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-009/missing-access-audit.CHUNK-009.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-009.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-009.json",
+        "review_note": "Rejected threshold-generated path selections and task results; complete explicit semantic re-audit requested. Handoff claimed authored decisions but implementation did not support claim. Second revision rejected: task-history inspection proves authored-review map was generated from rejected draft outcomes with generic prose. Original owner resumed for actual full semantic review; deleted generation script preserved as rejected evidence."
       },
       {
         "thread_id": "01a0a907-1ea2-7042-9540-35a27221b1f8",
@@ -1673,10 +1684,11 @@
         "title": "Indexia W4 missing access — CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-014",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-014 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-014/missing-access-audit.CHUNK-014.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-014.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-014.json",
+        "review_note": "Builder inspected; rejected automatic >6 atomic locator lookup penalty and coverage-derived stance, requested explicit separate axes and substantive prose."
       },
       {
         "thread_id": "01a0a907-a0ef-7292-a9eb-18da86d7c29a",
@@ -1693,10 +1705,11 @@
         "title": "Indexia W4 missing access — CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-016",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-016 workset; all owned subjects, reader tasks and treatments",
-        "status": "active",
+        "status": "active_revision_requested",
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-016/missing-access-audit.CHUNK-016.json",
-        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-016.json"
+        "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-016.json",
+        "review_note": "Builder inspected; requested exact-page filtered matched_path_ids and matched_locator_ids, explicit confidence review."
       },
       {
         "thread_id": "01a0a907-c2f3-78b0-be11-7b9205c7ecb0",
@@ -1707,6 +1720,42 @@
         "persisted_output": null,
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-017/missing-access-audit.CHUNK-017.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-017.json"
+      },
+      {
+        "thread_id": "01a0a915-8c19-77c0-8500-2486b8d6bd12",
+        "title": "Indexia W4 missing-access QA A — 007 and 010",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-a",
+        "responsibility": "Independent bounded review of completed missing-access audits007 and010; no ownership or edits",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-qa-a.md"
+      },
+      {
+        "thread_id": "01a0a917-88f4-7cb3-b312-173c17e84256",
+        "title": "Indexia W4 missing-access QA B — 006, 008, 015",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-b",
+        "responsibility": "Independent bounded review of completed missing-access006,008,015; no ownership or edits",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-qa-b.md"
+      },
+      {
+        "thread_id": "01a0a918-8b3c-7631-a544-a137260d759b",
+        "title": "Indexia W4 missing-access QA C — 003, 004, 005",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-c",
+        "responsibility": "Independent bounded review of completed missing-access 003, 004, 005; no ownership or edits",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-qa-c.md"
+      },
+      {
+        "thread_id": "01a0a918-9ee9-7802-9c79-74b60c339ea8",
+        "title": "Indexia W4 missing-access QA D — 011, 012, 013",
+        "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-d",
+        "responsibility": "Independent bounded review of completed missing-access 011, 012, 013; no ownership or edits",
+        "status": "active",
+        "persisted_output": null,
+        "expected_output": "/tmp/indexia-missing-qa-d.md"
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
@@ -1724,6 +1773,16 @@
       "expected_treatments": 3210,
       "source_evidence_records": 3246,
       "ownership_rule": "Current evaluator build_missing_worksets; unique subject/document_page/locator_class treatments; exact non-overlapping subject and task ownership."
-    }
+    },
+    "locator_explanation_corrections": [
+      {
+        "locator_id": "LOC-73666C581EDD",
+        "chunk_id": "CHUNK-011",
+        "document_page": 253,
+        "reason": "Coordinator read the full source page and confirmed Barnave1791 intrigues. Replaced misdirected Terror-summary prose with the dated fact. All judgments, diagnostic axes, confidence, errors, and counts unchanged. Registered through complete-batch replacement.",
+        "revised_sha256": "0aee1dc67d8c7d1c3201a947aeb11972dc4e86f59db0f2784166c01b7f4eee1c",
+        "validation_path": "validation/restricted/locator-explanation-correction-register-audits.json"
+      }
+    ]
   }
 }
