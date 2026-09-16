@@ -2,7 +2,7 @@
   "schema_version": "subject-index-evaluation-state-v6",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-16T05:40:24Z",
+  "updated_at": "2026-09-16T06:05:10Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -14,12 +14,21 @@
     ],
     "document_page_basis": "one_based_inclusive",
     "edition_identity": {
-      "label": "2002 second edition; supplied425-page main-text truncation",
+      "label": "2002 second edition; supplied 425-page main-text truncation",
       "status": "verified",
-      "rationale": "Every truncated-source page matches the corresponding page in the copyright2002 second-edition fullPDF (ISBN0-19-925298-X), after NFKC and whitespace normalization. See validation/full-2002-source-comparison.json."
+      "rationale": "Every truncated-source page matches the corresponding page in the copyright 2002 second-edition full PDF (ISBN 0-19-925298-X), after NFKC and whitespace normalization. See validation/full-2002-source-comparison.json."
     }
   },
-  "candidate": null,
+  "candidate": {
+    "candidate_id": "indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425",
+    "candidate_sha256": "9979219954bee42e4640d9e25357859f2f9f3409074fe8d43550a61fd62d018f",
+    "schema_version": "candidate-index-v2",
+    "normalized_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/candidate-index.v2.json",
+    "normalized_sha256": "c3c43837b93a65618b90c5434fde71f2981d48934b4a96c5cd5e5774527535cb",
+    "item_inventory_path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/item-inventory.v2.json",
+    "benchmark_path": "source/source-benchmark.v8-import.json",
+    "benchmark_sha256": "1c2cb2be2a1ced77440da11dff032634f66cb40abc137d87c3211d4fa5de149a"
+  },
   "configuration": {
     "audit_mode": "full",
     "index_type": "subject_index",
@@ -49,8 +58,8 @@
       ],
       "original_candidate_sha256": "bb2746d6db613d8efda116aa76081eb53aa2e1b3938e1929f01f75f13d365931",
       "authorization": "User requested filtering Indexia to pages overlapping IndexerLabs and IndexPDF.",
-      "rule": "Filter only the delivered published view to page labels1–425; preserve order,hierarchy,spelling; trim crossingranges;prune empty access without resurrecting suppressedparentlocators.",
-      "claim_limit": "Evaluation of scoped derivative, not the full delivered1–460index."
+      "rule": "Filter only the delivered published view to page labels 1\u2013425; preserve order, hierarchy, and spelling; trim crossing ranges; prune empty access without resurrecting suppressed parent locators.",
+      "claim_limit": "Evaluation of a scoped derivative, not the full delivered 1\u2013460 index."
     }
   },
   "stages": {
@@ -116,17 +125,18 @@
       ]
     },
     "candidate_normalization": {
-      "status": "in_progress",
-      "updated_at": "2026-09-16T05:40:24Z",
+      "status": "completed",
+      "updated_at": "2026-09-16T06:04:53Z",
       "notes": [
-        "Candidate/source edition mismatch requires user decision; see validation/candidate-source-scope-mismatch.md. Existing source-only benchmark reuse does not approve candidate source identity.",
-        "User approved explicit common-source derivative: filter delivered Indexia view to printed1–425, preserve fulloriginal separately. Prior edition concern resolved by exact425-page comparison with full2002PDF; scopeextension proposal not adopted."
+        "Validated and registered directly from local preparation outputs."
       ]
     },
     "locator_chunk_preparation": {
-      "status": "not_started",
-      "updated_at": null,
-      "notes": []
+      "status": "completed",
+      "updated_at": "2026-09-16T06:05:10Z",
+      "notes": [
+        "Registered 17 frozen locator packets with complete exact-once routing."
+      ]
     },
     "locator_audit": {
       "status": "not_started",
@@ -155,6 +165,266 @@
     }
   },
   "artifacts": [
+    {
+      "artifact_id": "ART-913C0036356E",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_index",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/candidate-index.v2.json",
+      "sha256": "c3c43837b93a65618b90c5434fde71f2981d48934b4a96c5cd5e5774527535cb",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:04:53Z",
+      "schema_version": "candidate-index-v2"
+    },
+    {
+      "artifact_id": "ART-358FBBC519DE",
+      "stage": "candidate_normalization",
+      "artifact_type": "candidate_layout_extraction",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/candidate-layout-extraction.v1.json",
+      "sha256": "afda68e4d2962a6ab5ff7e837bf8fadd57bb974e19898145d9988684a986b0b9",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:04:53Z",
+      "schema_version": "candidate-layout-extraction-v1"
+    },
+    {
+      "artifact_id": "ART-4686E552777C",
+      "stage": "candidate_normalization",
+      "artifact_type": "item_inventory",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/item-inventory.v2.json",
+      "sha256": "e1af56ee7ccf31b92bbcdc6901da9d5ba7cd4c3b7534ce92a05ef6febc1020c3",
+      "media_type": "application/json",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:04:53Z",
+      "schema_version": "subject-index-item-inventory-v2"
+    },
+    {
+      "artifact_id": "ART-FE5FC3CBC0DF",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-001.json",
+      "sha256": "a969b68e405189e35ee6f910adf30eb0f3a2bc2845561a59b5e8c8077885d10b",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-56FD06D51706",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-002.json",
+      "sha256": "f299ce60a200300e6f1c26c24c6864a8183d44d35c5bc50e5a3a83cd171a9acc",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-11BC75D96F58",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-003.json",
+      "sha256": "dcf862209ce693618f5cbb779808313980b2a8128f4c5e552828d5e9687ab5e0",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-2F74E81CF72A",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-004.json",
+      "sha256": "521b30b834be321d48d5796badf2576ebd8ed009316d128e95e82533f45664c4",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-D9657150D5E5",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-005.json",
+      "sha256": "b761e9162834ac3d7e9a65ec440f544450ae7a3cc6c5920c64eda8416defedec",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-944D56C3273F",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-006.json",
+      "sha256": "8db665f2150fd8871181c7732dd59ec83733ce0e285f7a687374dca0217da7a4",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-BC2B279FB600",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-007.json",
+      "sha256": "b2bee9a31f3b9af1303c27364c01f0aeda1f71d67145bf5b7582bca6b8e0fe15",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-7978753FF95F",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-008.json",
+      "sha256": "c8741efedf0636fbd4e41969061f8da03d809a6f83c30d2fbcf6dcc4bed5c3be",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-4F7917A2AC18",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-009.json",
+      "sha256": "0aa6fd9aa3b69697424695dcd8439e8515c6568da6642c18fef9d8e4797ebb76",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-C19BACDBACB8",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-010.json",
+      "sha256": "8c92281a871263b9920fef42f0f7ee6efb29d455d99316b6c50c83b546e6ca18",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-C19281F5BE10",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-011.json",
+      "sha256": "562bc44555c12ffeba0e8ae65ce52eb390f779bd75adcc83102a14c12316c22a",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-03CF6DDDC41D",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-012.json",
+      "sha256": "aaab986100d271e862e6b3a73f0ca79652c64efe1224e6ffebca59a2874d2e13",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-2F8017A8F8D2",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-013.json",
+      "sha256": "57a2e5723f5f8545c963f49454d73a38f57ee4b8c856af4aff05068a8970abea",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-275521267013",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-014.json",
+      "sha256": "7ee200b16aecefb282b5790cfc0fe8ce3753590e2175fb77223beb68c320ee94",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-9467F5B9D277",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-015.json",
+      "sha256": "3d1087e9e55e1ccf8ff87c07b47bf2896b240fc55f6d12df2fdf338584afe942",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-86A58807AF4F",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-016.json",
+      "sha256": "7e826d6183ba467adccd3857156e35e0498b2b94282e31aa386a0310022044df",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
+    {
+      "artifact_id": "ART-6488C7245EF2",
+      "stage": "locator_chunk_preparation",
+      "artifact_type": "candidate_locator_chunk",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-packets/candidate-locator-CHUNK-017.json",
+      "sha256": "49d9188578cfe721191ab9a91a2c47ccd9dad822ec930e71f7bc58e0be4e24e4",
+      "media_type": "application/json",
+      "schema_version": "candidate-locator-chunk-v1",
+      "visibility": "private",
+      "retention": "required",
+      "frozen": true,
+      "recorded_at": "2026-09-16T06:05:10Z"
+    },
     {
       "artifact_id": "ART-AD2EFC080990",
       "stage": "source_subject_discovery",
@@ -765,11 +1035,11 @@
   "blockers": [],
   "coordination": {
     "coordinator_thread_id": "01a0a8a0-2c20-7913-9eed-cd7021d65316",
-    "evaluator_commit": "7fa82ed5dc93f5edc667e9c1994e058d79ee16b9",
+    "evaluator_commit": "3a7fc0e1bb3e388b489642e9750619ef78ae4d5a",
     "delegated_tasks": [
       {
         "thread_id": "01a0a8a1-4c8f-7b33-aec7-6c05cbb36601",
-        "title": "Indexia W1 — evaluator release and skill alignment",
+        "title": "Indexia W1 \u2014 evaluator release and skill alignment",
         "worktree": "/home/john/.codex/worktrees/0535/evaluate-subject-index",
         "responsibility": "Independent release alignment and tests; no duplicate fixes",
         "status": "archived",
@@ -778,7 +1048,7 @@
       },
       {
         "thread_id": "01a0a8a1-d997-7a92-b4a9-51e45855dfe0",
-        "title": "Indexia W1 — candidate-blind source release verification",
+        "title": "Indexia W1 \u2014 candidate-blind source release verification",
         "worktree": "/home/john/Documents/Codex/2026-09-16/ohfr-indexia-source-preflight",
         "responsibility": "Candidate-blind source and prior benchmark verification; later compatibility approval",
         "status": "archived",
@@ -787,20 +1057,21 @@
       },
       {
         "thread_id": "01a0a879-1d38-7f00-b852-f0628ab13a5c",
-        "title": "Indexia W3 — candidate fidelity and normalization",
+        "title": "Indexia W3 \u2014 candidate fidelity and normalization",
         "worktree": ".",
         "responsibility": "Reproduce supplied converter, verify delivered fidelity and normalize mechanically without benchmark subjects",
-        "status": "active",
-        "persisted_output": null
+        "status": "archived",
+        "persisted_output": "candidate-scoped/validation/preparation-handoff.md",
+        "archive_reason": "Original input, scoped derivative, scripts and full QA preserved locally; coordinator independently reproduced and validated all rows, registered candidate and packets. No useful output exists only in the task."
       },
       {
         "thread_id": "01a0a825-df02-7953-8313-44a2fb45478d",
-        "title": "Indexia W3 — evaluator Holy See parser fix",
+        "title": "Indexia W3 \u2014 evaluator Holy See parser fix",
         "worktree": "/home/john/.codex/worktrees/20ab/evaluate-subject-index",
-        "responsibility": "Fix demonstrated Holy See locator-boundary parser incompatibility, test and focused PR; no installed mutation before review",
+        "responsibility": "Focused PR45: preserve See and authoritative delivered heading boundaries; independently reviewed and installed by coordinator.",
         "status": "archived",
         "persisted_output": "validation/parser-fix-review.md",
-        "archive_reason": "Focused commit and PR45 persisted; coordinator independently reviewed diff and reran127tests, synchronized skill, preserved review evidence."
+        "archive_reason": "Both focused commits persisted in PR45; complete handoff copied, diff and129 tests independently verified, exact skill synchronized. No useful output remains only in the task."
       }
     ],
     "evaluator_merge_commit": "89eb5f70fcdc953baa722c05e82c5fdb6e85fc47",
