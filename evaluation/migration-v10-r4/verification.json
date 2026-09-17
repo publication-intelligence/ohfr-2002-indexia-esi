@@ -1,0 +1,57 @@
+{
+  "schema_version": "indexia-v10-r4-verification-v1",
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "overall_percentage": 88.52,
+  "authoritative_status": "authoritative",
+  "assessment_blockers": [],
+  "triggered_gate_ids": [
+    "GATE-WRONG-LOCATOR"
+  ],
+  "files": [
+    {
+      "path": "scoring/evaluation-result.v15.json",
+      "sha256": "007b312d140969d7d0718c302fa575ba86bce8ca3f85a9f1d3335f4e5422e91e",
+      "bytes": 839817
+    },
+    {
+      "path": "scoring/projection-metadata.v10-semantic-v2.json",
+      "sha256": "dc3e5442031bb6b5d5665629b3bdd12fe0a8938e0f48d2c4bc1a4586ec354972",
+      "bytes": 477250
+    },
+    {
+      "path": "scoring/web-report.v13.json",
+      "sha256": "bb3ecf143df05409e3477d55db2eed01a850bc74bf44464e72942beeb9aed1a9",
+      "bytes": 22135096
+    },
+    {
+      "path": "scoring/v10-canonical-projection/projection.v1.json",
+      "sha256": "27051db13d81bf77b9e1dbf75912918a15eb95526fed025d1ee66e25415a4d4b",
+      "bytes": 533295
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/index-records.v1.json.gz",
+      "sha256": "f7ce84076415ae0977cddcd2ba51da3b3eda2df47b59bc8fe83feadacf46d619",
+      "bytes": 5022356
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "ee7366c71ae7346fe8b554f9d90364c9ad8353cdb06f059ca29e6aca64c728eb",
+      "bytes": 10311956
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/density.v1.json",
+      "sha256": "9d70700bd91f5c5a3f89d92cdb34556f178df660847b7dd637b938e80df115f2",
+      "bytes": 17896
+    },
+    {
+      "path": "indexia-v10-r4-final.checkpoint.zip",
+      "sha256": "c6cb95d434f771e4b27c11d0905f4bbe3b75fb40c824b90a856a079ee7f30516",
+      "bytes": 24935920
+    },
+    {
+      "path": "../migration-v10-r2/structure-audit.v8.adjudicated.json",
+      "sha256": "92cb2e5ef3945a0cc21023ffd95710f96f5fb65b2c99a4b089a3af4ec37ff713",
+      "bytes": 4351341
+    }
+  ]
+}
