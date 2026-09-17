@@ -1,8 +1,8 @@
 {
-  "schema_version": "subject-index-evaluation-state-v9",
+  "schema_version": "subject-index-evaluation-state-v8",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "created_at": "2026-09-16T05:14:52Z",
-  "updated_at": "2026-09-17T18:24:34Z",
+  "updated_at": "2026-09-17T18:14:00Z",
   "source": {
     "title": "The Oxford History of the French Revolution",
     "edition": "2002; supplied 425-page main-text PDF",
@@ -58,8 +58,8 @@
       ],
       "original_candidate_sha256": "bb2746d6db613d8efda116aa76081eb53aa2e1b3938e1929f01f75f13d365931",
       "authorization": "User requested filtering Indexia to pages overlapping IndexerLabs and IndexPDF.",
-      "rule": "Filter only the delivered published view to page labels 1–425; preserve order, hierarchy, and spelling; trim crossing ranges; prune empty access without resurrecting suppressed parent locators.",
-      "claim_limit": "Evaluation of a scoped derivative, not the full delivered 1–460 index."
+      "rule": "Filter only the delivered published view to page labels 1\u2013425; preserve order, hierarchy, and spelling; trim crossing ranges; prune empty access without resurrecting suppressed parent locators.",
+      "claim_limit": "Evaluation of a scoped derivative, not the full delivered 1\u2013460 index."
     }
   },
   "stages": {
@@ -163,16 +163,16 @@
     },
     "scoring": {
       "status": "not_started",
-      "updated_at": "2026-09-17T18:24:34Z",
+      "updated_at": "2026-09-17T18:14:30Z",
       "notes": [
-        "Execution contract adoption invalidated derived outputs; original files remain preserved."
+        "Prepared for V10.2 execution adoption; prior decision-v1 outputs remain preserved on disk."
       ]
     },
     "web_report": {
       "status": "not_started",
-      "updated_at": "2026-09-17T18:24:34Z",
+      "updated_at": "2026-09-17T18:14:30Z",
       "notes": [
-        "Execution contract adoption invalidated derived outputs; original files remain preserved."
+        "Prepared for V10.2 execution adoption; prior decision-v1 outputs remain preserved on disk."
       ]
     }
   },
@@ -1709,84 +1709,6 @@
       "retention": "required",
       "frozen": true,
       "recorded_at": "2026-09-17T18:22:11Z"
-    },
-    {
-      "artifact_id": "ART-4B5046746F25",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/compatibility.json",
-      "sha256": "945fd181c18c3dd1a75d9d375ca08f54d8a0dd439a0ba0e4067cc3bce2404adf",
-      "media_type": "application/json",
-      "schema_version": "subject-index-v10-execution-compatibility-v1",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
-    },
-    {
-      "artifact_id": "ART-431AD61057FB",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/source-release.json",
-      "sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca",
-      "media_type": "application/json",
-      "schema_version": "subject-index-successor-release-v3",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
-    },
-    {
-      "artifact_id": "ART-CA83B2284FF1",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/previous-state.json",
-      "sha256": "d163fd7d3c6f4fa6e3126ded8b31f8692fe8ddb171c99ab3c2b610d60d80ad62",
-      "media_type": "application/json",
-      "schema_version": "subject-index-evaluation-state-v8",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
-    },
-    {
-      "artifact_id": "ART-2ED117C38316",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/prior-structure.json",
-      "sha256": "92cb2e5ef3945a0cc21023ffd95710f96f5fb65b2c99a4b089a3af4ec37ff713",
-      "media_type": "application/json",
-      "schema_version": "structure-audit-v6",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
-    },
-    {
-      "artifact_id": "ART-D0FC1BDD14C8",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/defect-reconciliation.json",
-      "sha256": "42f832063b2cb319b78098fed050529a6a7e06731b3444a9df8f1c814a348cbe",
-      "media_type": "application/json",
-      "schema_version": "subject-index-prior-defect-reconciliation-v10-v1",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
-    },
-    {
-      "artifact_id": "ART-1C58ABF3B8CF",
-      "stage": "initialize",
-      "artifact_type": "study_execution_compatibility",
-      "path": "migration-v10-r5/semantic-execution-v1/requirement-inventory-provenance.json",
-      "sha256": "a054c74034baf724dc9e5980b995274a58a350516e840c77764af34e88309be6",
-      "media_type": "application/json",
-      "schema_version": "study-evidence-v1",
-      "visibility": "private",
-      "retention": "required",
-      "frozen": true,
-      "recorded_at": "2026-09-17T18:24:34Z"
     }
   ],
   "blockers": [],
@@ -1796,7 +1718,7 @@
     "delegated_tasks": [
       {
         "thread_id": "01a0a8a1-4c8f-7b33-aec7-6c05cbb36601",
-        "title": "Indexia W1 — evaluator release and skill alignment",
+        "title": "Indexia W1 \u2014 evaluator release and skill alignment",
         "worktree": "/home/john/.codex/worktrees/0535/evaluate-subject-index",
         "responsibility": "Independent release alignment and tests; no duplicate fixes",
         "status": "archived",
@@ -1805,7 +1727,7 @@
       },
       {
         "thread_id": "01a0a8a1-d997-7a92-b4a9-51e45855dfe0",
-        "title": "Indexia W1 — candidate-blind source release verification",
+        "title": "Indexia W1 \u2014 candidate-blind source release verification",
         "worktree": "/home/john/Documents/Codex/2026-09-16/ohfr-indexia-source-preflight",
         "responsibility": "Candidate-blind source and prior benchmark verification; later compatibility approval",
         "status": "archived",
@@ -1814,7 +1736,7 @@
       },
       {
         "thread_id": "01a0a879-1d38-7f00-b852-f0628ab13a5c",
-        "title": "Indexia W3 — candidate fidelity and normalization",
+        "title": "Indexia W3 \u2014 candidate fidelity and normalization",
         "worktree": ".",
         "responsibility": "Reproduce supplied converter, verify delivered fidelity and normalize mechanically without benchmark subjects",
         "status": "archived",
@@ -1823,7 +1745,7 @@
       },
       {
         "thread_id": "01a0a825-df02-7953-8313-44a2fb45478d",
-        "title": "Indexia W3 — evaluator Holy See parser fix",
+        "title": "Indexia W3 \u2014 evaluator Holy See parser fix",
         "worktree": "/home/john/.codex/worktrees/20ab/evaluate-subject-index",
         "responsibility": "Focused PR45: preserve See and authoritative delivered heading boundaries; independently reviewed and installed by coordinator.",
         "status": "archived",
@@ -1832,7 +1754,7 @@
       },
       {
         "thread_id": "01a0a8d3-604a-76e1-a86b-cbebbc12dc39",
-        "title": "Indexia W4 locator audit — CHUNK-001",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-001",
         "responsibility": "Exclusive locator audit CHUNK-001; current frozen packet only",
         "status": "archived",
@@ -1845,7 +1767,7 @@
       },
       {
         "thread_id": "01a0a8d3-d955-7a91-a590-983f72c3bb68",
-        "title": "Indexia W4 locator audit — CHUNK-002",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-002",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-002",
         "responsibility": "Exclusive locator audit CHUNK-002; current frozen packet only",
         "status": "archived",
@@ -1858,7 +1780,7 @@
       },
       {
         "thread_id": "01a0a8d3-f458-7ba2-9302-f4e51bacc201",
-        "title": "Indexia W4 locator audit — CHUNK-003",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-003",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-003",
         "responsibility": "Exclusive locator audit CHUNK-003; current frozen packet only",
         "status": "archived",
@@ -1871,7 +1793,7 @@
       },
       {
         "thread_id": "01a0a8d4-09d7-7021-9a5d-b597afa734d8",
-        "title": "Indexia W4 locator audit — CHUNK-004",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-004",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-004",
         "responsibility": "Exclusive locator audit CHUNK-004; current frozen packet only",
         "status": "archived",
@@ -1884,7 +1806,7 @@
       },
       {
         "thread_id": "01a0a8d4-1b22-7613-a9ec-db9704cb0362",
-        "title": "Indexia W4 locator audit — CHUNK-005",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-005",
         "responsibility": "Exclusive locator audit CHUNK-005; current frozen packet only",
         "status": "archived",
@@ -1897,7 +1819,7 @@
       },
       {
         "thread_id": "01a0a8d4-2b2e-7f11-b80d-0e5f11ac733e",
-        "title": "Indexia W4 locator audit — CHUNK-006",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-006",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-006",
         "responsibility": "Exclusive locator audit CHUNK-006; current frozen packet only",
         "status": "archived",
@@ -1910,7 +1832,7 @@
       },
       {
         "thread_id": "01a0a8d4-3a60-7361-8e1c-31124d63556e",
-        "title": "Indexia W4 locator audit — CHUNK-007",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-007",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-007",
         "responsibility": "Exclusive locator audit CHUNK-007; current frozen packet only",
         "status": "archived",
@@ -1923,7 +1845,7 @@
       },
       {
         "thread_id": "01a0a8d4-4da2-7be3-a716-3eab929ae533",
-        "title": "Indexia W4 locator audit — CHUNK-008",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-008",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-008",
         "responsibility": "Exclusive locator audit CHUNK-008; current frozen packet only",
         "status": "archived",
@@ -1936,7 +1858,7 @@
       },
       {
         "thread_id": "01a0a8d4-5c70-7471-82fc-356192c98111",
-        "title": "Indexia W4 locator audit — CHUNK-009",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-009",
         "responsibility": "Exclusive locator audit CHUNK-009; current frozen packet only",
         "status": "archived",
@@ -1949,7 +1871,7 @@
       },
       {
         "thread_id": "01a0a8d4-6cd5-76a0-8ba9-e192fbda72ee",
-        "title": "Indexia W4 locator audit — CHUNK-010",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-010",
         "responsibility": "Exclusive locator audit CHUNK-010; current frozen packet only",
         "status": "archived",
@@ -1962,7 +1884,7 @@
       },
       {
         "thread_id": "01a0a8d4-7efe-7522-a5ac-eb3cfeb915be",
-        "title": "Indexia W4 locator audit — CHUNK-011",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-011",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-011",
         "responsibility": "Exclusive locator audit CHUNK-011; current frozen packet only",
         "status": "archived",
@@ -1975,7 +1897,7 @@
       },
       {
         "thread_id": "01a0a8d4-92ce-7703-8497-a2fa63ac5b59",
-        "title": "Indexia W4 locator audit — CHUNK-012",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-012",
         "responsibility": "Exclusive locator audit CHUNK-012; current frozen packet only",
         "status": "archived",
@@ -1988,7 +1910,7 @@
       },
       {
         "thread_id": "01a0a8d4-a231-7041-ab7f-4b2c7896c1ad",
-        "title": "Indexia W4 locator audit — CHUNK-013",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-013",
         "responsibility": "Exclusive locator audit CHUNK-013; current frozen packet only",
         "status": "archived",
@@ -2001,7 +1923,7 @@
       },
       {
         "thread_id": "01a0a8d4-b2a9-7522-b53f-8b400224c807",
-        "title": "Indexia W4 locator audit — CHUNK-014",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-014",
         "responsibility": "Exclusive locator audit CHUNK-014; current frozen packet only",
         "status": "archived",
@@ -2014,7 +1936,7 @@
       },
       {
         "thread_id": "01a0a8d4-c5e1-75c1-97e7-49997e73b142",
-        "title": "Indexia W4 locator audit — CHUNK-015",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-015",
         "responsibility": "Exclusive locator audit CHUNK-015; current frozen packet only",
         "status": "archived",
@@ -2027,7 +1949,7 @@
       },
       {
         "thread_id": "01a0a8d4-e3b5-7702-9435-57b87aa2cd53",
-        "title": "Indexia W4 locator audit — CHUNK-016",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-016",
         "responsibility": "Exclusive locator audit CHUNK-016; current frozen packet only",
         "status": "archived",
@@ -2040,7 +1962,7 @@
       },
       {
         "thread_id": "01a0a8d4-f495-75f1-98df-a61406823e54",
-        "title": "Indexia W4 locator audit — CHUNK-017",
+        "title": "Indexia W4 locator audit \u2014 CHUNK-017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-locator-chunk-017",
         "responsibility": "Exclusive locator audit CHUNK-017; current frozen packet only",
         "status": "archived",
@@ -2053,7 +1975,7 @@
       },
       {
         "thread_id": "01a0a8f0-9797-7683-88f9-c20a1e2edf88",
-        "title": "Indexia W4 audit QA A — 004, 006, 010, 012",
+        "title": "Indexia W4 audit QA A \u2014 004, 006, 010, 012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-audit-qa-a",
         "responsibility": "Independent bounded QA of existing locator outputs 004,006,010,012; no audit ownership or edits",
         "status": "archived",
@@ -2063,7 +1985,7 @@
       },
       {
         "thread_id": "01a0a8f0-a962-76e2-985b-dabf8c1829f8",
-        "title": "Indexia W4 audit QA B — 014, 015, 016, 017",
+        "title": "Indexia W4 audit QA B \u2014 014, 015, 016, 017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-audit-qa-b",
         "responsibility": "Independent bounded QA of existing locator outputs 014,015,016,017; no audit ownership or edits",
         "status": "archived",
@@ -2074,20 +1996,20 @@
       },
       {
         "thread_id": "01a0a906-6263-7ec3-951c-fa6e7c4ba5fd",
-        "title": "Indexia W4 missing access — CHUNK-001",
+        "title": "Indexia W4 missing access \u2014 CHUNK-001",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-001",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-001 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
         "persisted_output": "validation/restricted/missing-access-resume/final/CHUNK-001/missing-access-audit.CHUNK-001.json",
         "expected_output": "/tmp/indexia-missing-audits/CHUNK-001/missing-access-audit.CHUNK-001.json",
         "workset_path": "candidate-scoped/missing-access-worksets/missing-access-workset.CHUNK-001.json",
-        "review_note": "Dauphiné qualifier resolved as usable treatment with impaired lookup; root read sourcep8. Full explicit task rationales and stance separation requested after reviewing subject map.",
+        "review_note": "Dauphin\u00e9 qualifier resolved as usable treatment with impaired lookup; root read sourcep8. Full explicit task rationales and stance separation requested after reviewing subject map.",
         "reviewed_sha256": "59be167eaa0e5a3f7d09501b6be03e7f30536d56a0b3be63ad858375a84339af",
         "archive_reason": "Completed exact reviewed output, authored judgments, builders and handoffs preserved privately; root independently verified material findings and registered all17 audits. No useful result remains only in chat."
       },
       {
         "thread_id": "01a0a906-702b-7c53-8958-91b94894b4fd",
-        "title": "Indexia W4 missing access — CHUNK-002",
+        "title": "Indexia W4 missing access \u2014 CHUNK-002",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-002",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-002 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2100,7 +2022,7 @@
       },
       {
         "thread_id": "01a0a906-806e-7dd2-a2ad-6619da688661",
-        "title": "Indexia W4 missing access — CHUNK-003",
+        "title": "Indexia W4 missing access \u2014 CHUNK-003",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-003",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-003 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2113,7 +2035,7 @@
       },
       {
         "thread_id": "01a0a906-91f1-72e3-8281-b3ad859d4dc5",
-        "title": "Indexia W4 missing access — CHUNK-004",
+        "title": "Indexia W4 missing access \u2014 CHUNK-004",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-004",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-004 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2126,7 +2048,7 @@
       },
       {
         "thread_id": "01a0a906-a245-7cc3-afc6-f155fe36b964",
-        "title": "Indexia W4 missing access — CHUNK-005",
+        "title": "Indexia W4 missing access \u2014 CHUNK-005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-005",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-005 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2139,7 +2061,7 @@
       },
       {
         "thread_id": "01a0a906-b7c5-7950-8ef2-2748833d6445",
-        "title": "Indexia W4 missing access — CHUNK-006",
+        "title": "Indexia W4 missing access \u2014 CHUNK-006",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-006",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-006 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2152,7 +2074,7 @@
       },
       {
         "thread_id": "01a0a906-e845-7c51-a9f1-962fc0da2926",
-        "title": "Indexia W4 missing access — CHUNK-007",
+        "title": "Indexia W4 missing access \u2014 CHUNK-007",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-007",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-007 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2164,7 +2086,7 @@
       },
       {
         "thread_id": "01a0a906-fa9b-7611-8735-6da8f7a64a29",
-        "title": "Indexia W4 missing access — CHUNK-008",
+        "title": "Indexia W4 missing access \u2014 CHUNK-008",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-008",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-008 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2176,7 +2098,7 @@
       },
       {
         "thread_id": "01a0a907-093a-7c93-91c0-4d9abce1aa3f",
-        "title": "Indexia W4 missing access — CHUNK-009",
+        "title": "Indexia W4 missing access \u2014 CHUNK-009",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-009",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-009 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2189,7 +2111,7 @@
       },
       {
         "thread_id": "01a0a907-1ea2-7042-9540-35a27221b1f8",
-        "title": "Indexia W4 missing access — CHUNK-010",
+        "title": "Indexia W4 missing access \u2014 CHUNK-010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-010",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-010 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2201,7 +2123,7 @@
       },
       {
         "thread_id": "01a0a907-2e00-7030-887d-a166e6ef19b1",
-        "title": "Indexia W4 missing access — CHUNK-011",
+        "title": "Indexia W4 missing access \u2014 CHUNK-011",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-011",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-011 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2213,7 +2135,7 @@
       },
       {
         "thread_id": "01a0a907-3cf1-7be0-95d9-b618652ede1b",
-        "title": "Indexia W4 missing access — CHUNK-012",
+        "title": "Indexia W4 missing access \u2014 CHUNK-012",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-012",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-012 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2225,7 +2147,7 @@
       },
       {
         "thread_id": "01a0a907-7e7b-7c31-adce-5a6a8fac69f7",
-        "title": "Indexia W4 missing access — CHUNK-013",
+        "title": "Indexia W4 missing access \u2014 CHUNK-013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-013",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-013 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2237,7 +2159,7 @@
       },
       {
         "thread_id": "01a0a907-8f0f-70a2-8475-6f7e556af65a",
-        "title": "Indexia W4 missing access — CHUNK-014",
+        "title": "Indexia W4 missing access \u2014 CHUNK-014",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-014",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-014 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2250,7 +2172,7 @@
       },
       {
         "thread_id": "01a0a907-a0ef-7292-a9eb-18da86d7c29a",
-        "title": "Indexia W4 missing access — CHUNK-015",
+        "title": "Indexia W4 missing access \u2014 CHUNK-015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-015",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-015 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2262,7 +2184,7 @@
       },
       {
         "thread_id": "01a0a907-b039-77e1-90af-0bfbff2d098a",
-        "title": "Indexia W4 missing access — CHUNK-016",
+        "title": "Indexia W4 missing access \u2014 CHUNK-016",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-016",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-016 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2275,7 +2197,7 @@
       },
       {
         "thread_id": "01a0a907-c2f3-78b0-be11-7b9205c7ecb0",
-        "title": "Indexia W4 missing access — CHUNK-017",
+        "title": "Indexia W4 missing access \u2014 CHUNK-017",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-017",
         "responsibility": "Exclusive missing-access audit for supported deterministic CHUNK-017 workset; all owned subjects, reader tasks and treatments",
         "status": "archived",
@@ -2288,7 +2210,7 @@
       },
       {
         "thread_id": "01a0a915-8c19-77c0-8500-2486b8d6bd12",
-        "title": "Indexia W4 missing-access QA A — 007 and 010",
+        "title": "Indexia W4 missing-access QA A \u2014 007 and 010",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-a",
         "responsibility": "Independent bounded review of completed missing-access audits007 and010; no ownership or edits",
         "status": "archived",
@@ -2298,7 +2220,7 @@
       },
       {
         "thread_id": "01a0a917-88f4-7cb3-b312-173c17e84256",
-        "title": "Indexia W4 missing-access QA B — 006, 008, 015",
+        "title": "Indexia W4 missing-access QA B \u2014 006, 008, 015",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-b",
         "responsibility": "Independent bounded review of completed missing-access006,008,015; no ownership or edits",
         "status": "archived",
@@ -2308,7 +2230,7 @@
       },
       {
         "thread_id": "01a0a918-8b3c-7631-a544-a137260d759b",
-        "title": "Indexia W4 missing-access QA C — 003, 004, 005",
+        "title": "Indexia W4 missing-access QA C \u2014 003, 004, 005",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-c",
         "responsibility": "Independent bounded review of completed missing-access 003, 004, 005; no ownership or edits",
         "status": "archived",
@@ -2319,7 +2241,7 @@
       },
       {
         "thread_id": "01a0a918-9ee9-7802-9c79-74b60c339ea8",
-        "title": "Indexia W4 missing-access QA D — 011, 012, 013",
+        "title": "Indexia W4 missing-access QA D \u2014 011, 012, 013",
         "worktree": "/home/john/Documents/Codex/2026-09-16/indexia-missing-qa-d",
         "responsibility": "Independent bounded review of completed missing-access 011, 012, 013; no ownership or edits",
         "status": "archived",
@@ -2387,7 +2309,7 @@
         "persisted_output": "validation/restricted/structure-review/04/structure-components.json",
         "expected_output": "/tmp/indexia-structure-04/structure-components.json",
         "workset_path": "validation/restricted/structure-worksets/structure-workset.04.json",
-        "review_note": "Complete output, authored decisions, serializer, and handoff preserved. Root reviewed every adverse node, all confirmed trigger rationales, and year-route decisions; owner corrected1793–1795 after root calibration. Exact native whole-ledger validation pending final integration.",
+        "review_note": "Complete output, authored decisions, serializer, and handoff preserved. Root reviewed every adverse node, all confirmed trigger rationales, and year-route decisions; owner corrected1793\u20131795 after root calibration. Exact native whole-ledger validation pending final integration.",
         "output_sha256": "1e1032547b154b78e3f2cab58e721ce2cee72e173815182cb2eab4829c99043b",
         "archive_reason": "Complete authored decisions, native components, serializers and handoffs preserved privately; root accepted calibrated judgments and validated the whole ledger before typed registration. No useful result remains only in chat."
       },
@@ -2599,32 +2521,6 @@
       "target_rubric": "subject-index-rubric-v10",
       "source_proof_rewritten": false,
       "scoring_semantics_changed": true
-    }
-  },
-  "execution_compatibility": {
-    "approval": {
-      "path": "migration-v10-r5/semantic-execution-v1/compatibility.json",
-      "sha256": "945fd181c18c3dd1a75d9d375ca08f54d8a0dd439a0ba0e4067cc3bce2404adf"
-    },
-    "source_release": {
-      "path": "migration-v10-r5/semantic-execution-v1/source-release.json",
-      "sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca"
-    },
-    "previous_state": {
-      "path": "migration-v10-r5/semantic-execution-v1/previous-state.json",
-      "sha256": "d163fd7d3c6f4fa6e3126ded8b31f8692fe8ddb171c99ab3c2b610d60d80ad62"
-    },
-    "requirement_inventory": {
-      "path": "migration-v10-r5/semantic-execution-v1/requirement-inventory-provenance.json",
-      "sha256": "a054c74034baf724dc9e5980b995274a58a350516e840c77764af34e88309be6"
-    },
-    "prior_structure": {
-      "path": "migration-v10-r5/semantic-execution-v1/prior-structure.json",
-      "sha256": "92cb2e5ef3945a0cc21023ffd95710f96f5fb65b2c99a4b089a3af4ec37ff713"
-    },
-    "defect_reconciliation": {
-      "path": "migration-v10-r5/semantic-execution-v1/defect-reconciliation.json",
-      "sha256": "42f832063b2cb319b78098fed050529a6a7e06731b3444a9df8f1c814a348cbe"
     }
   }
 }

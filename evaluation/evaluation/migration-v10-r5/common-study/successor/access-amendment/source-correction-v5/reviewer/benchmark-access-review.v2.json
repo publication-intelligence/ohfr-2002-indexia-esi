@@ -1,0 +1,14 @@
+{
+  "schema_version": "subject-index-benchmark-access-review-v10",
+  "reviewer_id": "OHFR benchmark owner independent reconciliation review",
+  "reviewed_at": "2026-09-17T18:11:00+00:00",
+  "candidate_seen": false,
+  "decision": "approved",
+  "overlay_sha256": "0bcf91b9311c8d42dbb5c9d20bd6b894072bd8121bc3a23a788b5488c33a9f60",
+  "overlay_file_sha256": "6a84311a1932b589e1e5fbe3bca838bba0d0a8e0c86c8f6031c7cb34ff54a972",
+  "population_sha256": "e6f86296d5f79a0274428b546c87857ba03be2e594ff3f05e354cc8bcc97e7c7",
+  "reviewed_delta_ids": [],
+  "source_evidence_verified": true,
+  "no_source_scope_change": true,
+  "rationale": "Approved the exact candidate-blind four-family reconciliation required by V10.2. Subjects, reader tasks, expected treatments, and weighted access obligations reconstruct from the frozen successor benchmark; the zero-delta amendment changes no source scope or semantic benchmark content."
+}
