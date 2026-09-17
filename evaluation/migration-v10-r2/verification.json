@@ -1,0 +1,26 @@
+{
+  "schema_version": "indexia-v10-r2-verification.v1",
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "projection_id": "OHFR-V10-WEB-26A5C8C0634D",
+  "authoritative_evaluation_status": "indeterminate",
+  "overall_percentage": null,
+  "method_readiness": "not_ready",
+  "triggered_gate_ids": [
+    "GATE-WRONG-LOCATOR"
+  ],
+  "checks": {
+    "evaluation_state_validation": "passed",
+    "study_preflight_with_density": "passed",
+    "candidate_access_requirement_count": 2732,
+    "candidate_access_status": "sufficient",
+    "portable_checkpoint_import": "passed",
+    "imported_state_validation": "passed_with_expected_restricted_source_reconnect_warnings"
+  },
+  "hashes": {
+    "evaluation_result_sha256": "cc09b1cb08712cbcd558890ac8cc177f88644b36ec85d544aa13b7828cd09e4e",
+    "web_report_sha256": "5af41f33759141d14ef0be03c2c863a6372d76c633aa3e16a47dfd41fb0f5cc7",
+    "portable_checkpoint_sha256": "4e00efae0f927fd9b40f0ab259ee8711ab3f1b3e51b987cad898b8fdd05e5496",
+    "canonical_index_records_json_sha256": "c32d911f9469f59d31842dff3d72175ae25b02c1a2535f44aebaadc7bb2b34b7",
+    "tracked_index_records_gzip_sha256": "e324824e83567f9e9fa39326ed5448e446f56589bca0948dc4b6995b780334bf"
+  }
+}
