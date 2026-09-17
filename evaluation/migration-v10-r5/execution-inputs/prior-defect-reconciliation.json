@@ -10,10 +10,7 @@
       "successor_finding_ids": [
         "DEFECT-HED-W001-B444131F40FB"
       ],
-      "evidence_ids": [
-        "DEFECT-HED-W001-B444131F40FB",
-        "NODE-B444131F40FB"
-      ],
+      "evidence_ids": [],
       "rationale": "The candidate fingerprint is unchanged and no contrary evidence rebuts this material finding; the successor audit retains and rebinds it under V10.2."
     },
     {
@@ -22,15 +19,11 @@
       "successor_finding_ids": [
         "DEFECT-BENCH-YOUNG-OBSERVER"
       ],
-      "evidence_ids": [
-        "DEFECT-BENCH-YOUNG-OBSERVER",
-        "SUBJ-SUCC-E1FC8E3CE663",
-        "SUBJ-SUCC-0F8A724D947A"
-      ],
+      "evidence_ids": [],
       "rationale": "The candidate fingerprint is unchanged and no contrary evidence rebuts this material finding; the successor audit retains and rebinds it under V10.2."
     }
   ],
   "reviewed_by": "OHFR benchmark owner",
   "reviewed_at": "2026-09-17T18:13:00+00:00",
-  "reconciliation_sha256": "5f52735b45428baae938481c275858d00aedfeb5f51fac60973985735ec1eb07"
+  "reconciliation_sha256": "baacec71cbd625bdfa61984ec906d3034efad7ecc6d9d0e86d264f4b261d891f"
 }

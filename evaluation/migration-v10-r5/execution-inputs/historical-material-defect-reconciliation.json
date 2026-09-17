@@ -155,15 +155,17 @@
     },
     {
       "prior_defect_id": "DEFECT-CENTRAL-OMISSION-2B5A894F09C5",
-      "disposition": "retained",
-      "successor_finding_ids": [
-        "DEFECT-CENTRAL-OMISSION-2B5A894F09C5"
-      ],
+      "disposition": "superseded",
+      "successor_finding_ids": [],
       "evidence_ids": [
-        "DEFECT-CENTRAL-OMISSION-2B5A894F09C5",
-        "SUBJ-2B5A894F09C5"
+        "SUBJ-2B5A894F09C5",
+        "SUBJ-SUCC-ED454F490922",
+        "SUBJ-SUCC-0848F7E708D9",
+        "SUBJ-SUCC-298B67CB03D3",
+        "SUBJ-SUCC-B6801A5B2E03",
+        "SUBJ-SUCC-0F200CAA2EC0"
       ],
-      "rationale": "The candidate fingerprint is unchanged and the original source-linked evidence remains applicable; the V10.2 audit restores this material finding."
+      "rationale": "The predecessor bundled distinct church, constitutional, democratic, and Napoleonic legacy obligations. The reviewed successor benchmark split those obligations into five independently weighted subjects; the old aggregate omission is superseded rather than silently dropped."
     },
     {
       "prior_defect_id": "DEFECT-CENTRAL-OMISSION-30DAA1787938",
@@ -173,9 +175,9 @@
       ],
       "evidence_ids": [
         "DEFECT-CENTRAL-OMISSION-30DAA1787938",
-        "SUBJ-30DAA1787938"
+        "SUBJ-SUCC-65D590EBAFE2"
       ],
-      "rationale": "The candidate fingerprint is unchanged and the original source-linked evidence remains applicable; the V10.2 audit restores this material finding."
+      "rationale": "The unchanged candidate still lacks coherent access to the Paris/provinces/national-sovereignty synthesis; retained against the live successor subject."
     },
     {
       "prior_defect_id": "DEFECT-CENTRAL-OMISSION-77B87F55CDDF",
@@ -185,9 +187,9 @@
       ],
       "evidence_ids": [
         "DEFECT-CENTRAL-OMISSION-77B87F55CDDF",
-        "SUBJ-77B87F55CDDF"
+        "SUBJ-SUCC-CC141AF36901"
       ],
-      "rationale": "The candidate fingerprint is unchanged and the original source-linked evidence remains applicable; the V10.2 audit restores this material finding."
+      "rationale": "The unchanged candidate still lacks coherent access to the Revolutionary Government synthesis; retained against the live successor subject."
     },
     {
       "prior_defect_id": "DEFECT-CENTRAL-OMISSION-BE2B454984A0",
@@ -197,12 +199,12 @@
       ],
       "evidence_ids": [
         "DEFECT-CENTRAL-OMISSION-BE2B454984A0",
-        "SUBJ-BE2B454984A0"
+        "SUBJ-SUCC-A4EB8133A5C7"
       ],
-      "rationale": "The candidate fingerprint is unchanged and the original source-linked evidence remains applicable; the V10.2 audit restores this material finding."
+      "rationale": "The unchanged candidate still lacks coherent access to the Great Nation synthesis; retained against the live successor subject."
     }
   ],
   "reviewed_by": "OHFR benchmark owner",
   "reviewed_at": "2026-09-17T18:13:00+00:00",
-  "reconciliation_sha256": "41a6dc0b8320350be77abd117d6f98dcd25140cd7ae22042904e2b719f8fb242"
+  "reconciliation_sha256": "88313e97e66a707acea3f89f0a0c0cdc11d180a1db60c385ac14686203820e14"
 }

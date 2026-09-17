@@ -2,7 +2,7 @@
   "schema_version": "subject-index-v10-execution-compatibility-v1",
   "compatibility_id": "ohfr-2002-indexia-v10-decision-v3",
   "baseline_runtime_commit": "815bcb66d3319d2f730a9645800b304bcbd4b2e9",
-  "successor_runtime_commit": "b55f27dc6a3a301224a3da67aa3afb3c15dcb109",
+  "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
   "execution_contract_id": "subject-index-v10-semantic-execution-v3",
   "contract_constituents": {
     "subject-index-evaluation-v10-decision-v3": "779fb8ffb21bc17fe87a23ee9160a124e013a094c08280b7bdb26fef40d2da50",
@@ -11,13 +11,13 @@
     "subject-index-evaluation-v10-semantic-uncertainty-addendum-v3": "4031abef00cb37508f30c8c89ec5e12592ce89369f144c1473ebc43bf9503a7d",
     "subject-index-evaluation-v10-semantic-uncertainty-addendum-v4": "b5d51033cb03093ca242841f8d9a5aac510915cfedad800614078e5199220a64"
   },
-  "runtime_payload_sha256": "36508cd8d6f6f238803393b65edabb781daea7445b9f90cf178fa681f1bab8c3",
+  "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
   "common_lock_file_sha256": "13e1e0209a3b5d29c3a5c97508fee909aca51a4a8170bd6c25bcdc2145e75b23",
   "common_lock_sha256": "f7dd6bbc699635497caa28e02bd7b67eabce0023e52004886ea85c9825ce2423",
   "source_release_file_sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca",
   "source_release_sha256": "cac75dbba39b9a46fc5a88f56258f12d2f31f17b43a51f5471c80dbe3c2954a4",
   "authorized_by": "OHFR benchmark owner",
-  "authorization_reference": "2026-09-17 coordinator authorization to adopt merged Evaluate Subject Index PR 64 and rebuild Indexia under decision v3.",
-  "approved_at": "2026-09-17T18:20:00+00:00",
-  "compatibility_sha256": "9f85bfb0f7b18d689cad3ca0b3b55a551d318f6bfe09ec1918681762e3267fc7"
+  "authorization_reference": "2026-09-17 coordinator authorization to adopt merged Evaluate Subject Index PR 71 and finish the corrected Indexia decision-v3 evaluation.",
+  "approved_at": "2026-09-17T19:08:54+00:00",
+  "compatibility_sha256": "5974fb34bc5f6a84d60a9feb4123bb71451d87d8734b2217acaf7c149328e310"
 }

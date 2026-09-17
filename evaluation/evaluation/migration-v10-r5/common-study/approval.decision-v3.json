@@ -2,7 +2,7 @@
   "schema_version": "subject-index-retrospective-benchmark-approval-v1",
   "approval_id": "indexia-user-authorized-v10-decision-v3-2026-09-17",
   "authorized_by": "John (user), authorization relayed by comparison coordinator",
-  "authorization_reference": "Coordinator authorized decision-v3 adoption under merged evaluator PR 64, including rebuild, commit, PR, and merge.",
+  "authorization_reference": "Coordinator authorized decision-v3 transition under merged evaluator PR 67, including rebuild, commit, PR, and merge.",
   "approved_at": "2026-09-17T18:21:00+00:00",
   "candidate_seen": true,
   "previous_state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
@@ -12,5 +12,5 @@
   "audit_transfer_authorized": false,
   "previous_policy_sha256": "808df7fa23326c6f416102cbccef62c4e7ca62181c3066cb17be222e462a46a2",
   "target_policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
-  "study_policy_template_sha256": "408bd67a3f6300f240a8768e8e2deec51a14c02ef084f3ef1482777fb7994177"
+  "study_policy_template_sha256": "74f6280975cd32e1622c57e91cf1241ec385b04461fbf3976d9ce8013b944975"
 }
