@@ -1,0 +1,58 @@
+{
+  "status": "applied through registered structure command; original uncertainty records unchanged",
+  "frozen_structure_path": "evaluation/structure/structure-audit.v6.json",
+  "frozen_structure_sha256": "02ae06e9aad0cf0b9f302bbedcb35bde1c78bc4d428bdd1cbbeec6bb2840e5f0",
+  "original_uncertainties": [
+    {
+      "uncertainty_id": "LIMITATION-COMMON-SOURCE-SCOPE",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "summary": "This evaluation covers the user-authorized derivative restricted to printed pages 1–425. The delivered index references beyond that common source scope were not evaluated."
+    },
+    {
+      "uncertainty_id": "LIMITATION-UPLOADED-SOURCE-IDENTITY",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "summary": "The supplied source text matches the corresponding pages of the 2002 second edition. The exact file uploaded to the index producer was unavailable for byte-for-byte identity verification."
+    },
+    {
+      "uncertainty_id": "LIMITATION-FROZEN-WORD-COUNT-METHODS",
+      "affected_item_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "summary": "Density uses 194,718 indexable words from the exact imported source-discovery release. Historical chapter extraction methods vary; a separately authored evaluation uses a different word denominator and is not directly interchangeable."
+    }
+  ],
+  "uncertainty_gate_scopes": [
+    {
+      "uncertainty_id": "LIMITATION-COMMON-SOURCE-SCOPE",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [],
+      "rationale": "The frozen record limits evaluation to the user-authorized derivative covering printed pages 1–425 and explicitly excludes delivered references beyond that extent. It does not question support at evaluated destinations within that independently bound source and candidate scope. The limitation remains in force; no excluded destination is newly assessed."
+    },
+    {
+      "uncertainty_id": "LIMITATION-UPLOADED-SOURCE-IDENTITY",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [],
+      "rationale": "The frozen record affirms that the supplied source text matches the corresponding pages of the 2002 second edition. Its unresolved question is byte-for-byte identity of the producer upload, not identity or inspectability of the independently bound supplied source and evaluated candidate used by the frozen audits. This clarification does not establish producer-upload identity or waive any destination-support finding."
+    },
+    {
+      "uncertainty_id": "LIMITATION-FROZEN-WORD-COUNT-METHODS",
+      "scope": "measurement_provenance",
+      "target_ids": [
+        "GLOBAL-STRUCTURE"
+      ],
+      "evidence_ids": [],
+      "rationale": "The frozen record concerns density measurement: 194,718 indexable words imported from the exact source-discovery release, varied historical chapter extraction methods, and non-interchangeability with another evaluation denominator. It does not question the independently bound evaluated source or candidate, or source-linked support at evaluated destinations. The frozen denominator and its limitation remain unchanged."
+    }
+  ],
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78"
+}

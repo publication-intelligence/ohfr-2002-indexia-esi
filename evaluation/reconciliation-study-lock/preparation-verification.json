@@ -1,0 +1,224 @@
+{
+  "ok": true,
+  "status": "preparation only; no registered artifact changed",
+  "legacy_file_sha256": "34a399cda8ca9f1b07b9fa0ddad36ac4f5073ef12d8b12df42fb023818508b27",
+  "legacy_canonical_sha256": "b925797fcab50b2008ad5974590e323f772e5ea7013efa84ce7606007439aeb3",
+  "normalization": "relationships[*].type -> relationship_type",
+  "exactly_equal_top_level_fields": [
+    "candidate_blindness",
+    "change_ledger",
+    "chunk_manifest_sha256",
+    "exclusions",
+    "page_map_sha256",
+    "provenance",
+    "quality_control",
+    "reader_tasks",
+    "relationships",
+    "schema_version",
+    "source_first_omission_pass",
+    "source_sha256",
+    "source_title",
+    "subjects",
+    "supersedes",
+    "synthesis_audit",
+    "uncertainties"
+  ],
+  "different_wrapper_fields": [
+    "benchmark_id",
+    "benchmark_sha256",
+    "evaluation_id",
+    "freeze",
+    "policy_sha256",
+    "version"
+  ],
+  "current_added_provenance_field": "compatibility_import",
+  "benchmark_counts": {
+    "expected_treatments": 3210,
+    "reader_tasks": 1026,
+    "source_subjects": 1366
+  },
+  "registered_artifacts_equal_to_final_handoff": 113,
+  "current_audit_bindings_verified": {
+    "locator_audit": 17,
+    "missing_access_audit": 17
+  },
+  "density_indexable_source_words": 194718,
+  "density_basis_by_chunk": [
+    {
+      "chunk_id": "CHUNK-001",
+      "indexable_source_words": 19778,
+      "locator_bearing_heading_paths": 578,
+      "locator_occurrences": 1079,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-001.v2.json",
+      "source_word_count_artifact_sha256": "8bc6f13b0caf691e342232b6a9544da36889fa1bff41570581c728bf75c35fab",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "indexable_source_words": 10088,
+      "locator_bearing_heading_paths": 390,
+      "locator_occurrences": 579,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-002.json",
+      "source_word_count_artifact_sha256": "7903d14ee27d7b1deea185cfed527a1772ffc67aabae1ffe9d9136c2e77be053",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "indexable_source_words": 9090,
+      "locator_bearing_heading_paths": 322,
+      "locator_occurrences": 676,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-003.json",
+      "source_word_count_artifact_sha256": "d3c9ec3645b8ff0d0c755ddeebea36b6fe8f1c4a6483231e7474da7e697fa159",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "indexable_source_words": 11987,
+      "locator_bearing_heading_paths": 405,
+      "locator_occurrences": 839,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-004.json",
+      "source_word_count_artifact_sha256": "d2531c6345809ae452eb4ce3963003ddc546417687b71648e6c477c46ee18ba3",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "indexable_source_words": 10384,
+      "locator_bearing_heading_paths": 450,
+      "locator_occurrences": 831,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-005.json",
+      "source_word_count_artifact_sha256": "4f3438c7708d229f338ce859e2815aaaf62ad09191c14d870383a9d7e40fbfd0",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "indexable_source_words": 10356,
+      "locator_bearing_heading_paths": 424,
+      "locator_occurrences": 820,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-006.json",
+      "source_word_count_artifact_sha256": "c80c33d8f966f5505d4bed77123e3eb0daf084e171081016164f0bf394472eb6",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-007",
+      "indexable_source_words": 6561,
+      "locator_bearing_heading_paths": 315,
+      "locator_occurrences": 523,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-007.json",
+      "source_word_count_artifact_sha256": "4ebc488a36d366a557ae8730c6d384f11e9eea3ef8dcd361febb352ad62d0662",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-008",
+      "indexable_source_words": 10909,
+      "locator_bearing_heading_paths": 411,
+      "locator_occurrences": 863,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-008.json",
+      "source_word_count_artifact_sha256": "8b2a575bc07a32a603c9c6e95a4c3a638e58795a830a784177c9e9a94b30d74d",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-009",
+      "indexable_source_words": 10537,
+      "locator_bearing_heading_paths": 414,
+      "locator_occurrences": 804,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-009.json",
+      "source_word_count_artifact_sha256": "d1820383c7823e487c32071a8c1b65a5614e0fcb74e89eec88994a8b7177d839",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-010",
+      "indexable_source_words": 12192,
+      "locator_bearing_heading_paths": 399,
+      "locator_occurrences": 957,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-010.json",
+      "source_word_count_artifact_sha256": "6eb423e3b3aa03d4fdf4042fececfd6c5b3400d4e5f0001273c8eba796eddcff",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "indexable_source_words": 11621,
+      "locator_bearing_heading_paths": 397,
+      "locator_occurrences": 949,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-011.json",
+      "source_word_count_artifact_sha256": "d9391b25686d6cc2dca3533ad54940c5204f5de6bb8d0f3eadbf1a4008c96ff9",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "indexable_source_words": 11603,
+      "locator_bearing_heading_paths": 357,
+      "locator_occurrences": 831,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-012.json",
+      "source_word_count_artifact_sha256": "074c27d7ca132dac6c642eac49ccb90015708cba2b121a6fae381b077a02ecab",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-013",
+      "indexable_source_words": 9810,
+      "locator_bearing_heading_paths": 314,
+      "locator_occurrences": 679,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-013.json",
+      "source_word_count_artifact_sha256": "b968dfd3cc69bad019b4988886048ed52e4912bee999d98d25c8c472a8f1d719",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-014",
+      "indexable_source_words": 10836,
+      "locator_bearing_heading_paths": 276,
+      "locator_occurrences": 563,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-014.json",
+      "source_word_count_artifact_sha256": "70071d89ccdf99471d504d21ada8accf03a1748fe43e25bce92ae51e0c3a6311",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-015",
+      "indexable_source_words": 12739,
+      "locator_bearing_heading_paths": 308,
+      "locator_occurrences": 723,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-015.json",
+      "source_word_count_artifact_sha256": "82dad6b241499998b4b0db8b66acee897dbb01dc0772491e6ff24c3d6cdf4666",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-016",
+      "indexable_source_words": 10258,
+      "locator_bearing_heading_paths": 260,
+      "locator_occurrences": 519,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-016.json",
+      "source_word_count_artifact_sha256": "94a701b70bd93786c1d452cd2e1a6dd998846e843361417db0dceb4f5aaa621b",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "indexable_source_words": 15969,
+      "locator_bearing_heading_paths": 425,
+      "locator_occurrences": 908,
+      "source_word_count_basis": "imported_legacy_v3_registered_source_subject_chunk.page_review.indexable_source_words",
+      "source_word_count_artifact_path": "source/source-subject-chunk.CHUNK-017.json",
+      "source_word_count_artifact_sha256": "98e522355be98c08cc99f02aad3fed56f225b6ac883a0e45535fa2b5ff2afbac",
+      "locator_count_basis": "complete_registered_locator_audit_unique_path_ids_and_atomic_locator_ids"
+    }
+  ],
+  "candidate_seen": true,
+  "activation_authorized": false,
+  "new_review_claimed": false,
+  "incumbent_v3_freeze": "98dbffd0ca171b5b7db76dbe1b2b5d5265ccacab",
+  "selected_study_authority": null,
+  "authority_selection_status": "pending candidate-blind source comparison"
+}

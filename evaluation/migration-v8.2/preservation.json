@@ -1,0 +1,17 @@
+{
+  "status": "validated final V8.2 migration; evaluation PR merge pending",
+  "archive_path": "private/v8.2-c11c6cc-registered-artifacts.zip",
+  "archive_sha256": "b480bce90bfb28e904e6666e0ae41a13a0fe46949d842edb7a6dfab12af5a314",
+  "state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
+  "registered_artifact_count": 113,
+  "methodology_commit": "c11c6ccb16000fe79646af16b7be01f6cbeeac78",
+  "installation_receipt_sha256": "f7d0b2bd830dfbca7b1e8c4f79c6320e2c7a945d075342807d24d6f9f7cd1204",
+  "additional_provenance_members": [
+    "migration-v8.2/policy-build-input.json",
+    "migration-v8.2/private/original-policy.json",
+    "migration-v8.2/private/base-policy.json",
+    "migration-v8.2/private/final-installation-receipt.json",
+    "migration-v8.2/uncertainty-scopes.json"
+  ],
+  "prior_checkpoint_receipt": "adeb691-preservation.json"
+}

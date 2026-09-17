@@ -1,0 +1,25 @@
+{
+  "command": "register-structure-audit",
+  "ok": true,
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "artifacts_registered": [
+    "structure/structure-audit.v6.json"
+  ],
+  "artifacts_written": [
+    "evaluation-state.json"
+  ],
+  "next_actions": [
+    {
+      "stage": "scoring",
+      "command": "dimension_score_v8_cli.py score",
+      "status": "not_started",
+      "available": true,
+      "unmet_dependencies": [],
+      "required_inputs": [
+        "complete V8 audit ledgers"
+      ],
+      "completion_test": "A current V8 scoring artifact is registered."
+    }
+  ],
+  "warnings": []
+}

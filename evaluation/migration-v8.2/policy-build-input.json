@@ -1,0 +1,150 @@
+{
+  "schema_version": "subject-index-policy-build-input-v1",
+  "policy_id": "ohfr-2002-indexia-standard-v8.2",
+  "source_scope": {
+    "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
+    "document_page_span": [
+      1,
+      425
+    ],
+    "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
+    "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
+    "availability": {
+      "main_text": "available",
+      "front_matter": "unavailable",
+      "endnotes": "unavailable"
+    },
+    "source_specific_included": [
+      "Supplied main text, source labels 1\u2013425"
+    ],
+    "source_specific_excluded": [
+      "Unavailable front matter",
+      "Unavailable endnotes"
+    ]
+  },
+  "audience": {
+    "label": "Scholars, students, and informed general readers of the French Revolution",
+    "basis": "inferred",
+    "confidence": "high",
+    "rationale": "The source is a scholarly synthetic history intended for study and reference."
+  },
+  "audit_design": {
+    "mode": "full",
+    "candidate_blindness": "required"
+  },
+  "deviations": [],
+  "retrospective_migration": {
+    "original_policy": {
+      "policy_id": "ohfr-2002-indexia-standard-v8",
+      "policy_profile_id": "subject-index-standard-policy-v8",
+      "policy_sha256": "c25eb7c2e2799b9ee49c099c765447f030af9fa73fdba3178035b506c0950070",
+      "freeze": {
+        "frozen_at": "2026-09-16T05:15:34Z",
+        "candidate_seen": false
+      },
+      "artifact": {
+        "path": "private/original-policy.json",
+        "sha256": "795022fe57a0daae9e978778e4b817cc6f8439028722e6b72d0ac7e4aae01fa1"
+      }
+    },
+    "migrated_at": "2026-09-16T17:18:37.652410+00:00",
+    "candidate_seen": true,
+    "authorization": {
+      "authorized_by": "John (user)",
+      "reference": "Direct user authorization \u201cDo it.\u201d in task 01a0aaf9-7393-7e80-8c61-6aa773820718, following the combined V8.2 coordinator dispatch."
+    },
+    "change_ledger_reference": "change-ledger.json",
+    "reused_stages": {
+      "page_mapping": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "chunk_definition": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "source_subject_discovery": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "benchmark_synthesis": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "benchmark_review": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "benchmark_freeze": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "candidate_normalization": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "locator_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "missing_access_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      },
+      "structure_audit": {
+        "rerun": false,
+        "evidence": [
+          {
+            "path": "../migration-v8.1/private/original-v8-registered-artifacts.zip",
+            "sha256": "243d31e6e17014ac5f75ce42981d8b330906a469bce7f39f3ca4f3b9aa42676f"
+          }
+        ]
+      }
+    }
+  }
+}

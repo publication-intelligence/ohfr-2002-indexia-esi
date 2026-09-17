@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "registered_artifacts": 113,
+  "changed_registered_artifacts": [
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-001.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-002.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-003.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-004.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-005.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-006.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-007.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-008.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-009.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-010.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-011.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-012.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-013.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-014.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-015.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-016.v1.json",
+    "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/missing-access-audits/missing-access-audit.CHUNK-017.v1.json",
+    "scoring/dimension-calculation-input.v2.json",
+    "scoring/dimension-calculations.v6.json",
+    "scoring/evaluation-result.v12.json",
+    "scoring/item-assessments.v7.json",
+    "scoring/projection-metadata.v2.json",
+    "scoring/v8-canonical-projection/projection.v1.json",
+    "scoring/web-report.v10.json",
+    "source/evaluation-policy.v4.json",
+    "source/source-benchmark.v8-import.json",
+    "structure/structure-audit.v6.json"
+  ],
+  "original_input_hashes_verified": 37,
+  "revised_input_hashes_verified": 37,
+  "all_ordinary_components_unchanged": true,
+  "all_item_assessments_unchanged": true,
+  "all_six_dimensions_components_caps_exactly_identical": true,
+  "gate_assessment": {
+    "status": "sufficient",
+    "blockers": []
+  },
+  "confirmed_wrong_locator_count": 631,
+  "benchmark_content_and_original_review_provenance_unchanged": true,
+  "exact_weighted_total": "71.30377188130214613447637164",
+  "rounded_score": 71.3,
+  "full_projection_bundle_valid": true,
+  "evaluation_validity": {
+    "status": "valid",
+    "blockers": [],
+    "used_as_publication_gate": false
+  },
+  "triggered_publication_gates": [
+    "GATE-CENTRAL-OMISSION",
+    "GATE-STANCE",
+    "GATE-GROUNDING",
+    "GATE-WRONG-LOCATOR"
+  ],
+  "state_errors": [],
+  "state_warnings": []
+}

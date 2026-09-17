@@ -1,0 +1,13 @@
+{
+  "status": "validated checkpoint; final gate publication held for reviewed uncertainty-scope patch",
+  "archive_path": "private/v8.2-adeb691-registered-artifacts.zip",
+  "archive_sha256": "b4506cf2a03828668bb601af79e0450a09e7a03c55cd4617dbb29759363d48b1",
+  "state_sha256": "ca18eeaa5f7dd099d2af00d7fd17b81e1b4447b006a341a732679f89fa13aad6",
+  "registered_artifact_count": 113,
+  "methodology_commit": "adeb69171a3278893e8b7ebb3c664ee5bd428efe",
+  "additional_provenance_members": [
+    "migration-v8.2/policy-build-input.json",
+    "migration-v8.2/private/original-policy.json",
+    "migration-v8.2/private/base-policy.json"
+  ]
+}

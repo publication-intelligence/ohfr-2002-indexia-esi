@@ -1,0 +1,25 @@
+{
+  "command": "build-web-report",
+  "ok": true,
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "report_id": "ohfr-2002-indexia-v8-v8",
+  "projection_id": "OHFR-V8-WEB-4AB2D90D1040",
+  "replacement": false,
+  "artifacts_registered": [
+    "scoring/web-report.v10.json",
+    "scoring/v8-canonical-projection/projection.v1.json",
+    "scoring/v8-canonical-projection/data/index-records.v1.json",
+    "scoring/v8-canonical-projection/data/source-subjects.v1.json",
+    "scoring/v8-canonical-projection/data/density.v1.json"
+  ],
+  "artifacts_written": [
+    "scoring/web-report.v10.json",
+    "scoring/v8-canonical-projection/projection.v1.json",
+    "scoring/v8-canonical-projection/data/index-records.v1.json",
+    "scoring/v8-canonical-projection/data/source-subjects.v1.json",
+    "scoring/v8-canonical-projection/data/density.v1.json",
+    "evaluation-state.json"
+  ],
+  "next_actions": [],
+  "warnings": []
+}

@@ -26,3 +26,4 @@ evaluation/validation/parser-worker-handoff.md
 
 # Generated canonical JSON exceeds GitHub's per-file limit; tracked gzip is lossless.
 evaluation/scoring/v8-canonical-projection/data/index-records.v1.json
+evaluation/migration-v10-r2/scoring/v10-canonical-projection/data/index-records.v1.json

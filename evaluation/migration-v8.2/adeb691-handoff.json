@@ -1,0 +1,24 @@
+{
+  "status": "staged private checkpoint; V8.1 main deliberately unchanged pending evaluation PR merge and final methodology patch",
+  "saved_project_name": "ohfr-2002-indexia-esi",
+  "saved_head": "3b10f8520087bbc0ccc64e9e1ab72114cd35e858",
+  "saved_v8_1_state_sha256": "930973e63a9df924871b56a52351b0d682cfbaac5ba470d67dd66e28d2384be3",
+  "v8_2_checkpoint_state_sha256": "ca18eeaa5f7dd099d2af00d7fd17b81e1b4447b006a341a732679f89fa13aad6",
+  "registered_artifacts_verified": 113,
+  "staged_files": [
+    {
+      "path": "evaluation/migration-v8.2/private/v8.2-adeb691-registered-artifacts.zip",
+      "sha256": "b4506cf2a03828668bb601af79e0450a09e7a03c55cd4617dbb29759363d48b1"
+    },
+    {
+      "path": "evaluation/migration-v8.2/private/original-policy.json",
+      "sha256": "795022fe57a0daae9e978778e4b817cc6f8439028722e6b72d0ac7e4aae01fa1"
+    },
+    {
+      "path": "evaluation/migration-v8.2/private/base-policy.json",
+      "sha256": "8a5370817b01e6bd8df8be7aae3d83520899c329511774d1307e8ff7b0109770"
+    }
+  ],
+  "original_and_v8_1_archives_preserved": true,
+  "unrelated_files_overwritten": false
+}

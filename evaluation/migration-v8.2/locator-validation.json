@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "operation": "validate-audits",
+  "audit_kind": "locator",
+  "audits": [
+    {
+      "chunk_id": "CHUNK-001",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-001.v2.json",
+      "completion": {
+        "expected": 1079,
+        "judged": 1079,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-002",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-002.v2.json",
+      "completion": {
+        "expected": 579,
+        "judged": 579,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-003",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-003.v2.json",
+      "completion": {
+        "expected": 676,
+        "judged": 676,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-004",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-004.v2.json",
+      "completion": {
+        "expected": 839,
+        "judged": 839,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-005",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-005.v2.json",
+      "completion": {
+        "expected": 831,
+        "judged": 831,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-006",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-006.v2.json",
+      "completion": {
+        "expected": 820,
+        "judged": 820,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-007",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-007.v2.json",
+      "completion": {
+        "expected": 523,
+        "judged": 523,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-008",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-008.v2.json",
+      "completion": {
+        "expected": 863,
+        "judged": 863,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-009",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-009.v2.json",
+      "completion": {
+        "expected": 804,
+        "judged": 804,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-010",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-010.v2.json",
+      "completion": {
+        "expected": 957,
+        "judged": 957,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-011",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-011.v2.json",
+      "completion": {
+        "expected": 949,
+        "judged": 949,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-012",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-012.v2.json",
+      "completion": {
+        "expected": 831,
+        "judged": 831,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-013",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-013.v2.json",
+      "completion": {
+        "expected": 679,
+        "judged": 679,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-014",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-014.v2.json",
+      "completion": {
+        "expected": 563,
+        "judged": 563,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-015",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-015.v2.json",
+      "completion": {
+        "expected": 723,
+        "judged": 723,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-016",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-016.v2.json",
+      "completion": {
+        "expected": 519,
+        "judged": 519,
+        "unique": true,
+        "complete": true
+      }
+    },
+    {
+      "chunk_id": "CHUNK-017",
+      "path": "candidate-scoped/preparation/candidates/indexia-9a4eebad-da75-40ec-91e0-2ea44e884689-scope-1-425/locator-audits/locator-audit.CHUNK-017.v2.json",
+      "completion": {
+        "expected": 908,
+        "judged": 908,
+        "unique": true,
+        "complete": true
+      }
+    }
+  ]
+}
