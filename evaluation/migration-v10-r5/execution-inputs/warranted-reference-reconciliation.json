@@ -1,0 +1,22 @@
+{
+  "schema_version": "subject-index-warranted-reference-reconciliation-v1",
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "prior_obligation_id": "SUBJ-C89C8EB55F55",
+  "disposition": "retained_as_distributed_successor_obligation",
+  "successor_subject_ids": [
+    "SUBJ-SUCC-6BBDB6F461D1",
+    "SUBJ-SUCC-0848F7E708D9",
+    "SUBJ-SUCC-CFFCD493828A",
+    "SUBJ-SUCC-E4C3D945CE3F",
+    "SUBJ-SUCC-43C2056DACCC",
+    "SUBJ-SUCC-B6801A5B2E03",
+    "SUBJ-SUCC-7CE8C15FFC5B",
+    "SUBJ-SUCC-60C460F43224",
+    "SUBJ-SUCC-A055803B2A41"
+  ],
+  "delivered_reference_count": 0,
+  "warranted_reference_obligation_count": 1,
+  "rationale": "The prior Napoleon-to-Bonaparte access obligation did not disappear when its source argument was split across successor subjects. It is represented as the single GLOBAL-STRUCTURE cross-reference obligation because no one successor alone carries the whole synthesis. The candidate still delivers no cross-reference, so the component remains applicable and the missing route remains scored without a publication gate.",
+  "current_obligation_id": "GLOBAL-STRUCTURE",
+  "reconciliation_sha256": "56453ddc2540dfdb0af155205f8b33f89413e55d0d489255295a9a37694f6c70"
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "indexia-v10-r5-verification-v1",
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "overall_percentage": 64.33,
+  "authoritative_status": "authoritative",
+  "assessment_blockers": [],
+  "triggered_gate_ids": [
+    "GATE-WRONG-LOCATOR",
+    "GATE-CENTRAL-OMISSION",
+    "GATE-STANCE",
+    "GATE-GROUNDING"
+  ],
+  "runtime": {
+    "pull_request": "https://github.com/publication-intelligence/evaluate-subject-index/pull/71",
+    "tested_revision": "47669b44529f61414edf68ef73de676b8886958d",
+    "merge_commit": "8480959fd54f1d118cd3ea9f4391141fb1468096",
+    "payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856"
+  },
+  "files": [
+    {
+      "path": "scoring/evaluation-result.v15.json",
+      "sha256": "63987dfcbaee31f94960f57434f22975addc4116a32abe79d8b1396f735b92db",
+      "bytes": 872460
+    },
+    {
+      "path": "scoring/projection-metadata.v10-semantic-v2.json",
+      "sha256": "fe179390c95335c80605b208228ef82e92caee21e5bf26d24b387beccbbcf9a6",
+      "bytes": 539179
+    },
+    {
+      "path": "scoring/web-report.v13.json",
+      "sha256": "e815ef6d4f060a08be4f0e349a472e82763985df1761e1dd43c9ac77249cf6cb",
+      "bytes": 22361302
+    },
+    {
+      "path": "scoring/v10-canonical-projection/projection.v1.json",
+      "sha256": "060ccbbb7551a4ae00d1db9c26eb9b99c97e509a94435885d452af9803d59fda",
+      "bytes": 558484
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/index-records.v1.json.gz",
+      "sha256": "a7173902fd6f32ebec4d8d32d406d0fa2ed6cbcd96741cf31165afe4fa116479",
+      "bytes": 5644188
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/source-subjects.v1.json",
+      "sha256": "bc881da5224cfddb91650bb179079f4b7e07610df1cbe2ed7a977c636a848346",
+      "bytes": 10310680
+    },
+    {
+      "path": "scoring/v10-canonical-projection/data/density.v1.json",
+      "sha256": "9d70700bd91f5c5a3f89d92cdb34556f178df660847b7dd637b938e80df115f2",
+      "bytes": 17896
+    },
+    {
+      "path": "indexia-v10-r5-final.checkpoint.zip",
+      "sha256": "29a6322aaaa77772df3695b65b1ff2b2ff9ad513ae0994d44d9eaccee48084bc",
+      "bytes": 25423203
+    },
+    {
+      "path": "structure-audit.decision-v18.json",
+      "sha256": "c7c2c2705663ce11317ef0308270d08e2dd40ed099b10b120fe7c97f8559ff22",
+      "bytes": 4428656
+    }
+  ]
+}

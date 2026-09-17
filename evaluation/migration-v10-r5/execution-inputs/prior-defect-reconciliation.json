@@ -1,0 +1,29 @@
+{
+  "schema_version": "subject-index-prior-defect-reconciliation-v10-v1",
+  "evaluation_id": "ohfr-2002-indexia-v8",
+  "candidate_sha256": "9979219954bee42e4640d9e25357859f2f9f3409074fe8d43550a61fd62d018f",
+  "prior_structure_file_sha256": "92cb2e5ef3945a0cc21023ffd95710f96f5fb65b2c99a4b089a3af4ec37ff713",
+  "findings": [
+    {
+      "prior_defect_id": "DEFECT-HED-W001-B444131F40FB",
+      "disposition": "retained",
+      "successor_finding_ids": [
+        "DEFECT-HED-W001-B444131F40FB"
+      ],
+      "evidence_ids": [],
+      "rationale": "The candidate fingerprint is unchanged and no contrary evidence rebuts this material finding; the successor audit retains and rebinds it under V10.2."
+    },
+    {
+      "prior_defect_id": "DEFECT-BENCH-YOUNG-OBSERVER",
+      "disposition": "retained",
+      "successor_finding_ids": [
+        "DEFECT-BENCH-YOUNG-OBSERVER"
+      ],
+      "evidence_ids": [],
+      "rationale": "The candidate fingerprint is unchanged and no contrary evidence rebuts this material finding; the successor audit retains and rebinds it under V10.2."
+    }
+  ],
+  "reviewed_by": "OHFR benchmark owner",
+  "reviewed_at": "2026-09-17T18:13:00+00:00",
+  "reconciliation_sha256": "baacec71cbd625bdfa61984ec906d3034efad7ecc6d9d0e86d264f4b261d891f"
+}
