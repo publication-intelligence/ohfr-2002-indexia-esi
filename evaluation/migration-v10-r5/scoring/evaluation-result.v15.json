@@ -7,8 +7,8 @@
   },
   "provenance": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
-    "judgment_policy_sha256": "32b15513ebba9d07a6171a3c413c73fa95d33830a46fa216c0d9cb1ee3d1e2ef",
-    "benchmark_sha256": "03df003cc7a176235a291e8498860a5c90f6649b0b0da79f33d1066366aefb2f",
+    "judgment_policy_sha256": "92f91d552d085ff22a2bb3247cbf43ed5bc26ffe604ecf0612028e29545ed296",
+    "benchmark_sha256": "7c4a44ae6da1110d9e9720100bb4ae3a88bbbfe2351571d3e64d5044e02e4ce0",
     "rubric_version": "subject-index-rubric-v10",
     "dimension_calculation_profile": "subject-index-dimension-calculation-v9"
   },
@@ -29,12 +29,12 @@
       },
       "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
       "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
-      "compatibility_sha256": "5974fb34bc5f6a84d60a9feb4123bb71451d87d8734b2217acaf7c149328e310",
-      "source_release_file_sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca"
+      "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
+      "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
     },
-    "artifact_path": "migration-v10-r5/scoring-pr71-v6/dimension-calculations.v9.json",
-    "sha256": "d42eb5d2be77f9ac501c755c6804de7ca0e5731034c9301e6d28a30c98377617",
-    "calculation_sha256": "dd3344d44f81582d1067160fa27f72e3df0962e03d5ec7e773281ec92af8b460",
+    "artifact_path": "migration-v10-r5/scoring-shared-pr71/dimension-calculations.v9.json",
+    "sha256": "41e5e2f0088c1c6ad326ac9b430aa8cde7908ee70d8507fede0303ed589c7a84",
+    "calculation_sha256": "96e7c107a5f04773794d8b919da548cae7fc68ebae48af4cb36d36d2b61e7934",
     "rubric_version": "subject-index-rubric-v10",
     "calculation_profile": "subject-index-dimension-calculation-v9"
   },
@@ -99,8 +99,8 @@
   },
   "item_assessments": {
     "schema_version": "subject-index-item-assessments-v10",
-    "artifact_path": "migration-v10-r5/scoring-pr71-v6/item-assessments.v10.json",
-    "sha256": "def886ffbd79d718efde1227c80752fbe3d65b438f85503565bfba3e081e7e91",
+    "artifact_path": "migration-v10-r5/scoring-shared-pr71/item-assessments.v10.json",
+    "sha256": "312955887bc30eeb9c1262c13c4e568fb5478d7d0b3afe5bad0197485bfce0b5",
     "grading_policy": "subject-index-item-grading-v4",
     "summary": {
       "locators": {
@@ -16198,9 +16198,9 @@
   },
   "projection_metadata": {
     "schema_version": "subject-index-v10-projection-metadata-v2",
-    "artifact_path": "migration-v10-r5/scoring-pr71-v6/projection-metadata.v10-semantic-v2.json",
-    "sha256": "fe179390c95335c80605b208228ef82e92caee21e5bf26d24b387beccbbcf9a6",
-    "projection_metadata_sha256": "11abb03679dad37d97e0420ed12506d5da9b593a91919fe0a07bcbe1ec18e601"
+    "artifact_path": "migration-v10-r5/scoring-shared-pr71/projection-metadata.v10-semantic-v2.json",
+    "sha256": "280ba12d7bce75088b41a978b3b9bf6f0478955cd523c5b2542d821e0078f10a",
+    "projection_metadata_sha256": "df36e87495889d91b0b8961ddfb141d2a608eef6ef58d56b445c6ba961e24dcb"
   },
   "critical_gates": [
     {
@@ -30275,8 +30275,8 @@
   },
   "comparison_key": {
     "source_sha256": "5f89aa2592218983c594278bfd86cc1e4b74be1dd6dd8aac5c2610a48fa34047",
-    "benchmark_sha256": "03df003cc7a176235a291e8498860a5c90f6649b0b0da79f33d1066366aefb2f",
-    "judgment_policy_sha256": "32b15513ebba9d07a6171a3c413c73fa95d33830a46fa216c0d9cb1ee3d1e2ef",
+    "benchmark_sha256": "7c4a44ae6da1110d9e9720100bb4ae3a88bbbfe2351571d3e64d5044e02e4ce0",
+    "judgment_policy_sha256": "92f91d552d085ff22a2bb3247cbf43ed5bc26ffe604ecf0612028e29545ed296",
     "page_map_sha256": "452602deebdae19f8e35c589f2ff2a7a0b9fc955d268b14f760391b0043e9653",
     "chunk_manifest_sha256": "5fc5450386114fdeb19838f54d3f1662c3d6dec81d4729c73f4f7ec0cb341a6f",
     "inclusion_policy": "Preserved V8.2 source scope with independently reviewed V10 benchmark access amendment.",
@@ -30447,13 +30447,13 @@
         "source_policy_file_sha256": "5da200316d4296e9ac67296948e581bd7c66662c7c835c11f8fd47bba9607b5b"
       },
       "benchmark_access": {
-        "overlay_sha256": "0bcf91b9311c8d42dbb5c9d20bd6b894072bd8121bc3a23a788b5488c33a9f60",
+        "overlay_sha256": "21b03615360c698467312f46f56d92f4cbbb1182852d2c7014178a2cc53da08d",
         "effective_benchmark_semantic_sha256": "178087ede3951c91aa91c5cda2496c7a881f8864a0d6da60cd2216943e9092c8",
-        "frozen_at": "2026-09-17T18:12:00+00:00",
-        "overlay_file_sha256": "6a84311a1932b589e1e5fbe3bca838bba0d0a8e0c86c8f6031c7cb34ff54a972",
-        "review_file_sha256": "15d2795c82fba41eb2c5ddf443ba7cdb970f0ccbe94d4ada54f3085efad9d385"
+        "frozen_at": "2026-09-17T16:12:00+00:00",
+        "overlay_file_sha256": "1ce6844a2abd0a052a8621100c86dc8c8bd3cf164b79e98cbaf4e9ea516bf1f9",
+        "review_file_sha256": "bb50c3b36f5c38c38999fa5759df7a620570db398b00e0669c9758acfd9b129a"
       },
-      "identity_sha256": "ac8ba83b6cb11e2fe9ce206bf3654737285e4074bfb169005eb2c890b63542b7",
+      "identity_sha256": "3b152d29d335c89bb7dc48f67cc1bfd8e8d3b92df5f96b88cf0f10d2cb86a1d6",
       "execution_contract": {
         "execution_contract_id": "subject-index-v10-semantic-execution-v3",
         "contract_constituents": {
@@ -30465,11 +30465,11 @@
         },
         "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
         "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
-        "compatibility_sha256": "5974fb34bc5f6a84d60a9feb4123bb71451d87d8734b2217acaf7c149328e310",
-        "source_release_file_sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca"
+        "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
+        "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
       },
       "candidate_access_review": {
-        "receipt_file_sha256": "123d9e3c6df2180191aeeb4bd474f753425c97165193bcb1645f9593638ad17c",
+        "receipt_file_sha256": "1931a48ae3a11eec9b2182054df271f07e7d4b42692c9dfff35f5879e88547ae",
         "status": "sufficient",
         "requirement_count": 2732
       }
