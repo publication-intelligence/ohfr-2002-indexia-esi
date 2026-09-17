@@ -17102,12 +17102,12 @@
       },
       "successor_runtime_commit": "47669b44529f61414edf68ef73de676b8886958d",
       "runtime_payload_sha256": "dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856",
-      "compatibility_sha256": "5974fb34bc5f6a84d60a9feb4123bb71451d87d8734b2217acaf7c149328e310",
-      "source_release_file_sha256": "6f544c3784c2f4c414f25ecef5c04880b1889a60c185d92ab94354362da658ca"
+      "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
+      "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
     },
-    "artifact_path": "migration-v10-r5/scoring-pr71-v6/dimension-calculations.v9.json",
-    "sha256": "d42eb5d2be77f9ac501c755c6804de7ca0e5731034c9301e6d28a30c98377617",
-    "calculation_sha256": "dd3344d44f81582d1067160fa27f72e3df0962e03d5ec7e773281ec92af8b460",
+    "artifact_path": "migration-v10-r5/scoring-shared-pr71/dimension-calculations.v9.json",
+    "sha256": "41e5e2f0088c1c6ad326ac9b430aa8cde7908ee70d8507fede0303ed589c7a84",
+    "calculation_sha256": "96e7c107a5f04773794d8b919da548cae7fc68ebae48af4cb36d36d2b61e7934",
     "rubric_version": "subject-index-rubric-v10",
     "calculation_profile": "subject-index-dimension-calculation-v9"
   },
@@ -17122,5 +17122,5 @@
     "artifact_path": "migration-v10-r5/structure-audit.decision-v18.json",
     "sha256": "c7c2c2705663ce11317ef0308270d08e2dd40ed099b10b120fe7c97f8559ff22"
   },
-  "projection_metadata_sha256": "11abb03679dad37d97e0420ed12506d5da9b593a91919fe0a07bcbe1ec18e601"
+  "projection_metadata_sha256": "df36e87495889d91b0b8961ddfb141d2a608eef6ef58d56b445c6ba961e24dcb"
 }

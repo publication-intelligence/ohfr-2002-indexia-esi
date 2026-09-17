@@ -1,0 +1,16 @@
+{
+  "schema_version": "subject-index-retrospective-benchmark-approval-v1",
+  "approval_id": "indexia-shared-v10-decision-v3-2026-09-17",
+  "authorized_by": "John (user), authorization relayed by comparison coordinator",
+  "authorization_reference": "Coordinator correction to migrate Indexia onto the canonical shared four-family decision-v3 lock under standing authorization.",
+  "approved_at": "2026-09-17T21:30:00.004415+00:00",
+  "candidate_seen": true,
+  "previous_state_sha256": "60605d32663803b99ce4c3f67365bd6ed55879a5610da74f1478f19b65ae7cec",
+  "previous_benchmark_sha256": "ca1c6f40b5fc2c89ee94ec5751e8820bd8c292e58231269d5a64ac20504b0aa8",
+  "study_lock_sha256": "f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b",
+  "target_benchmark_sha256": "750715481c1790be494dd74c3e193d4b1837236f2008616e9cf8da1916811daf",
+  "audit_transfer_authorized": false,
+  "previous_policy_sha256": "808df7fa23326c6f416102cbccef62c4e7ca62181c3066cb17be222e462a46a2",
+  "target_policy_semantic_sha256": "6f0291ba3611cbdd94daed6d358ef27ee4605d824d8517216662fffab229fe5d",
+  "study_policy_template_sha256": "74f6280975cd32e1622c57e91cf1241ec385b04461fbf3976d9ce8013b944975"
+}

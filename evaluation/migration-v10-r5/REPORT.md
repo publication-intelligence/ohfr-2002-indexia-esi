@@ -2,6 +2,9 @@
 
 - Authoritative overall score: **64.33%**
 - Evaluator runtime: Evaluate Subject Index PR 71, tested revision `47669b44529f61414edf68ef73de676b8886958d`, payload `dce71d46d425a5862e3a2811bfbd287c4c40fa3768bb40583c35e642c95b0856`
+- Shared-study compatibility: `2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c`
+- Shared decision-v3 lock: `f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b` (file `2883989706071128bb173568decc85c223e696cf0505f749fdccc9b850bef80a`)
+- Shared source-release file: `441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94`
 - Evaluation validity: **valid**
 - Evidence sufficiency: **sufficient** (13,143 locator assignments; 2,732 access requirements)
 - Method readiness: **not ready**
@@ -30,7 +33,7 @@ Other standard gates did not trigger. The candidate contains zero delivered cros
 
 ## Defects
 
-The final structure ledger records 3 critical, 25 major, and 59 minor defects. The result supersedes the earlier 88.52% run, which did not carry forward all material defects, first-lookup failures, zero-reference treatment, and gate consequences under the corrected V10 contract.
+The final structure ledger records 3 critical, 25 major, and 59 minor defects. The result supersedes the earlier 88.52% run, which did not carry forward all material defects, first-lookup failures, zero-reference treatment, and gate consequences under the corrected V10 contract. The 64.33% result was reproduced unchanged after rebinding to the canonical shared four-candidate decision-v3 lock.
 
 ## Validation
 

@@ -1,5 +1,5 @@
 {
-  "schema_version": "indexia-v10-r5-verification-v1",
+  "schema_version": "indexia-v10-r5-shared-lock-verification-v1",
   "evaluation_id": "ohfr-2002-indexia-v8",
   "overall_percentage": 64.33,
   "authoritative_status": "authoritative",
@@ -10,6 +10,12 @@
     "GATE-STANCE",
     "GATE-GROUNDING"
   ],
+  "shared_study": {
+    "lock_file_sha256": "2883989706071128bb173568decc85c223e696cf0505f749fdccc9b850bef80a",
+    "lock_sha256": "f8cf1b0c5619f455749a7ac4b0947bf241a72e5d856dd75dd83c9fed10a5a74b",
+    "compatibility_sha256": "2e593499cac528264324eb2ea9605749b0da4d3c7f26b5f2fa27b41c340c170c",
+    "source_release_file_sha256": "441e051f435b6a9518f59d4176e60c3f2c358f139698e8ffe69500f1e3bb9a94"
+  },
   "runtime": {
     "pull_request": "https://github.com/publication-intelligence/evaluate-subject-index/pull/71",
     "tested_revision": "47669b44529f61414edf68ef73de676b8886958d",
@@ -19,23 +25,23 @@
   "files": [
     {
       "path": "scoring/evaluation-result.v15.json",
-      "sha256": "63987dfcbaee31f94960f57434f22975addc4116a32abe79d8b1396f735b92db",
-      "bytes": 872460
+      "sha256": "d0cc02e00fb6317fcb526a42b802e9fc39a9bc5e40d4914ea36a3d49d07701d1",
+      "bytes": 872472
     },
     {
       "path": "scoring/projection-metadata.v10-semantic-v2.json",
-      "sha256": "fe179390c95335c80605b208228ef82e92caee21e5bf26d24b387beccbbcf9a6",
-      "bytes": 539179
+      "sha256": "280ba12d7bce75088b41a978b3b9bf6f0478955cd523c5b2542d821e0078f10a",
+      "bytes": 539183
     },
     {
       "path": "scoring/web-report.v13.json",
-      "sha256": "e815ef6d4f060a08be4f0e349a472e82763985df1761e1dd43c9ac77249cf6cb",
-      "bytes": 22361302
+      "sha256": "9761cabc2f65e1e78077c2149207151ab57f259f3d949de3b69e6f2b2277b478",
+      "bytes": 22361322
     },
     {
       "path": "scoring/v10-canonical-projection/projection.v1.json",
-      "sha256": "060ccbbb7551a4ae00d1db9c26eb9b99c97e509a94435885d452af9803d59fda",
-      "bytes": 558484
+      "sha256": "6ffa8217f610c5ca0c892d522e921db5a3e00af1023b729b69676e66ea0c310c",
+      "bytes": 558514
     },
     {
       "path": "scoring/v10-canonical-projection/data/index-records.v1.json.gz",
@@ -53,14 +59,19 @@
       "bytes": 17896
     },
     {
-      "path": "indexia-v10-r5-final.checkpoint.zip",
-      "sha256": "29a6322aaaa77772df3695b65b1ff2b2ff9ad513ae0994d44d9eaccee48084bc",
-      "bytes": 25423203
+      "path": "indexia-v10-r5-shared-lock-final.checkpoint.zip",
+      "sha256": "5cc6a64f25d8e715a5ab75d975be5598d0e27e4c476b7fa39dbea614783ef0e2",
+      "bytes": 25423526
     },
     {
       "path": "structure-audit.decision-v18.json",
       "sha256": "c7c2c2705663ce11317ef0308270d08e2dd40ed099b10b120fe7c97f8559ff22",
       "bytes": 4428656
+    },
+    {
+      "path": "shared-lock-approval.decision-v3.json",
+      "sha256": "2c53fd34d44888359ee7eafdea55b74dbf72aa7168e5789ffa65a03b8b5132f1",
+      "bytes": 1180
     }
   ]
 }
